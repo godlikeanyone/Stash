@@ -7,10 +7,12 @@ http:
   script:
     - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9})
       name: flightradar24
-      type: response
-      require-body: true
+      type: request
+      require-body: false
       binary-mode: true
       timeout: 10
+      script-path: https://raw.githubusercontent.com/xream/scripts/main/surge/modules/echo-response/index.js
+      argument: 'type=text/json&url=https://raw.githubusercontent.com/ddgksf2013/dev/main/flightradar24.js'
 
 script-providers:
   flightradar24:
