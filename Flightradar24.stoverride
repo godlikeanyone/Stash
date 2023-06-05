@@ -14,5 +14,5 @@ http:
 
 script-providers:
   flightradar24:
-    url: https://github.com/ddgksf2013/dev/raw/main/flightradar24.js
+    url: https://raw.githubusercontent.com/ddgksf2013/dev/main/flightradar24.js
     interval: 86400
