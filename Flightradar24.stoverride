@@ -1,0 +1,18 @@
+name: Flightradar24解锁
+desc: Flightradar24解锁
+
+http:
+  mitm:
+    - 'mobile.flightradar24.com'
+  script:
+    - match: ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9})
+      name: flightradar24
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 10
+
+script-providers:
+  flightradar24:
+    url: https://raw.githubusercontent.com/ddgksf2013/dev/main/flightradar24.js_script-converter-stash.js
+    interval: 86400
