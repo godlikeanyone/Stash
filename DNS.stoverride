@@ -1,5 +1,5 @@
 name: DNS
-desc: 使用阿里DNS
+desc: 使用114DNS
 
 dns:
   enable: true
@@ -22,5 +22,5 @@ dns:
     - '*.blzstatic.cn'
     - '*.battle.net'
   nameserver:
-    - 223.5.5.5
-    - 223.6.6.6
+    - 114.114.114.114
+    - 114.114.115.115
