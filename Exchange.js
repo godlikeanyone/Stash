@@ -24,7 +24,7 @@ $.http.get({
             if (key !== base && data.rates.hasOwnProperty(key)) {
                 const rate = parseFloat(data.rates[key]);
                 const target = currencyNames[key];
-                line = `${target[1]} 1${source[0]}兑${roundNumber(rate, digits)}${
+                line = `${target[1]} 1${source[0]}兑${roundNumber(1 / rate, digits)}${
                         target[0]}\n`;
                 
             }
