@@ -1,0 +1,14 @@
+name: 汇率监控
+desc: 汇率监控，每日21点5分推送
+
+cron:
+  script:
+    - name: HuiLv
+      cron: '* * * * *'
+      argument: ''
+      timeout: 10
+ 
+script-providers:
+  HuiLv:
+    url: https://raw.githubusercontent.com/godlikeanyone/Stash/main/Exchange.js
+    interval: 86400
