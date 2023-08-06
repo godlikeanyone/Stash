@@ -39,7 +39,7 @@ proxies:
   - {name: Cloudflare-CN, server: '47.100.162.123', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-SH, server: '8.133.127.188', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
 proxy-groups:
-  - name: Proxies
+  - name: 🌎 Proxies
     type: select
     proxies:
       - WARP
