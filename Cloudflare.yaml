@@ -1638,12 +1638,12 @@ rules:
   - DOMAIN-SUFFIX, freemcserver.net,DIRECT
   - IP-CIDR, 101.32.104.4/32,DIRECT
   - DOMAIN-SUFFIX, wechat.com,DIRECT
-  - DOMAIN, api.weibo.cn,Proxies
-  - DOMAIN-SUFFIX, weibo.com,Proxies
-  - DOMAIN, mp.weixin.qq.com,Proxies
-  - DOMAIN, api.bilibili.com,Proxies
-  - DOMAIN, c.tieba.baidu.com,Proxies
-  - DOMAIN-KEYWORD, bing,Proxies
-  - DOMAIN-SUFFIX, xiaohongshu.com,Proxies
+  - DOMAIN, api.weibo.cn,🌎 Proxies
+  - DOMAIN-SUFFIX, weibo.com,🌎 Proxies
+  - DOMAIN, mp.weixin.qq.com,🌎 Proxies
+  - DOMAIN, api.bilibili.com,🌎 Proxies
+  - DOMAIN, c.tieba.baidu.com,🌎 Proxies
+  - DOMAIN-KEYWORD, bing,🌎 Proxies
+  - DOMAIN-SUFFIX, xiaohongshu.com,🌎 Proxies
   - GEOIP,CN,DIRECT
-  - MATCH,Proxies
+  - MATCH,🌎 Proxies
