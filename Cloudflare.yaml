@@ -1631,11 +1631,9 @@ rules:
   - PROCESS-NAME,News,DIRECT
   - PROCESS-NAME,LookupViewService,DIRECT
   - PROCESS-NAME,TV,DIRECT
-  - DOMAIN, invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN, speedtest.im,DIRECT
   - DOMAIN, time.is,DIRECT
-  - DOMAIN, alist.klee.ml,DIRECT
-  - DOMAIN-SUFFIX, freemcserver.net,DIRECT
+  - DOMAIN, alist.sayuri.cf,DIRECT
   - IP-CIDR, 101.32.104.4/32,DIRECT
   - DOMAIN-SUFFIX, wechat.com,DIRECT
   - DOMAIN, api.weibo.cn,🌎 Proxies
