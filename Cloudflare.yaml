@@ -43,21 +43,21 @@ proxy-groups:
     type: select
     proxies:
       - WARP
-      - Cloudflare-IP
       - Cloudflare-青岛阿里云
+      - Cloudflare-上海阿里云
+      - Cloudflare-深圳南凌科技
+      - Cloudflare-深圳阿里云
+      - Cloudflare-上海阿里云备用1
+      - Cloudflare-上海阿里云备用2
+      - Cloudflare-IP
       - Cloudflare-TG
       - Cloudflare-DO
       - Cloudflare-乌克兰政府
       - Cloudflare-瑞典政府
       - Cloudflare-卡塔尔政府
-      - Cloudflare-上海阿里云
       - Cloudflare-2022世界杯
       - Cloudflare-AMEX
-      - Cloudflare-深圳南凌科技
-      - Cloudflare-深圳阿里云
       - Cloudflare-CSGO
-      - Cloudflare-上海阿里云备用1
-      - Cloudflare-上海阿里云备用2
 rules:
   - DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
   - DOMAIN,apple-events.akamaized.net,DIRECT
