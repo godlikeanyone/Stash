@@ -23,15 +23,15 @@ proxies:
     server: 162.159.195.30
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
-  - {name: Cloudflare-IP, server: '8.210.42.21', port: 12306, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-青岛阿里云, server: '139.129.241.21', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
-  - {name: Cloudflare-TG, server: 'dns.ton.org', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
-  - {name: Cloudflare-DO, server: 'www.digitalocean.com', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
+  - {name: Cloudflare-Hostmonit1, server: 'hostmonit.sayuri.cf', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
+  - {name: Cloudflare-Hostmonit2, server: 'stock.hostmonit.com', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-乌克兰政府, server: 'www.gov.ua', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-瑞典政府, server: 'www.gov.se', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-卡塔尔政府, server: 'www.gco.gov.qa', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-上海阿里云, server: '139.196.224.73', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
-  - {name: Cloudflare-2022世界杯, server: 'www.qatar2022.qa', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
+  - {name: Cloudflare-小黑子, server: 'cdnikuan.ikuan.dev', port: 8443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
+  - {name: Cloudflare-小黑子备用, server: 'cdnikuan3.ikuan.dev', port: 8443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-AMEX, server: 'amex.com', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-深圳南凌科技, server: '116.214.34.66', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-深圳阿里云, server: '120.77.248.223', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
@@ -49,13 +49,13 @@ proxy-groups:
       - Cloudflare-深圳阿里云
       - Cloudflare-上海阿里云备用1
       - Cloudflare-上海阿里云备用2
-      - Cloudflare-IP
-      - Cloudflare-TG
-      - Cloudflare-DO
+      - Cloudflare-Hostmonit1
+      - Cloudflare-Hostmonit2
+      - Cloudflare-小黑子
+      - Cloudflare-小黑子备用
       - Cloudflare-乌克兰政府
       - Cloudflare-瑞典政府
       - Cloudflare-卡塔尔政府
-      - Cloudflare-2022世界杯
       - Cloudflare-AMEX
       - Cloudflare-CSGO
 rules:
