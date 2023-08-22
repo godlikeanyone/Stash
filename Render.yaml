@@ -5,15 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 dns:
-  enabled: true
+  enable: true
+  ipv6: true
   nameserver:
-    - 119.29.29.29
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 223.6.6.6
+  fake-ip-filter:
+    - dns.msftncsi.com
+    - www.msftncsi.com
+    - www.msftconnecttest.com
 proxies:
   - {name: CN-Ucloud Information Technology Hk Limited, server: 42.240.131.160, port: 4431, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: edtunnel-render-outbound.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&sni=inbox-icon-explain-pizza.trycloudflare.com&uuid=6f24031c-ce7a-4f65-a3dd-a33a9e2b542c&path=/?ed=2048", headers: {Host: edtunnel-render-outbound.pages.dev}}, udp: true}
   - {name: CN-Ucloud Information Technology Hk Limited 2, server: 42.240.131.160, port: 4431, client-fingerprint: randomized, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, servername: edtunnel-render-outbound.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&sni=contractor-backup-cafe-secret.trycloudflare.com&uuid=6f24031c-ce7a-4f65-a3dd-a33a9e2b542c&path=/?ed=2048", headers: {Host: edtunnel-render-outbound.pages.dev}}, udp: true}
