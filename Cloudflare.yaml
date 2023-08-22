@@ -1667,6 +1667,7 @@ rules:
   - DOMAIN-SUFFIX, weibo.com,🌎 Proxies
   - DOMAIN, mp.weixin.qq.com,🌎 Proxies
   - DOMAIN, api.bilibili.com,🌎 Proxies
+  - DOMAIN, api.vc.bilibili.com,🌎 Proxies
   - DOMAIN, c.tieba.baidu.com,🌎 Proxies
   - DOMAIN-KEYWORD, bing,🌎 Proxies
   - DOMAIN-SUFFIX, xiaohongshu.com,🌎 Proxies
