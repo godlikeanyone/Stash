@@ -53,7 +53,7 @@ proxies:
   - {name: Cloudflare-美国IT7, server: '23.105.212.71', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-美国IT7备用, server: '23.105.223.231', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-美国IT7备用1, server: '67.230.165.11', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
-  - {name: Cloudflare-美国IT7备用2, server: '67.230.160.16', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
+  - {name: Cloudflare-xjp, server: 'xijingping.link', port: 8080, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-香港CNSERVERS, server: '156.251.180.197', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-美国CNSERVERS, server: '172.247.67.171', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
   - {name: Cloudflare-香港Kirino, server: '45.131.133.208', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: null, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
@@ -84,7 +84,12 @@ proxy-groups:
       - Cloudflare-美国IT7
       - Cloudflare-美国IT7备用
       - Cloudflare-美国IT7备用1
-      - Cloudflare-美国IT7备用2
+      - Cloudflare-xjp
+      - Cloudflare-香港CNSERVERS
+      - Cloudflare-美国CNSERVERS
+      - Cloudflare-香港Kirino
+      - Cloudflare-香港阿里云
+      - Cloudflare-美国DMIT
 rules:
   - DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
   - DOMAIN,apple-events.akamaized.net,DIRECT
