@@ -1664,7 +1664,7 @@ rules:
   - IP-CIDR, 101.32.104.4/32,DIRECT
   - DOMAIN-SUFFIX, wechat.com,DIRECT
   - DOMAIN, dns.msftncsi.com,DIRECT
-  - DOMAIN, www.msftncsi.com.DIRECT
+  - DOMAIN, www.msftncsi.com,DIRECT
   - DOMAIN, www.msftconnecttest.com,DIRECT
   - DOMAIN, api.weibo.cn,🌎 Proxies
   - DOMAIN-SUFFIX, weibo.com,🌎 Proxies
