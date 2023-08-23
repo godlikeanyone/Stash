@@ -1681,5 +1681,8 @@ rules:
   - DOMAIN, c.tieba.baidu.com,🌎 Proxies
   - DOMAIN-KEYWORD, bing,🌎 Proxies
   - DOMAIN-SUFFIX, xiaohongshu.com,🌎 Proxies
+  - DOMAIN, tieba.baidu.com,🌎 Proxies
+  - DOMAIN, tiebac.baidu.com,🌎 Proxies
+  - DOMAIN, c.tieba.baidu.com,🌎 Proxies
   - GEOIP,CN,DIRECT
   - MATCH,🌎 Proxies
