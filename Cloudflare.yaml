@@ -14,6 +14,7 @@ dns:
     - dns.msftncsi.com
     - www.msftncsi.com
     - www.msftconnecttest.com
+
 proxies:
   - dns:
       - 1.1.1.1
@@ -24,12 +25,12 @@ proxies:
     name: WARP
     password:
     port: 2408
-    private-key: 4AySBTDV0Yc+P1hBPUOOo+sqUxjHzg/5lab7CbP5B18=
+    private-key: IIWUQTcD4yg9VTMgrEwQ6QdoOfzwcB3j2USyp3AJxkY=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     reserved:
-      - 9
-      - 236
-      - 238
+      - 244
+      - 196
+      - 234
     server: engage.cloudflareclient.com
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
