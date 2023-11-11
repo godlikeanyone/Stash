@@ -19,9 +19,9 @@ proxies:
   - dns:
       - 1.1.1.1
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8e5f:e593:a511:90d7:2e0b
+    ipv6: 2606:4700:110:8c4d:55a9:20a3:6132:2f4c
     keepalive: 45
-    mtu: 1380
+    mtu: 1480
     name: WARP
     password:
     port: 2408
@@ -31,7 +31,7 @@ proxies:
       - 244
       - 196
       - 234
-    server: engage.cloudflareclient.com
+    server: engage.nanocat.me
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
   - {name: Cloudflare-青岛阿里云, server: '139.129.241.21', port: 443, client-fingerprint: random, type: vless, uuid: 4aa2ab33-da0e-4061-9ede-684c7959f98d, tls: true, tfo: false, servername: fastvless.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: fastvless.pages.dev}}, udp: true, alterId: 0, cipher: "", flow: "", sni: fastvless.pages.dev}
