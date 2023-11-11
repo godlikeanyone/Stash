@@ -4,12 +4,6 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-dns:
-  enable: true
-  ipv6: true
-  nameserver:
-    - 1.1.1.1
-    - 1.0.0.1
 
 proxies:
   - dns:
@@ -28,7 +22,7 @@ proxies:
       - 244
       - 196
       - 234
-    server: engage.nanocat.me
+    server: engage.nanocat.cloud
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
 
