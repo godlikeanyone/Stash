@@ -22,7 +22,7 @@ proxies:
       - 244
       - 196
       - 234
-    server: engage.nanocat.cloud
+    server: engage.cloudflareclient.com
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
 
