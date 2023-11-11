@@ -1,2 +1,4 @@
+name: Global Mode
+desc: Start Stash in Global Mode
 mode: #!replace
   - global
