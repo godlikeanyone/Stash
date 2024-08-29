@@ -15,77 +15,26 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇭🇰 香港|Cloudflare-Test, server: 183.236.51.23, port: 45020, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港2|Cloudflare-Test, server: gg01.6bnw.top, port: 40012, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 515fe89b-473a-4fee-bc39-6a797011e27e}
-  - {name: 🇭🇰 香港3|Cloudflare-Test, server: ovhsg.v4.ddnsjifeng.xyz, port: 5106, client-fingerprint: chrome, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ovhsg.v4.ddnsjifeng.xyz}}}
-  - {name: 🇭🇰 香港4|Cloudflare-Test, server: 183.232.139.24, port: 51017, client-fingerprint: chrome, type: trojan, password: llyEnxJlVC, sni: 183.232.139.24, skip-cert-verify: true}
-  - {name: 🇭🇰 香港5|Cloudflare-Test, server: 183.236.51.23, port: 54104, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港6|Cloudflare-Test, server: zx.1010520.shop, port: 58811, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: de50dfe4-16b8-4f81-8089-09673edfe43a}
-  - {name: 🇭🇰 香港7|Cloudflare-Test, server: 62.72.163.54, port: 10001, client-fingerprint: chrome, type: vmess, uuid: 9cb567a0-0cd8-4ef2-819d-c9fa40095414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 62.72.163.54}}}
-  - {name: 🇭🇰 香港8|Cloudflare-Test, server: ovhsg.v4.ddnsjifeng.xyz, port: 5108, client-fingerprint: chrome, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ovhsg.v4.ddnsjifeng.xyz}}}
-  - {name: 🇹🇼 台湾|Cloudflare-Test, server: gg01.6bnw.top, port: 40018, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 515fe89b-473a-4fee-bc39-6a797011e27e}
-  - {name: 🇹🇼 台湾2|Cloudflare-Test, server: ovhsg.v4.ddnsjifeng.xyz, port: 5203, client-fingerprint: chrome, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ovhsg.v4.ddnsjifeng.xyz}}}
-  - {name: 🇯🇵 日本|Cloudflare-Test, server: yd1.qianggewangluo.buzz, port: 10809, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 36fdc73d-0bff-4d66-9759-e81c63de16b6}
-  - {name: 🇯🇵 日本2|Cloudflare-Test, server: v1.cdn.ddnschiyun.xyz, port: 5601, client-fingerprint: chrome, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v1.cdn.ddnschiyun.xyz}}}
-  - {name: 🇯🇵 日本3|Cloudflare-Test, server: cfcdn3.sanfencdn9.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
-  - {name: 🇸🇬 新加坡|Cloudflare-Test, server: gg01.6bnw.top, port: 40013, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 515fe89b-473a-4fee-bc39-6a797011e27e}
-  - {name: 🇸🇬 新加坡2|Cloudflare-Test, server: v1.cdn.ddnschiyun.xyz, port: 5502, client-fingerprint: chrome, type: vmess, uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v1.cdn.ddnschiyun.xyz}}}
-  - {name: 🇺🇸 美国|Cloudflare-Test, server: cfcdn3.sanfencdn9.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
-  - {name: 🇺🇸 美国2|Cloudflare-Test, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
-  - {name: 🇺🇸 美国5|Cloudflare-Test, server: stock.hostmonit.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
-  - {name: 🇻🇳 越南|Cloudflare-Test, server: 59.56.77.225, port: 15083, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD}
-  - {name: 🇯🇵 日本特殊|Cloudflare-Test, server: 18.183.138.196, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 狮城特殊|Cloudflare-Test, server: 3.112.240.59, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇰🇷 韩国特殊|Cloudflare-Test, server: 35.85.60.143, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇷🇺 公益|俄罗斯|V2, server: mz.flmweb.cc, port: 40045, client-fingerprint: chrome, type: vmess, uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mz.flmweb.cc}}}
+  - {name: 🇯🇵 日本|Cloudflare-CDN3, server: cfcdn3.sanfencdn9.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
+  - {name: 🇯🇵 日本|Cloudflare-VISA, server: visa.cn, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
+  - {name: 🇯🇵 日本|Cloudflare-2020, server: cdn.2020111.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
+  - {name: 🇯🇵 日本|Cloudflare-speed, server: speed.marisalnc.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
+  - {name: 🇺🇸 美国|Cloudflare-CDN3, server: cfcdn3.sanfencdn9.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
+  - {name: 🇺🇸 美国1|Cloudflare-CDN1, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
+  - {name: 🇺🇸 美国2|Cloudflare-hostmonit, server: stock.hostmonit.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
+  - {name: 🇯🇵 日本特殊|Amazon, server: 18.183.138.196, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - ♻️ Auto Select
-      - 🇭🇰 香港|Cloudflare-Test
-      - 🇭🇰 香港2|Cloudflare-Test
-      - 🇭🇰 香港3|Cloudflare-Test
-      - 🇭🇰 香港4|Cloudflare-Test
-      - 🇭🇰 香港5|Cloudflare-Test
-      - 🇭🇰 香港6|Cloudflare-Test
-      - 🇭🇰 香港7|Cloudflare-Test
-      - 🇭🇰 香港8|Cloudflare-Test
-      - 🇹🇼 台湾|Cloudflare-Test
-      - 🇹🇼 台湾2|Cloudflare-Test
-      - 🇯🇵 日本|Cloudflare-Test
-      - 🇯🇵 日本2|Cloudflare-Test
-      - 🇯🇵 日本3|Cloudflare-Test
-      - 🇸🇬 新加坡|Cloudflare-Test
-      - 🇸🇬 新加坡2|Cloudflare-Test
-      - 🇺🇸 美国|Cloudflare-Test
-      - 🇺🇸 美国2|Cloudflare-Test
-      - 🇺🇸 美国5|Cloudflare-Test
-      - 🇻🇳 越南|Cloudflare-Test
-      - 🇯🇵 日本特殊|Cloudflare-Test
-      - 🇸🇬 狮城特殊|Cloudflare-Test
-      - 🇰🇷 韩国特殊|Cloudflare-Test
-      - 🇷🇺 公益|俄罗斯|V2
-  - name: ♻️ Auto Select
-    type: url-test
-    url: https://www.google.com/generate_204
-    interval: 500
-    proxies:
-      - 🇭🇰 香港|Cloudflare-Test
-      - 🇭🇰 香港2|Cloudflare-Test
-      - 🇭🇰 香港3|Cloudflare-Test
-      - 🇭🇰 香港4|Cloudflare-Test
-      - 🇭🇰 香港5|Cloudflare-Test
-      - 🇭🇰 香港6|Cloudflare-Test
-      - 🇭🇰 香港7|Cloudflare-Test
-      - 🇭🇰 香港8|Cloudflare-Test
-      - 🇹🇼 台湾|Cloudflare-Test
-      - 🇹🇼 台湾2|Cloudflare-Test
-      - 🇸🇬 新加坡|Cloudflare-Test
-      - 🇸🇬 新加坡2|Cloudflare-Test
-      - 🇺🇸 美国|Cloudflare-Test
-      - 🇺🇸 美国2|Cloudflare-Test
-      - 🇺🇸 美国5|Cloudflare-Test
+      - 🇯🇵 日本|Cloudflare-CDN3
+      - 🇯🇵 日本|Cloudflare-VISA
+      - 🇯🇵 日本|Cloudflare-2020
+      - 🇯🇵 日本|Cloudflare-speed
+      - 🇺🇸 美国|Cloudflare-CDN3
+      - 🇺🇸 美国1|Cloudflare-CDN1
+      - 🇺🇸 美国2|Cloudflare-hostmonit
+      - 🇯🇵 日本特殊|Amazon
 rules:
   - DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
   - DOMAIN,apple-events.akamaized.net,DIRECT
