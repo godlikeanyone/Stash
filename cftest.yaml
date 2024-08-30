@@ -33,7 +33,7 @@ proxy-groups:
       - 🇯🇵 日本|Cloudflare-2020
       - 🇯🇵 日本|Cloudflare-speed
       - 🇺🇸 美国|Cloudflare-CDN3
-      - 🇺🇸 美国1|Cloudflare-CDN1
+      - 🇺🇸 美国linode|Cloudflare-CDN1
       - 🇺🇸 美国linode|Cloudflare-VISA
       - 🇺🇸 美国linode|Cloudflare-test
       - 🇺🇸 美国2|Cloudflare-hostmonit
