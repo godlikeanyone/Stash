@@ -19,11 +19,13 @@ proxies:
   - {name: 🇯🇵 日本|Cloudflare-VISA, server: visa.cn, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
   - {name: 🇯🇵 日本|Cloudflare-2020, server: cdn.2020111.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
   - {name: 🇯🇵 日本|Cloudflare-speed, server: speed.marisalnc.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
+   - {name: 🇯🇵 日本|Cloudflare-AMEX, server: amex.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/X37qXHip, headers: {Host: 6Sn8mFtTjp3.yofnhkfc.xyz}}}
   - {name: 🇺🇸 美国|Cloudflare-CDN3, server: cfcdn3.sanfencdn9.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip005.dtku47.xyz}}}
   - {name: 🇺🇸 美国linode|Cloudflare-CDN1, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
   - {name: 🇺🇸 美国linode|Cloudflare-VISA, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
   - {name: 🇺🇸 美国linode|Cloudflare-test, server: harry.cloudflare.182682.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
   - {name: 🇺🇸 美国linode|Cloudflare-hostmonit, server: stock.hostmonit.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
+  - {name: 🇺🇸 美国linode|Cloudflare-AMEX, server: amex.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: us2jdgv5GC7.fzbqfrse.xyz}}}
   - {name: 🇺🇸 美国2|Cloudflare-hostmonit, server: stock.hostmonit.com, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip14.freegradely.xyz}}}
 proxy-groups:
   - name: 🌎 Proxies
@@ -33,11 +35,13 @@ proxy-groups:
       - 🇯🇵 日本|Cloudflare-VISA
       - 🇯🇵 日本|Cloudflare-2020
       - 🇯🇵 日本|Cloudflare-speed
+      - 🇯🇵 日本|Cloudflare-AMEX
       - 🇺🇸 美国|Cloudflare-CDN3
       - 🇺🇸 美国linode|Cloudflare-CDN1
       - 🇺🇸 美国linode|Cloudflare-VISA
       - 🇺🇸 美国linode|Cloudflare-test
       - 🇺🇸 美国linode|Cloudflare-hostmonit
+      - 🇺🇸 美国linode|Cloudflare-AMEX
       - 🇺🇸 美国2|Cloudflare-hostmonit
 rules:
   - DOMAIN,appldnld.apple.com.edgesuite.net,DIRECT
