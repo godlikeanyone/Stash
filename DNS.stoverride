@@ -1,7 +1,7 @@
 name: DNS
 desc: 自定义DNS
 
-dns:
+dns: #!replace
   enable: true
   ipv6: true
   listen: 0.0.0.0:53
@@ -10,17 +10,42 @@ dns:
   fake-ip-filter:
     - '*.lan'
     - localhost.ptlogin2.qq.com
-    - '+.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.msftconnecttest.com'
-    - '+.msftncsi.com'
-    - '+.xboxlive.com'
-    - 'msftconnecttest.com'
+    - '*.cmpassport.com'
+    - '*.jegotrip.com.cn'
+    - '*.icitymobile.mobi'
+    - 'id6.me'
+    - 'time.*.com'
+    # Apple
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    # Microsoft Service
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
     - 'xbox.*.microsoft.com'
-    - '*.battlenet.com.cn'
-    - '*.battlenet.com'
-    - '*.blzstatic.cn'
-    - '*.battle.net'
+    - 'xbox.*.*.microsoft.com'
+    - '+.xboxlive.com'
+    # Game Service
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - '+.srv.nintendo.net'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.ff14.sdo.com'
+    - 'ff.dorado.sdo.com'
   nameserver:
     - 119.29.29.29
     - 119.28.28.28
