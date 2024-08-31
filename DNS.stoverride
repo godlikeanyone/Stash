@@ -14,7 +14,7 @@ dns: #!replace
     - '*.jegotrip.com.cn'
     - '*.icitymobile.mobi'
     - 'id6.me'
-    - 'time.*.com'
+    - '*.189.cn'
     # Apple
     - 'swscan.apple.com'
     - 'mesu.apple.com'
