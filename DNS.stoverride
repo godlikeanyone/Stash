@@ -1,5 +1,7 @@
 name: DNS
 desc: 自定义DNS
+category: Network
+icon: https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Alibaba.png
 
 dns: #!replace
   enable: true
