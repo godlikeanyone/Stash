@@ -21,7 +21,7 @@ proxies:
       - 140
       - 5
       - 54
-    server: 162.159.193.2
+    server: 162.159.138.178
     type: wireguard
     benchmark-url: https://1.1.1.1/generate_204
 
