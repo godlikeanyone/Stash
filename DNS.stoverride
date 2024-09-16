@@ -12,7 +12,6 @@ dns: #!replace
   fake-ip-filter:
     - '*.lan'
     - localhost.ptlogin2.qq.com
-    - '*.cmpassport.com'
     - '*.jegotrip.com.cn'
     - '*.icitymobile.mobi'
     - 'id6.me'
