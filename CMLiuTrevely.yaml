@@ -53,6 +53,18 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
+- name: AnycastNode_NoTLS-Club
+  server: www.paypal.com.cn
+  port: 80
+  client-fingerprint: chrome
+  type: vless
+  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sdeweb.hkcsl.com
 - name: FREE_HK 01
   server: 38.47.121.75
   port: 555
@@ -590,6 +602,7 @@ proxy-groups:
 - name: 🌎 Proxies
   type: select
   proxies:
+  - AnycastNode_NoTLS-Club
   - FREE_HK 01
   - FREE_HK 02
   - FREE_HK 03
