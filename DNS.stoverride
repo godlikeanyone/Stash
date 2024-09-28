@@ -48,8 +48,8 @@ dns: #!replace
     - '*.ff14.sdo.com'
     - 'ff.dorado.sdo.com'
   nameserver:
-    - 223.5.5.5
-    - 223.6.6.6
+    - 119.29.29.29
+    - 119.28.28.28
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
