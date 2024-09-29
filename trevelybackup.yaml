@@ -5,744 +5,283 @@ mode: Rule
 log-level: info
 external-controller: :9090
 dns:
-  enable: true
-  ipv6: true
-  listen: 0.0.0.0:53
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*.lan'
-    - localhost.ptlogin2.qq.com
-    - '*.cmpassport.com'
-    - '*.jegotrip.com.cn'
-    - '*.icitymobile.mobi'
-    - 'id6.me'
-    - '*.189.cn'
-    # Apple
-    - 'swscan.apple.com'
-    - 'mesu.apple.com'
-    - 'swquery.apple.com'
-    - 'swdownload.apple.com'
-    - 'swcdn.apple.com'
-    - 'swdist.apple.com'
-    # Microsoft Service
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - 'xbox.*.microsoft.com'
-    - 'xbox.*.*.microsoft.com'
-    - '+.xboxlive.com'
-    # Game Service
-    - '+.stun.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*.*.*'
-    - '+.srv.nintendo.net'
-    - '*.n.n.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.battlenet.com.cn'
-    - '+.wotgame.cn'
-    - '+.wggames.cn'
-    - '+.wowsgame.cn'
-    - '+.wargaming.net'
-    - '*.square-enix.com'
-    - '*.finalfantasyxiv.com'
-    - '*.ffxiv.com'
-    - '*.ff14.sdo.com'
-    - 'ff.dorado.sdo.com'
+  enabled: true
   nameserver:
+    - 119.29.29.29
     - 223.5.5.5
-    - 223.6.6.6
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies:
-- name: AnycastNode_NoTLS-Club
-  server: www.paypal.com.cn
-  port: 80
-  client-fingerprint: chrome
-  type: vless
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdeweb.hkcsl.com
-- name: FREE_HK 01
-  server: 38.47.121.75
-  port: 555
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 02
-  server: 38.207.160.222
-  port: 38280
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 03
-  server: 38.207.172.108
-  port: 45800
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 04
-  server: 38.207.173.137
-  port: 18898
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 05
-  server: 43.155.71.120
-  port: 444
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 06
-  server: 45.128.222.188
-  port: 587
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 07
-  server: 47.76.174.74
-  port: 587
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 08
-  server: 47.76.200.166
-  port: 587
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 09
-  server: 85.208.104.34
-  port: 8080
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 10
-  server: 83.229.124.185
-  port: 30002
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 11
-  server: 103.247.28.183
-  port: 62678
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 12
-  server: 103.247.29.151
-  port: 19389
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 13
-  server: 112.119.95.226
-  port: 9000
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 14
-  server: 112.120.127.246
-  port: 119
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 15
-  server: 125.59.4.73
-  port: 10116
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 16
-  server: 141.11.79.224
-  port: 65250
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 17
-  server: 154.12.176.201
-  port: 587
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 18
-  server: 154.12.179.210
-  port: 13172
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 19
-  server: 154.21.203.44
-  port: 46491
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 20
-  server: 223.16.13.20
-  port: 30037
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 21
-  server: 223.16.138.113
-  port: 10002
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 22
-  server: 223.16.138.113
-  port: 12457
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 23
-  server: 223.18.129.85
-  port: 12345
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_HK 24
-  server: 223.19.158.234
-  port: 12185
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 01
-  server: 113.199.84.22
-  port: 10162
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 02
-  server: 118.33.22.133
-  port: 16053
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 03
-  server: 119.200.192.28
-  port: 37215
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 04
-  server: 211.228.163.207
-  port: 30012
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 05
-  server: 220.88.87.220
-  port: 18443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 06
-  server: 220.77.58.170
-  port: 30012
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_KR 07
-  server: 221.165.219.121
-  port: 10002
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_SG 01
-  server: 89.28.239.71
-  port: 23426
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_SG 02
-  server: 89.28.239.71
-  port: 39761
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_SG 03
-  server: 89.34.227.98
-  port: 12123
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_SG 04
-  server: 203.198.16.91
-  port: 28
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 01
-  server: duke.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 02
-  server: fred.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 03
-  server: hugh.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 04
-  server: kyle.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 05
-  server: lynn.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
-- name: FREE_US 06
-  server: theo.ns.cloudflare.com
-  port: 443
-  client-fingerprint: chrome
-  type: trojan
-  password: UFOsos191519
-  sni: free.sayuri.us.kg
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: free.sayuri.us.kg
+  - {name: FREE_HK 01, server: 8.218.249.165, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 02, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 03, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 04, server: 38.47.121.75, port: 555, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 05, server: 38.207.160.222, port: 38280, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 06, server: 40.81.29.103, port: 8089, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 07, server: 42.98.167.229, port: 12345, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 08, server: 43.155.71.120, port: 444, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 09, server: 45.78.39.105, port: 12345, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 10, server: 45.128.222.188, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 11, server: 47.76.200.166, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 12, server: 47.238.184.148, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 13, server: 47.243.234.231, port: 20660, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 14, server: 83.229.124.185, port: 30002, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 15, server: 103.244.88.124, port: 50001, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 16, server: 112.119.49.206, port: 23555, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 17, server: 112.119.95.226, port: 9000, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 18, server: 112.120.127.246, port: 119, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 19, server: 117.18.13.110, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 20, server: 125.59.4.73, port: 10116, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 21, server: 154.12.179.210, port: 13172, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 22, server: 161.81.234.137, port: 23278, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 23, server: 161.81.233.147, port: 32378, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 24, server: 178.253.52.188, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 25, server: 219.76.13.164, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 26, server: 219.76.13.166, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 27, server: 219.76.13.177, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 28, server: 219.76.13.180, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 29, server: 219.76.13.183, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 30, server: 219.77.65.212, port: 23555, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 31, server: 219.79.57.93, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 32, server: 223.16.13.20, port: 30037, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 33, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_HK 34, server: 223.18.129.85, port: 12345, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_TW 01, server: 114.34.202.224, port: 10004, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_TW 02, server: 118.163.37.32, port: 81, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_TW 03, server: 203.198.16.91, port: 7, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_TW 04, server: 210.61.97.241, port: 81, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 01, server: 14.48.49.133, port: 10000, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 02, server: 43.133.169.125, port: 20443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 03, server: 45.66.128.148, port: 51972, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 04, server: 59.29.116.20, port: 11965, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 05, server: 118.130.241.44, port: 34599, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 06, server: 121.182.55.77, port: 30063, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_JP 07, server: 125.141.125.11, port: 10049, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 01, server: 59.3.3.161, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 02, server: 59.25.228.177, port: 12574, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 03, server: 113.199.84.22, port: 10162, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 04, server: 114.199.158.41, port: 14095, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 05, server: 115.88.75.154, port: 30032, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 06, server: 118.33.22.133, port: 16053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 07, server: 118.131.41.202, port: 16072, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 08, server: 119.200.192.28, port: 37215, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 09, server: 119.203.125.236, port: 30001, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 10, server: 121.165.36.130, port: 27017, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 11, server: 123.108.182.200, port: 10798, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 12, server: 132.226.22.106, port: 34237, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 13, server: 183.98.53.177, port: 10911, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 14, server: 210.91.8.234, port: 30042, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 15, server: 211.228.163.207, port: 30012, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 16, server: 220.77.58.170, port: 30012, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 17, server: 220.88.87.220, port: 18443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 18, server: 220.116.21.147, port: 12274, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 19, server: 220.126.127.139, port: 10116, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_KR 20, server: 221.165.219.121, port: 10002, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_SG 01, server: 45.32.108.221, port: 51103, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_SG 02, server: 45.32.111.47, port: 10000, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_SG 03, server: 89.34.227.98, port: 12123, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_SG 04, server: 203.198.16.91, port: 28, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_SG 05, server: 207.148.65.19, port: 51116, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 01, server: 38.47.116.74, port: 54564, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 02, server: 45.59.184.16, port: 38908, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 03, server: 65.75.194.43, port: 10511, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 04, server: 65.75.193.154, port: 14491, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 05, server: 154.17.23.14, port: 15910, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 06, server: 154.29.150.23, port: 50001, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 07, server: duke.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 08, server: fred.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 09, server: hugh.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 10, server: kyle.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 11, server: lynn.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 12, server: theo.ns.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
 proxy-groups:
-- name: 🌎 Proxies
-  type: select
-  proxies:
-  - AnycastNode_NoTLS-Club
-  - FREE_HK 01
-  - FREE_HK 02
-  - FREE_HK 03
-  - FREE_HK 04
-  - FREE_HK 05
-  - FREE_HK 06
-  - FREE_HK 07
-  - FREE_HK 08
-  - FREE_HK 09
-  - FREE_HK 10
-  - FREE_HK 11
-  - FREE_HK 12
-  - FREE_HK 13
-  - FREE_HK 14
-  - FREE_HK 15
-  - FREE_HK 16
-  - FREE_HK 17
-  - FREE_HK 18
-  - FREE_HK 19
-  - FREE_HK 20
-  - FREE_HK 21
-  - FREE_HK 22
-  - FREE_HK 23
-  - FREE_HK 24
-  - FREE_KR 01
-  - FREE_KR 02
-  - FREE_KR 03
-  - FREE_KR 04
-  - FREE_KR 05
-  - FREE_KR 06
-  - FREE_KR 07
-  - FREE_SG 01
-  - FREE_SG 02
-  - FREE_SG 03
-  - FREE_SG 04
-  - FREE_US 01
-  - FREE_US 02
-  - FREE_US 03
-  - FREE_US 04
-  - FREE_US 05
-  - FREE_US 06
+  - name: 🌎 Proxies
+    type: select
+    proxies:
+      - FREE_HK 01
+      - FREE_HK 02
+      - FREE_HK 03
+      - FREE_HK 04
+      - FREE_HK 05
+      - FREE_HK 06
+      - FREE_HK 07
+      - FREE_HK 08
+      - FREE_HK 09
+      - FREE_HK 10
+      - FREE_HK 11
+      - FREE_HK 12
+      - FREE_HK 13
+      - FREE_HK 14
+      - FREE_HK 15
+      - FREE_HK 16
+      - FREE_HK 17
+      - FREE_HK 18
+      - FREE_HK 19
+      - FREE_HK 20
+      - FREE_HK 21
+      - FREE_HK 22
+      - FREE_HK 23
+      - FREE_HK 24
+      - FREE_HK 25
+      - FREE_HK 26
+      - FREE_HK 27
+      - FREE_HK 28
+      - FREE_HK 29
+      - FREE_HK 30
+      - FREE_HK 31
+      - FREE_HK 32
+      - FREE_HK 33
+      - FREE_HK 34
+      - FREE_TW 01
+      - FREE_TW 02
+      - FREE_TW 03
+      - FREE_TW 04
+      - FREE_JP 01
+      - FREE_JP 02
+      - FREE_JP 03
+      - FREE_JP 04
+      - FREE_JP 05
+      - FREE_JP 06
+      - FREE_JP 07
+      - FREE_KR 01
+      - FREE_KR 02
+      - FREE_KR 03
+      - FREE_KR 04
+      - FREE_KR 05
+      - FREE_KR 06
+      - FREE_KR 07
+      - FREE_KR 08
+      - FREE_KR 09
+      - FREE_KR 10
+      - FREE_KR 11
+      - FREE_KR 12
+      - FREE_KR 13
+      - FREE_KR 14
+      - FREE_KR 15
+      - FREE_KR 16
+      - FREE_KR 17
+      - FREE_KR 18
+      - FREE_KR 19
+      - FREE_KR 20
+      - FREE_SG 01
+      - FREE_SG 02
+      - FREE_SG 03
+      - FREE_SG 04
+      - FREE_SG 05
+      - FREE_US 01
+      - FREE_US 02
+      - FREE_US 03
+      - FREE_US 04
+      - FREE_US 05
+      - FREE_US 06
+      - FREE_US 07
+      - FREE_US 08
+      - FREE_US 09
+      - FREE_US 10
+      - FREE_US 11
+      - FREE_US 12
 rules:
-- DOMAIN,invictusgod-my.sharepoint.com,DIRECT
-- DOMAIN,speedtest.im,DIRECT
-- DOMAIN,time.is,DIRECT
-- DOMAIN-SUFFIX,wechat.com,DIRECT
-- DOMAIN,api.weibo.cn,🌎 Proxies
-- DOMAIN-SUFFIX,weibo.com,🌎 Proxies
-- DOMAIN,mp.weixin.qq.com,🌎 Proxies
-- DOMAIN,api.bilibili.com,🌎 Proxies
-- DOMAIN,api.vc.bilibili.com,🌎 Proxies
-- DOMAIN,tieba.baidu.com,🌎 Proxies
-- DOMAIN,tiebac.baidu.com,🌎 Proxies
-- DOMAIN,c.tieba.baidu.com,🌎 Proxies
-- DOMAIN-SUFFIX,xiaohongshu.com,🌎 Proxies
-- IP-CIDR,114.55.236.88/32,🌎 Proxies
-- IP-CIDR,47.97.64.97/32,🌎 Proxies
-- IP-CIDR,47.97.66.48/32,🌎 Proxies
-- IP-CIDR,81.69.116.86/32,🌎 Proxies
-- IP-CIDR,119.45.249.52/32,🌎 Proxies
-- IP-CIDR,81.69.116.87/32,🌎 Proxies
-- IP-CIDR,119.45.2.92/32,🌎 Proxies
-- IP-CIDR,1.13.12.27/32,🌎 Proxies
-- IP-CIDR,81.69.116.102/32,🌎 Proxies
-- IP-CIDR,43.159.25.122/32,🌎 Proxies
-- IP-CIDR,43.159.25.28/32,🌎 Proxies
-- IP-CIDR,47.246.29.223/32,🌎 Proxies
-- IP-CIDR,47.246.29.226/32,🌎 Proxies
-- IP-CIDR,47.246.29.227/32,🌎 Proxies
-- IP-CIDR,47.246.29.225/32,🌎 Proxies
-- IP-CIDR,47.246.29.224/32,🌎 Proxies
-- IP-CIDR,47.246.29.222/32,🌎 Proxies
-- IP-CIDR,47.246.29.229/32,🌎 Proxies
-- IP-CIDR,47.246.29.228/32,🌎 Proxies
-- IP-CIDR,211.152.149.12/32,🌎 Proxies
-- IP-CIDR,49.51.224.95/32,🌎 Proxies
-- IP-CIDR,43.175.44.15/32,🌎 Proxies
-- IP-CIDR,23.236.104.30/32,🌎 Proxies
-- IP-CIDR,43.132.81.61/32,🌎 Proxies
-- IP-CIDR,101.33.27.26/32,🌎 Proxies
-- IP-CIDR,43.152.29.38/32,🌎 Proxies
-- IP-CIDR,43.152.26.110/32,🌎 Proxies
-- IP-CIDR,101.33.11.32/32,🌎 Proxies
-- IP-CIDR,163.181.1.228/32,🌎 Proxies
-- IP-CIDR,163.181.1.226/32,🌎 Proxies
-- IP-CIDR,163.181.1.230/32,🌎 Proxies
-- IP-CIDR,163.181.1.227/32,🌎 Proxies
-- IP-CIDR,163.181.1.231/32,🌎 Proxies
-- IP-CIDR,163.181.1.229/32,🌎 Proxies
-- IP-CIDR,163.181.1.224/32,🌎 Proxies
-- IP-CIDR,163.181.1.225/32,🌎 Proxies
-- IP-CIDR,47.246.23.230/32,🌎 Proxies
-- IP-CIDR,47.246.23.234/32,🌎 Proxies
-- IP-CIDR,47.246.23.228/32,🌎 Proxies
-- IP-CIDR,47.246.23.233/32,🌎 Proxies
-- IP-CIDR,47.246.23.231/32,🌎 Proxies
-- IP-CIDR,47.246.23.232/32,🌎 Proxies
-- IP-CIDR,47.246.23.227/32,🌎 Proxies
-- IP-CIDR,47.246.23.229/32,🌎 Proxies
-- IP-CIDR,43.152.42.109/32,🌎 Proxies
-- IP-CIDR,43.175.22.27/32,🌎 Proxies
-- IP-CIDR,43.175.22.42/32,🌎 Proxies
-- IP-CIDR,43.175.22.26/32,🌎 Proxies
-- IP-CIDR,43.132.84.11/32,🌎 Proxies
-- IP-CIDR,101.33.20.34/32,🌎 Proxies
-- IP-CIDR,49.51.224.105/32,🌎 Proxies
-- IP-CIDR,49.51.224.103/32,🌎 Proxies
-- IP-CIDR,163.181.92.232/32,🌎 Proxies
-- IP-CIDR,163.181.92.233/32,🌎 Proxies
-- IP-CIDR,163.181.92.237/32,🌎 Proxies
-- IP-CIDR,163.181.92.238/32,🌎 Proxies
-- IP-CIDR,163.181.92.231/32,🌎 Proxies
-- IP-CIDR,163.181.92.234/32,🌎 Proxies
-- IP-CIDR,163.181.92.236/32,🌎 Proxies
-- IP-CIDR,163.181.92.235/32,🌎 Proxies
-- IP-CIDR,43.132.83.175/32,🌎 Proxies
-- IP-CIDR,43.132.83.54/32,🌎 Proxies
-- IP-CIDR,43.132.83.9/32,🌎 Proxies
-- IP-CIDR,43.132.91.37/32,🌎 Proxies
-- IP-CIDR,43.132.91.110/32,🌎 Proxies
-- IP-CIDR,43.132.91.45/32,🌎 Proxies
-- IP-CIDR,150.109.222.109/32,🌎 Proxies
-- IP-CIDR,150.109.222.102/32,🌎 Proxies
-- IP-CIDR,150.109.222.97/32,🌎 Proxies
-- IP-CIDR,150.109.223.49/32,🌎 Proxies
-- IP-CIDR,150.109.222.103/32,🌎 Proxies
-- IP-CIDR,150.109.222.99/32,🌎 Proxies
-- IP-CIDR,150.109.222.110/32,🌎 Proxies
-- IP-CIDR,203.205.220.62/32,🌎 Proxies
-- DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
-- DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
-- DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
-- DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
-- DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
-- DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
-- DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
-- DOMAIN-SUFFIX,licdn.com,🌎 Proxies
-- DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
-- DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
-- DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
-- DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
-- GEOIP,CN,DIRECT
-- MATCH,🌎 Proxies
+  - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
+  - DOMAIN,speedtest.im,DIRECT
+  - DOMAIN,time.is,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN,api.weibo.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
+  - DOMAIN,mp.weixin.qq.com,🌎 Proxies
+  - DOMAIN,api.bilibili.com,🌎 Proxies
+  - DOMAIN,api.vc.bilibili.com,🌎 Proxies
+  - DOMAIN,tieba.baidu.com,🌎 Proxies
+  - DOMAIN,tiebac.baidu.com,🌎 Proxies
+  - DOMAIN,c.tieba.baidu.com,🌎 Proxies
+  - DOMAIN-SUFFIX,xiaohongshu.com,🌎 Proxies
+  - IP-CIDR,114.55.236.88/32,🌎 Proxies
+  - IP-CIDR,47.97.64.97/32,🌎 Proxies
+  - IP-CIDR,47.97.66.48/32,🌎 Proxies
+  - IP-CIDR,81.69.116.86/32,🌎 Proxies
+  - IP-CIDR,119.45.249.52/32,🌎 Proxies
+  - IP-CIDR,81.69.116.87/32,🌎 Proxies
+  - IP-CIDR,119.45.2.92/32,🌎 Proxies
+  - IP-CIDR,1.13.12.27/32,🌎 Proxies
+  - IP-CIDR,81.69.116.102/32,🌎 Proxies
+  - IP-CIDR,43.159.25.122/32,🌎 Proxies
+  - IP-CIDR,43.159.25.28/32,🌎 Proxies
+  - IP-CIDR,47.246.29.223/32,🌎 Proxies
+  - IP-CIDR,47.246.29.226/32,🌎 Proxies
+  - IP-CIDR,47.246.29.227/32,🌎 Proxies
+  - IP-CIDR,47.246.29.225/32,🌎 Proxies
+  - IP-CIDR,47.246.29.224/32,🌎 Proxies
+  - IP-CIDR,47.246.29.222/32,🌎 Proxies
+  - IP-CIDR,47.246.29.229/32,🌎 Proxies
+  - IP-CIDR,47.246.29.228/32,🌎 Proxies
+  - IP-CIDR,211.152.149.12/32,🌎 Proxies
+  - IP-CIDR,49.51.224.95/32,🌎 Proxies
+  - IP-CIDR,43.175.44.15/32,🌎 Proxies
+  - IP-CIDR,23.236.104.30/32,🌎 Proxies
+  - IP-CIDR,43.132.81.61/32,🌎 Proxies
+  - IP-CIDR,101.33.27.26/32,🌎 Proxies
+  - IP-CIDR,43.152.29.38/32,🌎 Proxies
+  - IP-CIDR,43.152.26.110/32,🌎 Proxies
+  - IP-CIDR,101.33.11.32/32,🌎 Proxies
+  - IP-CIDR,163.181.1.228/32,🌎 Proxies
+  - IP-CIDR,163.181.1.226/32,🌎 Proxies
+  - IP-CIDR,163.181.1.230/32,🌎 Proxies
+  - IP-CIDR,163.181.1.227/32,🌎 Proxies
+  - IP-CIDR,163.181.1.231/32,🌎 Proxies
+  - IP-CIDR,163.181.1.229/32,🌎 Proxies
+  - IP-CIDR,163.181.1.224/32,🌎 Proxies
+  - IP-CIDR,163.181.1.225/32,🌎 Proxies
+  - IP-CIDR,47.246.23.230/32,🌎 Proxies
+  - IP-CIDR,47.246.23.234/32,🌎 Proxies
+  - IP-CIDR,47.246.23.228/32,🌎 Proxies
+  - IP-CIDR,47.246.23.233/32,🌎 Proxies
+  - IP-CIDR,47.246.23.231/32,🌎 Proxies
+  - IP-CIDR,47.246.23.232/32,🌎 Proxies
+  - IP-CIDR,47.246.23.227/32,🌎 Proxies
+  - IP-CIDR,47.246.23.229/32,🌎 Proxies
+  - IP-CIDR,43.152.42.109/32,🌎 Proxies
+  - IP-CIDR,43.175.22.27/32,🌎 Proxies
+  - IP-CIDR,43.175.22.42/32,🌎 Proxies
+  - IP-CIDR,43.175.22.26/32,🌎 Proxies
+  - IP-CIDR,43.132.84.11/32,🌎 Proxies
+  - IP-CIDR,101.33.20.34/32,🌎 Proxies
+  - IP-CIDR,49.51.224.105/32,🌎 Proxies
+  - IP-CIDR,49.51.224.103/32,🌎 Proxies
+  - IP-CIDR,163.181.92.232/32,🌎 Proxies
+  - IP-CIDR,163.181.92.233/32,🌎 Proxies
+  - IP-CIDR,163.181.92.237/32,🌎 Proxies
+  - IP-CIDR,163.181.92.238/32,🌎 Proxies
+  - IP-CIDR,163.181.92.231/32,🌎 Proxies
+  - IP-CIDR,163.181.92.234/32,🌎 Proxies
+  - IP-CIDR,163.181.92.236/32,🌎 Proxies
+  - IP-CIDR,163.181.92.235/32,🌎 Proxies
+  - IP-CIDR,43.132.83.175/32,🌎 Proxies
+  - IP-CIDR,43.132.83.54/32,🌎 Proxies
+  - IP-CIDR,43.132.83.9/32,🌎 Proxies
+  - IP-CIDR,43.132.91.37/32,🌎 Proxies
+  - IP-CIDR,43.132.91.110/32,🌎 Proxies
+  - IP-CIDR,43.132.91.45/32,🌎 Proxies
+  - IP-CIDR,150.109.222.109/32,🌎 Proxies
+  - IP-CIDR,150.109.222.102/32,🌎 Proxies
+  - IP-CIDR,150.109.222.97/32,🌎 Proxies
+  - IP-CIDR,150.109.223.49/32,🌎 Proxies
+  - IP-CIDR,150.109.222.103/32,🌎 Proxies
+  - IP-CIDR,150.109.222.99/32,🌎 Proxies
+  - IP-CIDR,150.109.222.110/32,🌎 Proxies
+  - IP-CIDR,203.205.220.62/32,🌎 Proxies
+  - DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
+  - DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
+  - DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
+  - DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.com,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
+  - DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,🌎 Proxies
