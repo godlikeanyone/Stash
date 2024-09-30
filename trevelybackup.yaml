@@ -16,17 +16,17 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: AnycastNode_PayPal
-  server: www.paypal.com.cn
-  port: 80
-  client-fingerprint: chrome
-  type: vless
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: sdeweb.hkcsl.com
+    server: www.paypal.com.cn
+    port: 80
+    client-fingerprint: chrome
+    type: vless
+    uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+    tls: false
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sdeweb.hkcsl.com
   - {name: FREE_HK 01, server: 8.218.249.165, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 02, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 03, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
