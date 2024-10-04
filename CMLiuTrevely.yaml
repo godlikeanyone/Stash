@@ -27,7 +27,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - {name: 广移转发workers, server: 36.140.93.40, port: 10175, client-fingerprint: chrome, type: vless, uuid: 878ed365-55a5-4778-b58d-b8837996a3e8, tls: true, servername: hujunge.nyc.mn, network: ws, ws-opts: {path: /, headers: {Host: hujunge.nyc.mn}}}
+  - {name: 深圳移动专线入口, server: 36.140.93.40, port: 10175, client-fingerprint: chrome, type: vless, uuid: 878ed365-55a5-4778-b58d-b8837996a3e8, tls: true, servername: hujunge.nyc.mn, network: ws, ws-opts: {path: /, headers: {Host: hujunge.nyc.mn}}}
   - {name: FREE_HK 01, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: auto, sni: tg.cmliussss.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tg.cmliussss.us.kg}}}
   - {name: FREE_HK 02, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: auto, sni: tg.cmliussss.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tg.cmliussss.us.kg}}}
   - {name: FREE_HK 03, server: 38.150.14.210, port: 2302, client-fingerprint: chrome, type: trojan, password: auto, sni: tg.cmliussss.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tg.cmliussss.us.kg}}}
@@ -80,7 +80,7 @@ proxy-groups:
     type: select
     proxies:
       - AnycastNode_PayPal
-      - 广移转发workers
+      - 深圳移动专线入口
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
