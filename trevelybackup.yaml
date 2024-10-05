@@ -5,15 +5,53 @@ mode: Rule
 log-level: info
 external-controller: :9090
 dns:
-  enabled: true
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '*.jegotrip.com.cn'
+    - '*.icitymobile.mobi'
+    - 'id6.me'
+    - '*.189.cn'
+    # Apple
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    # Microsoft Service
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'xbox.*.microsoft.com'
+    - 'xbox.*.*.microsoft.com'
+    - '+.xboxlive.com'
+    # Game Service
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - '+.srv.nintendo.net'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.ff14.sdo.com'
+    - 'ff.dorado.sdo.com'
   nameserver:
-    - 119.29.29.29
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 223.6.6.6
 proxies:
   - name: AnycastNode_PayPal
     server: www.paypal.com.cn
@@ -27,7 +65,19 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - {name: 广移转发workers, server: 36.140.93.40, port: 10175, client-fingerprint: chrome, type: vless, uuid: 878ed365-55a5-4778-b58d-b8837996a3e8, tls: true, servername: hujunge.nyc.mn, network: ws, ws-opts: {path: /, headers: {Host: hujunge.nyc.mn}}}
+  - name: 深港低延迟专线
+    server: 36.140.93.40
+    port: 10175
+    client-fingerprint: chrome
+    type: trojan
+    password: UFOsos191519
+    sni: free.sayuri.us.kg
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: free.sayuri.us.kg
   - {name: FREE_HK 01, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 02, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 03, server: 38.150.14.210, port: 2302, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
@@ -80,7 +130,7 @@ proxy-groups:
     type: select
     proxies:
       - AnycastNode_PayPal
-      - 广移转发workers
+      - 深港低延迟专线
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
@@ -129,6 +179,9 @@ proxy-groups:
       - FREE_HK 10 2
       - FREE_HK 11 2
 rules:
+  - IP-ASN,714,DIRECT
+  - IP-ASN,132203,DIRECT
+  - IP-ASN,45102,DIRECT
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN,speedtest.im,DIRECT
   - DOMAIN,time.is,DIRECT
