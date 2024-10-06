@@ -64,17 +64,20 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - name: 新加坡专线
-    server: sg01.poke-mon.xyz
-    port: 20000
+  - name: 🇹🇼 台湾vmess专线
+    server: cfd.ipa.monster
+    port: 8080
     client-fingerprint: chrome
-    type: hysteria2
-    password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
-    auth: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
-    sni: www.bing.com
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: MmZiNTNjYmU5NjY2Zjk0YQ==
+    type: vmess
+    uuid: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /52pokemon?ed=2560
+      headers:
+        Host: tw01vm.mypokeworld.link
   - {name: FREE_HK 01, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 02, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 03, server: 38.207.160.222, port: 38280, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
