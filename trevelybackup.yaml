@@ -107,7 +107,7 @@ proxy-groups:
     type: select
     proxies:
       - AnycastNode_PayPal
-      - 新加坡专线
+      - 🇹🇼 台湾vmess专线
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
