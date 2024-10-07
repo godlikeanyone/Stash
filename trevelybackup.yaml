@@ -91,9 +91,9 @@ proxies:
       path: /?ed=2560
       headers:
         Host: free.sayuri.us.kg
-  - name: monster8080端口
+  - name: monster2053端口
     server: cfd.ipa.monster
-    port: 8080
+    port: 2053
     client-fingerprint: chrome
     type: trojan
     password: UFOsos191519
@@ -134,7 +134,7 @@ proxy-groups:
     proxies:
       - AnycastNode_PayPal
       - 🇹🇼 台湾vmess专线
-      - monster8080端口
+      - monster2053端口
       - monster8443端口
       - FREE_HK 01
       - FREE_HK 02
