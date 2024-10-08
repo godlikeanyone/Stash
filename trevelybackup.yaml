@@ -64,21 +64,14 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - name: 🇹🇼 台湾vmess专线
-    server: cfd.ipa.monster
-    port: 8080
+  - name: 🇹🇼 深圳移动-台湾专线
+    server: sstw03.mypokeworld.link
+    port: 54003
     client-fingerprint: chrome
-    type: vmess
-    uuid: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /52pokemon?ed=2560
-      headers:
-        Host: tw01vm.mypokeworld.link
-  - name: monster8443端口
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
+  - name: 官方优选8443端口
     server: cfd.ipa.monster
     port: 8443
     client-fingerprint: chrome
@@ -91,7 +84,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: free.sayuri.us.kg
-  - name: monster2053端口
+  - name: 官方优选2053端口
     server: cfd.ipa.monster
     port: 2053
     client-fingerprint: chrome
@@ -128,14 +121,25 @@ proxies:
   - {name: FREE_US 04, server: 154.9.241.191, port: 28838, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_US 05, server: 154.29.150.23, port: 50001, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_US 06, server: 154.40.33.119, port: 36831, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 07, server: 172.64.99.154, port: 2053, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 08, server: 172.64.201.63, port: 2083, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 09, server: 172.64.99.154, port: 2087, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 10, server: 172.64.100.78, port: 2096, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 11, server: 172.64.132.64, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 12, server: duke.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 13, server: fred.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 14, server: hugh.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 15, server: kyle.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 16, server: lynn.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
+  - {name: FREE_US 17, server: theo.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
       - AnycastNode_PayPal
-      - 🇹🇼 台湾vmess专线
-      - monster2053端口
-      - monster8443端口
+      - 🇹🇼 深圳移动-台湾专线
+      - 官方优选2053端口
+      - 官方优选8443端口
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
@@ -160,6 +164,17 @@ proxy-groups:
       - FREE_US 04
       - FREE_US 05
       - FREE_US 06
+      - FREE_US 07
+      - FREE_US 08
+      - FREE_US 09
+      - FREE_US 10
+      - FREE_US 11
+      - FREE_US 12
+      - FREE_US 13
+      - FREE_US 14
+      - FREE_US 15
+      - FREE_US 16
+      - FREE_US 17
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
