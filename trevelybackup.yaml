@@ -52,7 +52,19 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
-  - {name: trojan_dmit, server: dmit.sayuri.cf, port: 2096, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: dmit.sayuri.cf}
+  - name: dmit
+    server: visa.cn
+    port: 2096
+    client-fingerprint: chrome
+    type: trojan
+    password: UFOsos191519
+    sni: dmit.sayuri.cf
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: dmit.sayuri.cf
   - name: AnycastNode_PayPal
     server: www.paypal.com.cn
     port: 80
