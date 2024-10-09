@@ -85,6 +85,10 @@ proxies:
       headers:
         Host: free.sayuri.us.kg
   - {name: 🇺🇸 美国-Madcity-wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国-Madcity-speed.marisalnc.com:2096, server: speed.marisalnc.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国-Madcity-115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国-Madcity-cfip.cfcdn.vip:2096, server: cfip.cfcdn.vip, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国-Madcity-cdn.2020111.xyz:2096, server: cdn.2020111.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - name: 官方优选2053端口
     server: cfd.ipa.monster
     port: 2053
@@ -153,6 +157,10 @@ proxy-groups:
       - AnycastNode_PayPal
       - 🇹🇼 深圳移动-台湾专线
       - 🇺🇸 美国-Madcity-wvvww.com:2096
+      - 🇺🇸 美国-Madcity-speed.marisalnc.com:2096
+      - 🇺🇸 美国-Madcity-115155.xyz:2096
+      - 🇺🇸 美国-Madcity-cfip.cfcdn.vip:2096
+      - 🇺🇸 美国-Madcity-cdn.2020111.xyz:2096
       - 官方优选2053端口
       - visa.cn:8443
       - uicdn.cf:443
