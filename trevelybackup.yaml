@@ -72,7 +72,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
   - name: 官方优选8443端口
-    server: cfd.ipa.monster
+    server: visa.cn
     port: 8443
     client-fingerprint: chrome
     type: trojan
