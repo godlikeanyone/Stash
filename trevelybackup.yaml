@@ -71,7 +71,7 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
-  - name: 官方优选8443端口
+  - name: visa.cn:8443
     server: visa.cn
     port: 8443
     client-fingerprint: chrome
@@ -139,7 +139,7 @@ proxy-groups:
       - AnycastNode_PayPal
       - 🇹🇼 深圳移动-台湾专线
       - 官方优选2053端口
-      - 官方优选8443端口
+      - visa.cn:8443
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
