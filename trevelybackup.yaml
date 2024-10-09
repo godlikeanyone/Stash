@@ -152,7 +152,7 @@ proxy-groups:
     proxies:
       - AnycastNode_PayPal
       - 🇹🇼 深圳移动-台湾专线
-      - 🇺🇸 美国-Madcity
+      - 🇺🇸 美国-Madcity-wvvww.com:2096
       - 官方优选2053端口
       - visa.cn:8443
       - uicdn.cf:443
