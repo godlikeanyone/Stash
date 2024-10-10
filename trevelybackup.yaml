@@ -115,6 +115,19 @@ proxies:
       path: /?ed=2560
       headers:
         Host: free.sayuri.us.kg
+  - name: visa.cn:443
+    server: visa.cn
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: UFOsos191519
+    sni: free.sayuri.us.kg
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: free.sayuri.us.kg
   - name: uicdn.cf
     server: uicdn.cf
     port: 443
@@ -190,6 +203,7 @@ proxy-groups:
       - 🇺🇸 美国-Madcity-visa.cn:2096
       - 官方优选2053端口
       - visa.cn:8443
+      - visa.cn:443
       - uicdn.cf
       - www.gov.se
       - notion.so
