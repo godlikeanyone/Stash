@@ -52,7 +52,7 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
-  - name: dmit
+  - name: 美国洛杉矶DMIT
     server: visa.cn
     port: 2096
     client-fingerprint: chrome
@@ -84,63 +84,25 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
-  - {name: 🇺🇸 美国-Madcity-wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-cloudflare.182682.xyz:2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-visa.cn:2096, server: visa.cn, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - name: 官方优选2053端口
-    server: cfd.ipa.monster
-    port: 2053
-    client-fingerprint: chrome
-    type: trojan
-    password: UFOsos191519
-    sni: free.sayuri.us.kg
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: free.sayuri.us.kg
-  - name: visa.cn:8443
-    server: visa.cn
-    port: 8443
-    client-fingerprint: chrome
-    type: trojan
-    password: UFOsos191519
-    sni: free.sayuri.us.kg
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: free.sayuri.us.kg
-  - name: visa.cn:443
-    server: visa.cn
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: UFOsos191519
-    sni: free.sayuri.us.kg
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: free.sayuri.us.kg
-  - name: uicdn.cf
-    server: uicdn.cf
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: UFOsos191519
-    sni: free.sayuri.us.kg
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: free.sayuri.us.kg
+  - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 宝可梦机场优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 美国优选IP, server: uicdn.cf, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 神奇的优选IP, server: cloudflare.cfgo.cc, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 带牙套真难受, server: cn.dentalhealth.org, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 乌克兰国防情报总局, server: gur.gov.ua, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 美国联邦调查局, server: fbi.gov, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: Udemy网课, server: www.udemy.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 美国陌陌, server: www.okcupid.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 查个IP, server: www.whatismyip.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 卖游戏CDKey, server: www.iakeys.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 卡塔尔政府通讯办公室, server: www.gco.gov.qa, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 美国求职和雇主评价, server: www.glassdoor.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: MC服务器, server: log.bpminecraft.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 垃圾Replit, server: cdn.replit.com, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: www.gov.se, server: www.gov.se, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: notion.so, server: notion.so, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: www.wto.org, server: www.wto.org, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
@@ -193,18 +155,28 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - dmit
+      - 美国洛杉矶DMIT
       - AnycastNode_PayPal
       - 🇹🇼 深圳移动-台湾专线
-      - 🇺🇸 美国-Madcity-wvvww.com:2096
-      - 🇺🇸 美国-Madcity-visa.cn:443
-      - 🇺🇸 美国-Madcity-115155.xyz:2096
-      - 🇺🇸 美国-Madcity-cloudflare.182682.xyz:2087
-      - 🇺🇸 美国-Madcity-visa.cn:2096
-      - 官方优选2053端口
-      - visa.cn:8443
-      - visa.cn:443
-      - uicdn.cf
+      - 🇺🇸 美国洛杉矶wvvww.com:2096
+      - 🇺🇸 美国洛杉矶ReliableSite
+      - 🇺🇸 美国洛杉矶115155.xyz:2096
+      - 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087
+      - Visa的钞能力
+      - 宝可梦机场优选IP
+      - 美国优选IP
+      - 神奇的优选IP
+      - 带牙套真难受
+      - 乌克兰国防情报总局
+      - 美国联邦调查局
+      - Udemy网课
+      - 美国陌陌
+      - 查个IP
+      - 卖游戏CDKey
+      - 卡塔尔政府通讯办公室
+      - 美国求职和雇主评价
+      - MC服务器
+      - 垃圾Replit
       - www.gov.se
       - notion.so
       - www.wto.org
