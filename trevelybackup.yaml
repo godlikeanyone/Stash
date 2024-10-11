@@ -88,6 +88,9 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: CF官方优选IP, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 移动, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 宝可梦机场优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 美国优选IP, server: uicdn.cf, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -162,6 +165,9 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶ReliableSite
       - 🇺🇸 美国洛杉矶115155.xyz:2096
       - 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087
+      - CF官方优选IP
+      - 电信
+      - 移动
       - Visa的钞能力
       - 宝可梦机场优选IP
       - 美国优选IP
@@ -193,32 +199,32 @@ proxy-groups:
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
-      - FREE_HK 04
-      - FREE_HK 05
-      - FREE_HK 06
-      - FREE_JP 01
-      - FREE_JP 02
+      - FREE_HK 04x
+      - FREE_HK 05x
+      - FREE_HK 06x
+      - FREE_JP 01x
+      - FREE_JP 02x
       - FREE_JP 03
       - FREE_JP 04
       - FREE_JP 05
       - FREE_JP 06
       - FREE_KR 01
-      - FREE_KR 02
+      - FREE_KR 02x
       - FREE_KR 03
       - FREE_KR 04
-      - FREE_KR 05
+      - FREE_KR 05x
       - FREE_KR 06
       - FREE_US 01
-      - FREE_US 02
+      - FREE_US 02x
       - FREE_US 03
-      - FREE_US 04
+      - FREE_US 04x
       - FREE_US 05
       - FREE_US 06
-      - FREE_US 07
-      - FREE_US 08
-      - FREE_US 09
-      - FREE_US 10
-      - FREE_US 11
+      - FREE_US 07x
+      - FREE_US 08x
+      - FREE_US 09x
+      - FREE_US 10x
+      - FREE_US 11x
       - FREE_US 12
       - FREE_US 13
       - FREE_US 14
