@@ -162,7 +162,7 @@ proxy-groups:
       - AnycastNode_PayPal
       - 🇹🇼 深圳移动-台湾专线
       - 🇺🇸 美国洛杉矶wvvww.com:2096
-      - 🇺🇸 美国洛杉矶ReliableSite
+      - 🇺🇸 美国洛杉矶visa.cn:443
       - 🇺🇸 美国洛杉矶115155.xyz:2096
       - 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087
       - CF官方优选IP
