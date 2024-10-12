@@ -52,6 +52,44 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
+  - {name: 🇭🇰 香港0, server: 183.240.188.34, port: 8321, client-fingerprint: chrome, type: ss, cipher: chacha20, password: passLUsO2Ktuer77tu, tfo: false}
+  - {name: 🇭🇰 香港1, server: 183.240.188.34, port: 9001, client-fingerprint: chrome, type: ss, cipher: chacha20, password: nUthZ7z3VmyV, tfo: false}
+  - {name: 🇭🇰 香港2, server: 183.240.188.34, port: 9002, client-fingerprint: chrome, type: ss, cipher: chacha20, password: PTgFLLrT5pVg, tfo: false}
+  - {name: 🇭🇰 香港3, server: 183.240.188.34, port: 9003, client-fingerprint: chrome, type: ss, cipher: chacha20, password: v5aUUtme3jxs, tfo: false}
+  - {name: 🇭🇰 香港4, server: 183.240.188.34, port: 9004, client-fingerprint: chrome, type: ss, cipher: chacha20, password: s6Zau9ioic, tfo: false}
+  - {name: 🇭🇰 香港5, server: 183.240.188.34, port: 9005, client-fingerprint: chrome, type: ss, cipher: chacha20, password: sJMdcI7NPj, tfo: false}
+  - {name: 🇮🇱 以色列, server: 183.240.188.34, port: 8348, client-fingerprint: chrome, type: ss, cipher: chacha20, password: N9k4f2PORl14, tfo: false}
+  - {name: 🇰🇷 韩国首尔, server: 183.240.188.34, port: 8339, client-fingerprint: chrome, type: ss, cipher: chacha20, password: ADZmRQUGHTwX, tfo: false}
+  - {name: 🇸🇬 新加坡1, server: 183.240.188.34, port: 8334, client-fingerprint: chrome, type: ss, cipher: chacha20, password: DvPfKa8vsV9K, tfo: false}
+  - {name: 🇸🇬 美国洛杉矶新, server: 183.240.188.34, port: 8332, client-fingerprint: chrome, type: ss, cipher: chacha20, password: 8BZ5uBrPuUDY, tfo: false}
+  - {name: 🇺🇸 美国洛杉矶, server: 183.240.188.34, port: 8342, client-fingerprint: chrome, type: ss, cipher: chacha20, password: r8jh6ZeykHvB, tfo: false}
+  - {name: 🇺🇸 美国纽约, server: 183.240.188.34, port: 8349, client-fingerprint: chrome, type: ss, cipher: chacha20, password: d3baK6NW2HEc, tfo: false}
+  - {name: 🇺🇸 美国达拉斯, server: 183.240.188.34, port: 8344, client-fingerprint: chrome, type: ss, cipher: chacha20, password: wDazHDu63gcg, tfo: false}
+  - {name: 🇦🇺 澳大利亚1, server: 183.240.188.34, port: 8341, client-fingerprint: chrome, type: ss, cipher: chacha20, password: zWyQvJbQRZaV, tfo: false}
+  - {name: 🇨🇦 加拿大, server: 183.240.188.34, port: 8343, client-fingerprint: chrome, type: ss, cipher: chacha20, password: dkYsdgWqegNV, tfo: false}
+  - {name: 🇩🇪 德国法兰克福, server: 183.240.188.34, port: 8333, client-fingerprint: chrome, type: ss, cipher: chacha20, password: jrgc64sFSLQM, tfo: false}
+  - {name: 🇫🇷 法国巴黎, server: 183.240.188.34, port: 8347, client-fingerprint: chrome, type: ss, cipher: chacha20, password: q2kSGp4ayFKB, tfo: false}
+  - {name: 🇬🇧 英国1, server: 183.240.188.34, port: 8337, client-fingerprint: chrome, type: ss, cipher: chacha20, password: 3fn3CH5Swh2N, tfo: false}
+  - {name: Warsaw  6, server: enough-swift.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: enough-swift.sunbeam921.monster, skip-cert-verify: false}
+  - {name: Warsaw  Pro 12, server: just-serval.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: just-serval.sunbeam921.monster, skip-cert-verify: false}
+  - {name: 🇦🇪 🅷🆆 Dubai-1K Pro 5, server: wealthy-lemur.lab300.lat, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: wealthy-lemur.lab300.lat, skip-cert-verify: false}
+  - {name: 🇭🇰 香港, server: soonhk.soon.guru, port: 40000, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇺🇸 美国, server: soonusjp.soon.guru, port: 40001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇯🇵 日本, server: soonjp.soon.guru, port: 40003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇸🇬 新加坡, server: soonsgp.soon.guru, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇲🇾 马来西亚, server: soonml.soon.guru, port: 40006, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇦🇺 澳大利亚, server: soonfrk.soon.guru, port: 40011, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇬🇧 英国, server: soonuk.soon.guru, port: 40007, client-fingerprint: chrome, type: trojan, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, sni: uknode.soon.guru, skip-cert-verify: false}
+  - {name: 🇬🇧 英国-俄罗斯, server: uknode.soon.guru, port: 40007, client-fingerprint: chrome, type: trojan, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, sni: uknode.soon.guru, skip-cert-verify: false}
+  - {name: 🇹🇭 泰国, server: soonth.soon.guru, port: 40009, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇹🇼 台湾, server: soontw.soon.guru, port: 40020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇻🇳 越南, server: soonvn.soon.guru, port: 40021, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇹🇷 土耳其, server: soontur.soon.guru, port: 40019, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇵🇱 波兰, server: soonpr.soon.guru, port: 40030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇷🇺 俄罗斯, server: soonru.soon.guru, port: 40031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇰🇷 韩国, server: soonkr.soon.guru, port: 40032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇮🇩 印度尼西亚, server: soonidn.soon.guru, port: 40033, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
+  - {name: 🇫🇷 法国, server: soonfr.soon.guru, port: 40034, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, tfo: false}
   - name: AnycastNode_PayPal
     server: www.paypal.com.cn
     port: 80
@@ -64,13 +102,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - name: 🇹🇼 深圳移动-台湾专线
-    server: sstw03.mypokeworld.link
-    port: 54003
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a
   - {name: 🇺🇸 美国-Madcity-wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国-Madcity-visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国-Madcity-115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -167,8 +198,45 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - 🇭🇰 香港0
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇮🇱 以色列
+      - 🇰🇷 韩国首尔
+      - 🇸🇬 新加坡1
+      - 🇸🇬 美国洛杉矶新
+      - 🇺🇸 美国洛杉矶
+      - 🇺🇸 美国纽约
+      - 🇺🇸 美国达拉斯
+      - 🇦🇺 澳大利亚1
+      - 🇨🇦 加拿大
+      - 🇩🇪 德国法兰克福
+      - 🇫🇷 法国巴黎
+      - 🇬🇧 英国1
+      - Warsaw  6
+      - Warsaw  Pro 12
+      - 🇦🇪 🅷🆆 Dubai-1K Pro 5
+      - 🇭🇰 香港
+      - 🇺🇸 美国
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇲🇾 马来西亚
+      - 🇦🇺 澳大利亚
+      - 🇬🇧 英国
+      - 🇬🇧 英国-俄罗斯
+      - 🇹🇭 泰国
+      - 🇹🇼 台湾
+      - 🇻🇳 越南
+      - 🇹🇷 土耳其
+      - 🇵🇱 波兰
+      - 🇷🇺 俄罗斯
+      - 🇰🇷 韩国
+      - 🇮🇩 印度尼西亚
+      - 🇫🇷 法国
       - AnycastNode_PayPal
-      - 🇹🇼 深圳移动-台湾专线
       - 🇺🇸 美国-Madcity-wvvww.com:2096
       - 🇺🇸 美国-Madcity-visa.cn:443
       - 🇺🇸 美国-Madcity-115155.xyz:2096
