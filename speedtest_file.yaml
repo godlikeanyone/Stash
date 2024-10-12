@@ -1,0 +1,28 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - name: visa.cn:8443
+    server: visa.cn
+    port: 8443
+    client-fingerprint: chrome
+    type: trojan
+    password: auto
+    sni: tg.cmliussss.us.kg
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: tg.cmliussss.us.kg
+proxy-groups:
+  - name: 🌎 Proxies
+    type: select
+    proxies:
+      - visa.cn:8443
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,🌎 Proxies
