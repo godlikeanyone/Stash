@@ -52,6 +52,7 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
+  - {name: 🇭🇰 香港0, server: 183.240.188.34, port: 8321, client-fingerprint: chrome, type: ss, cipher: chacha20, password: passLUsO2Ktuer77tu, tfo: false}
   - name: 美国洛杉矶DMIT
     server: visa.cn
     port: 2096
@@ -148,6 +149,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - 🇭🇰 香港0
       - 美国洛杉矶DMIT
       - AnycastNode_PayPal
       - 🇺🇸 美国洛杉矶wvvww.com:2096
