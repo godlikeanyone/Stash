@@ -77,26 +77,6 @@ proxies:
       path: /?ed=2048
       headers:
         Host: sdeweb.hkcsl.com
-  - {name: Warsaw  6, server: enough-swift.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: enough-swift.sunbeam921.monster, skip-cert-verify: true}
-  - {name: Warsaw  Pro 12, server: just-serval.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: just-serval.sunbeam921.monster, skip-cert-verify: true}
-  - {name: 🇦🇪 🅷🆆 Dubai-1K Pro 5, server: wealthy-lemur.lab300.lat, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: wealthy-lemur.lab300.lat, skip-cert-verify: true}
-  - {name: 🇭🇰 香港, server: soonhk.soon.guru, port: 40000, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇺🇸 美国, server: soonusjp.soon.guru, port: 40001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇯🇵 日本, server: soonjp.soon.guru, port: 40003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇸🇬 新加坡, server: soonsgp.soon.guru, port: 40005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇲🇾 马来西亚, server: soonml.soon.guru, port: 40006, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇦🇺 澳大利亚, server: soonfrk.soon.guru, port: 40011, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇬🇧 英国, server: soonuk.soon.guru, port: 40007, client-fingerprint: chrome, type: trojan, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, sni: uknode.soon.guru, skip-cert-verify: false}
-  - {name: 🇬🇧 英国-俄罗斯, server: uknode.soon.guru, port: 40007, client-fingerprint: chrome, type: trojan, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569, sni: uknode.soon.guru, skip-cert-verify: false}
-  - {name: 🇹🇭 泰国, server: soonth.soon.guru, port: 40009, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇹🇼 台湾, server: soontw.soon.guru, port: 40020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇻🇳 越南, server: soonvn.soon.guru, port: 40021, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇹🇷 土耳其, server: soontur.soon.guru, port: 40019, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇵🇱 波兰, server: soonpr.soon.guru, port: 40030, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇷🇺 俄罗斯, server: soonru.soon.guru, port: 40031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇰🇷 韩国, server: soonkr.soon.guru, port: 40032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇮🇩 印度尼西亚, server: soonidn.soon.guru, port: 40033, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
-  - {name: 🇫🇷 法国, server: soonfr.soon.guru, port: 40034, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -170,26 +150,6 @@ proxy-groups:
     proxies:
       - 美国洛杉矶DMIT
       - AnycastNode_PayPal
-      - Warsaw  6
-      - Warsaw  Pro 12
-      - 🇦🇪 🅷🆆 Dubai-1K Pro 5
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 日本
-      - 🇸🇬 新加坡
-      - 🇲🇾 马来西亚
-      - 🇦🇺 澳大利亚
-      - 🇬🇧 英国
-      - 🇬🇧 英国-俄罗斯
-      - 🇹🇭 泰国
-      - 🇹🇼 台湾
-      - 🇻🇳 越南
-      - 🇹🇷 土耳其
-      - 🇵🇱 波兰
-      - 🇷🇺 俄罗斯
-      - 🇰🇷 韩国
-      - 🇮🇩 印度尼西亚
-      - 🇫🇷 法国
       - 🇺🇸 美国洛杉矶wvvww.com:2096
       - 🇺🇸 美国洛杉矶visa.cn:443
       - 🇺🇸 美国洛杉矶115155.xyz:2096
