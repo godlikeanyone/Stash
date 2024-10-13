@@ -111,6 +111,7 @@ proxies:
   - {name: Steam数据库, server: steamdb.info, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 乌克兰武装部队, server: www.zsu.gov.ua, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 野草云, server: web-server-cdn.yecaollc.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: TW, server: 114.34.202.224, port: 10004, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 01, server: 20.189.74.75, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 02, server: 20.189.124.144, port: 587, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_HK 03, server: 38.207.160.222, port: 38280, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: free.sayuri.us.kg}}}
@@ -184,6 +185,7 @@ proxy-groups:
       - Steam数据库
       - 乌克兰武装部队
       - 野草云
+      - TW
       - FREE_HK 01
       - FREE_HK 02
       - FREE_HK 03
