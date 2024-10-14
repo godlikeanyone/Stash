@@ -210,24 +210,25 @@ proxies:
   - {name: 电信-NRT57-P1-2024-10-14 16:13:19, server: 18.65.173.61, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-NRT57-P3-2024-10-14 16:08:25, server: 18.65.194.151, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-NRT57-C4-2024-10-14 15:58:23, server: 13.225.172.182, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10, server: 104.17.55.121, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 2, server: 104.16.149.112, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 3, server: 104.18.92.236, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 4, server: 104.16.254.97, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 5, server: 104.16.196.227, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 6, server: 198.41.221.0, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 7, server: 172.64.144.87, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 8, server: 104.17.51.179, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 9, server: 104.17.61.54, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 10, server: 104.17.30.99, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 11, server: 104.18.39.60, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 12, server: 104.18.88.229, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 13, server: 104.16.199.229, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 14, server: 104.17.219.213, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 15, server: 104.19.57.191, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 16, server: 144.24.169.81, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 17, server: 141.147.16.152, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 2024-10-07 22:33:10 18, server: 129.80.188.174, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10, server: 104.17.55.121, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 2, server: 104.16.149.112, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 3, server: 104.18.92.236, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 4, server: 104.16.254.97, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 5, server: 104.16.196.227, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 6, server: 198.41.221.0, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 7, server: 172.64.144.87, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 8, server: 104.17.51.179, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 9, server: 104.17.61.54, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 10, server: 104.17.30.99, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 11, server: 104.18.39.60, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 12, server: 104.18.88.229, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 13, server: 104.16.199.229, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 14, server: 104.17.219.213, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 15, server: 104.19.57.191, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 16, server: 144.24.169.81, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 17, server: 141.147.16.152, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 更新时间 2024-10-07 22:33:10 18, server: 129.80.188.174, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -367,24 +368,24 @@ proxy-groups:
       - 电信-NRT57-P1-2024-10-14 16:13:19
       - 电信-NRT57-P3-2024-10-14 16:08:25
       - 电信-NRT57-C4-2024-10-14 15:58:23
-      - 2024-10-07 22:33:10
-      - 2024-10-07 22:33:10 2
-      - 2024-10-07 22:33:10 3
-      - 2024-10-07 22:33:10 4
-      - 2024-10-07 22:33:10 5
-      - 2024-10-07 22:33:10 6
-      - 2024-10-07 22:33:10 7
-      - 2024-10-07 22:33:10 8
-      - 2024-10-07 22:33:10 9
-      - 2024-10-07 22:33:10 10
-      - 2024-10-07 22:33:10 11
-      - 2024-10-07 22:33:10 12
-      - 2024-10-07 22:33:10 13
-      - 2024-10-07 22:33:10 14
-      - 2024-10-07 22:33:10 15
-      - 2024-10-07 22:33:10 16
-      - 2024-10-07 22:33:10 17
-      - 2024-10-07 22:33:10 18
+      - 更新时间 2024-10-07 22:33:10
+      - 更新时间 2024-10-07 22:33:10 2
+      - 更新时间 2024-10-07 22:33:10 3
+      - 更新时间 2024-10-07 22:33:10 4
+      - 更新时间 2024-10-07 22:33:10 5
+      - 更新时间 2024-10-07 22:33:10 6
+      - 更新时间 2024-10-07 22:33:10 7
+      - 更新时间 2024-10-07 22:33:10 8
+      - 更新时间 2024-10-07 22:33:10 9
+      - 更新时间 2024-10-07 22:33:10 10
+      - 更新时间 2024-10-07 22:33:10 11
+      - 更新时间 2024-10-07 22:33:10 12
+      - 更新时间 2024-10-07 22:33:10 13
+      - 更新时间 2024-10-07 22:33:10 14
+      - 更新时间 2024-10-07 22:33:10 15
+      - 更新时间 2024-10-07 22:33:10 16
+      - 更新时间 2024-10-07 22:33:10 17
+      - 更新时间 2024-10-07 22:33:10 18
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
