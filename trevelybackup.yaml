@@ -77,6 +77,10 @@ proxies:
       path: /?ed=2560
       headers:
         Host: dmit.sayuri.cf
+  - {name: 🇨🇦 加拿大, server: cacfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
+  - {name: 🇺🇸 美国, server: uscfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
+  - {name: 日本, server: jpcfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
+  - {name: neko, server: neko.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
   - {name: 🇺🇸 广移-美国洛杉矶, server: 36.140.124.254, port: 10035, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶海角社区, server: haijiao.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -155,6 +159,10 @@ proxy-groups:
     proxies:
       - AnycastNode_PayPal
       - 美国洛杉矶DMIT
+      - 🇨🇦 加拿大
+      - 🇺🇸 美国
+      - 日本
+      - neko
       - 🇺🇸 广移-美国洛杉矶
       - 🇺🇸 美国洛杉矶海角社区
       - 🇺🇸 美国洛杉矶wvvww.com:2096
