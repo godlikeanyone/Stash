@@ -5,24 +5,13 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: visa.cn:8443
-    server: visa.cn
-    port: 8443
-    client-fingerprint: chrome
-    type: trojan
-    password: auto
-    sni: tg.cmliussss.us.kg
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tg.cmliussss.us.kg
+  - {name: 玩具人, server: toy-people.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - visa.cn:8443
+      - 玩具人
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,🌎 Proxies
