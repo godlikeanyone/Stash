@@ -52,6 +52,7 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
+  - {name: GCORE测试, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
   - name: AnycastNode_PayPal
     server: www.paypal.com.cn
     port: 80
@@ -83,7 +84,14 @@ proxies:
   - {name: 🇺🇸 美国, server: uscfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
   - {name: 日本, server: jpcfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
   - {name: neko, server: neko.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
-  - {name: 🇺🇸 广移-美国洛杉矶, server: 36.140.124.254, port: 10035, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 圣何塞1:✓电信✓联通✓移动, server: 138.2.238.219, port: 20001, reality-opts: {public-key: A9CFa1rWt6czw4UsAfkoQ-pULICoeQ_dny8gFPJOpTw, short-id: c8bd2a46a1f31ac2}, client-fingerprint: chrome, type: vless, uuid: baa69547-da76-520f-bb1b-438303f707f1, tls: true, flow: xtls-rprx-vision, servername: www.cisco.com, network: tcp}
+  - {name: 🇺🇸 圣何塞2:✓电信✓联通✓移动, server: sj-a.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: sj-a.n256.com, up: 1000, down: 1000}
+  - {name: 🇺🇸 ipv6圣何塞:✓电信✓联通✓移动, server: 2603:c024:c011:fb00::5, port: 21000, client-fingerprint: chrome, type: vmess, uuid: baa69547-da76-520f-bb1b-438303f707f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /music, headers: {Host: sj-a-6.n256.com}}, udp: true}
+  - {name: 🇺🇸 洛杉矶:✓ChatGPT✓NetFlix, server: 142.171.157.231, port: 20000, reality-opts: {public-key: EXzeZGWLXoKOoYgSb24L6zDTPUrsfgSRae3iONqyN0A, short-id: c480ad962c8f78e0}, client-fingerprint: chrome, type: vless, uuid: baa69547-da76-520f-bb1b-438303f707f1, tls: true, flow: xtls-rprx-vision, servername: www.cisco.com, network: tcp}
+  - {name: 🇺🇸 洛杉矶:✓ChatGPT×移动, server: rn.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: rn.n256.com, up: 1000, down: 1000}
+  - {name: 🇰🇷 首尔1:✓电信✓联通✓移动, server: 132.145.93.70, port: 20001, reality-opts: {public-key: v27kVqnFT6SNjaZgMtywrbypROpcQxpmVzM9K3nZNUw, short-id: 61c1d9c13d47fc60}, client-fingerprint: chrome, type: vless, uuid: baa69547-da76-520f-bb1b-438303f707f1, tls: true, flow: xtls-rprx-vision, servername: www.yahoo.com, network: tcp}
+  - {name: 🇰🇷 首尔2:✓电信✓联通✓移动, server: sel-a.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: sel-a.n256.com, up: 1000, down: 1000}
+  - {name: 🇰🇷 ipv6首尔:✓电信✓联通✓移动, server: 2603:c022:8017:5666::6666, port: 21000, client-fingerprint: chrome, type: vmess, uuid: baa69547-da76-520f-bb1b-438303f707f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /music}, udp: true}
   - {name: 🇺🇸 美国洛杉矶海角社区, server: haijiao.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -203,6 +211,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - GCORE测试
       - AnycastNode_PayPal
       - 美国洛杉矶DMIT
       - 香港HKIX200Gbps入口1
@@ -211,7 +220,14 @@ proxy-groups:
       - 🇺🇸 美国
       - 日本
       - neko
-      - 🇺🇸 广移-美国洛杉矶
+      - 🇺🇸 圣何塞1:✓电信✓联通✓移动
+      - 🇺🇸 圣何塞2:✓电信✓联通✓移动
+      - 🇺🇸 ipv6圣何塞:✓电信✓联通✓移动
+      - 🇺🇸 洛杉矶:✓ChatGPT✓NetFlix
+      - 🇺🇸 洛杉矶:✓ChatGPT×移动
+      - 🇰🇷 首尔1:✓电信✓联通✓移动
+      - 🇰🇷 首尔2:✓电信✓联通✓移动
+      - 🇰🇷 ipv6首尔:✓电信✓联通✓移动
       - 🇺🇸 美国洛杉矶海角社区
       - 🇺🇸 美国洛杉矶wvvww.com:2096
       - 🇺🇸 美国洛杉矶visa.cn:443
