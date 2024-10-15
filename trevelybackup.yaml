@@ -52,7 +52,7 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
-  - {name: GCORE测试, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
+  - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
   - name: AnycastNode_PayPal
     server: www.paypal.com.cn
     port: 80
@@ -90,7 +90,6 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇩🇪 DE-Hetzner Online-Falkenstein_tls, server: 36.140.92.22, port: 10075, client-fingerprint: chrome, type: vmess, uuid: 7b2f0385-3a3f-4b7a-b7f2-b2d165389b60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 7b2f0385, headers: {Host: toolbox-update-takes-ion.trycloudflare.com}}}
   - {name: 全国优选, server: v2.goyo123.ip-dynamic.org, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 海角社区, server: haijiao.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 小红书NA, server: sns-na-i9.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -188,7 +187,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - GCORE测试
+      - GCORE中转
       - AnycastNode_PayPal
       - 美国洛杉矶DMIT
       - 🇨🇦 加拿大
@@ -203,7 +202,6 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶visa.cn:443
       - 🇺🇸 美国洛杉矶115155.xyz:2096
       - 🇺🇸 美国洛杉矶cloudflare.182682.xyz:2087
-      - 🇩🇪 DE-Hetzner Online-Falkenstein_tls
       - 全国优选
       - 海角社区
       - 小红书NA
