@@ -77,15 +77,6 @@ proxies:
       path: /?ed=2560
       headers:
         Host: dmit.sayuri.cf
-  - {name: 🇨🇦 加拿大, server: cacfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
-  - {name: 🇺🇸 美国, server: uscfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
-  - {name: 日本, server: jpcfcdn.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
-  - {name: neko, server: neko.788848.xyz, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a78c6585-977c-4cb1-b22d-30a6cb333433, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cdn, headers: {Host: cacfcdn.788848.xyz}}}
-  - {name: 🇺🇸 圣何塞2:✓电信✓联通✓移动, server: sj-a.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: sj-a.n256.com, up: 1000, down: 1000}
-  - {name: 🇺🇸 洛杉矶:✓ChatGPT×移动, server: rn.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: rn.n256.com, up: 1000, down: 1000}
-  - {name: 🇰🇷 首尔2:✓电信✓联通✓移动, server: sel-a.n256.com, port: 20006, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: sel-a.n256.com, up: 1000, down: 1000}
-  - {name: 🇸🇬 新加坡, server: 140.245.46.100, port: 21000, client-fingerprint: chrome, type: hysteria2, password: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, auth: rr1TizLqXgVHGd5YRj5aMKpHVfqd6fgWkP_hX4RAlhIOGqU5, sni: sg-a.n256.com, up: 100, down: 100}
-  - {name: 🇸🇬 ipv6新加坡, server: 2603:c02b:304:5200::6, port: 20010, client-fingerprint: chrome, type: vmess, uuid: baa69547-da76-520f-bb1b-438303f707f1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /music}, udp: true}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -93,7 +84,6 @@ proxies:
   - {name: 静态Cloudflareinsights, server: static.cloudflareinsights.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 海角社区, server: haijiao.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 小红书NA, server: sns-na-i9.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 小红书视频, server: sns-video-yc.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -107,6 +97,7 @@ proxies:
   - {name: 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 美国优选IP, server: uicdn.cf, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 神奇的优选IP, server: cloudflare.cfgo.cc, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 带牙套真难受, server: cn.dentalhealth.org, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 乌克兰国防情报总局, server: gur.gov.ua, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 美国联邦调查局, server: fbi.gov, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -191,15 +182,6 @@ proxy-groups:
       - GCORE中转
       - AnycastNode_PayPal
       - 美国洛杉矶DMIT
-      - 🇨🇦 加拿大
-      - 🇺🇸 美国
-      - 日本
-      - neko
-      - 🇺🇸 圣何塞2:✓电信✓联通✓移动
-      - 🇺🇸 洛杉矶:✓ChatGPT×移动
-      - 🇰🇷 首尔2:✓电信✓联通✓移动
-      - 🇸🇬 新加坡
-      - 🇸🇬 ipv6新加坡
       - 🇺🇸 美国洛杉矶wvvww.com:2096
       - 🇺🇸 美国洛杉矶visa.cn:443
       - 🇺🇸 美国洛杉矶115155.xyz:2096
@@ -207,7 +189,6 @@ proxy-groups:
       - 静态Cloudflareinsights
       - Cloudflare雷达
       - CloudflareLogCDN
-      - 联通电信优选
       - 海角社区
       - 小红书NA
       - 小红书视频
@@ -221,6 +202,7 @@ proxy-groups:
       - 爱料理
       - 美国优选IP
       - 神奇的优选IP
+      - 联通电信优选
       - 带牙套真难受
       - 乌克兰国防情报总局
       - 美国联邦调查局
