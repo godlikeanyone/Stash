@@ -49,7 +49,7 @@ dns:
     - 223.6.6.6
 proxies:
   - {name: 🇵🇱 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: /xx, headers: {Host: serv.sayuri.us.kg}}}
-  - {name: GCORE中转CM, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
+  - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
   - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🇺🇸 美国洛杉矶DMIT, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: dmit.sayuri.cf, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: dmit.sayuri.cf}}}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
