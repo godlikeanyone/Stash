@@ -53,7 +53,7 @@ dns:
 proxies:
   - {name: 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: "/xx", headers: {Host: serv.sayuri.us.kg}}}
   - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
-  - {name: AnycastNode_PayPal, server: fastly.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: /?ed=2048, headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 美国洛杉矶DMIT, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: dmit.sayuri.cf, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: dmit.sayuri.cf}}}
   - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
@@ -66,10 +66,6 @@ proxies:
   - {name: 小红书NA, server: sns-na-i9.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 小红书视频, server: sns-video-yc.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: VISA的钞能力, server: www.visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: VISA海外CDN的钞能力, server: cdn.visa.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: VISA-CFCDN的钞能力, server: www.visa.cn.cdn.cloudflare.net, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: VISA根域名的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 宝可梦机场优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 美国优选IP, server: uicdn.cf, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -171,10 +167,6 @@ proxy-groups:
       - 小红书NA
       - 小红书视频
       - 电信
-      - VISA的钞能力
-      - VISA海外CDN的钞能力
-      - VISA-CFCDN的钞能力
-      - VISA根域名的钞能力
       - 宝可梦机场优选IP
       - 爱料理
       - 美国优选IP
