@@ -155,7 +155,6 @@ proxies:
   - {name: 电信-SJC-2024-10-14 16:11:12, server: 104.19.29.249, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-SJC-2024-10-14 15:51:25, server: 172.64.102.232, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-SJC-2024-10-14 16:15:39 2, server: 104.19.2.49, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 测试, server: 2409:8720:4001:2:359e:749c:6a85:fffe, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -264,7 +263,6 @@ proxy-groups:
       - 电信-SJC-2024-10-14 16:11:12
       - 电信-SJC-2024-10-14 15:51:25
       - 电信-SJC-2024-10-14 16:15:39 2
-      - 测试
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
