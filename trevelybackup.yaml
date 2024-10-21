@@ -62,6 +62,7 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶微测网2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: Fastly-CDN80端口, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 572d259b-5316-4e8c-9e4c-0dd15031e898, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: gov.uk}}}
   - {name: Fastly-CDN443端口, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 572d259b-5316-4e8c-9e4c-0dd15031e898, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.arizona.edu}}}
+  - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 静态Cloudflareinsights, server: static.cloudflareinsights.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -71,7 +72,8 @@ proxies:
   - {name: 小红书视频, server: sns-video-yc.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 宝可梦机场优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 爱料理HK, server: icook.hk, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 爱料理TW, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 美国优选IP, server: uicdn.cf, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 神奇的优选IP, server: cloudflare.cfgo.cc, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -152,6 +154,7 @@ proxies:
   - {name: 电信-SJC-2024-10-14 16:11:12, server: 104.19.29.249, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-SJC-2024-10-14 15:51:25, server: 172.64.102.232, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 电信-SJC-2024-10-14 16:15:39 2, server: 104.19.2.49, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 测试, server: 2409:8720:4001:2:359e:749c:6a85:fffe, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -169,6 +172,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶微测网2087
       - Fastly-CDN80端口
       - Fastly-CDN443端口
+      - Visa的钞能力
       - 静态Cloudflareinsights
       - Cloudflare雷达
       - CloudflareLogCDN
@@ -178,7 +182,8 @@ proxy-groups:
       - 小红书视频
       - 电信
       - 宝可梦机场优选IP
-      - 爱料理
+      - 爱料理HK
+      - 爱料理TW
       - 美国优选IP
       - 神奇的优选IP
       - 联通电信优选
@@ -258,6 +263,7 @@ proxy-groups:
       - 电信-SJC-2024-10-14 16:11:12
       - 电信-SJC-2024-10-14 15:51:25
       - 电信-SJC-2024-10-14 16:15:39 2
+      - 测试
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
