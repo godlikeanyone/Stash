@@ -61,7 +61,12 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
   - {name: 🇺🇸 美国洛杉矶微测网2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: Fastly香港, server: 151.101.193.57, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly香港CMI-NTT1, server: 151.101.193.57, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly香港CMI-NTT2, server: 151.101.193.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly香港CMI-Telstra, server: 151.101.77.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly日本NTT-PCCW1, server: 146.75.113.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly日本NTT-PCCW2, server: 151.101.65.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
+  - {name: Fastly日本NTT-PCCW3, server: 151.101.129.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly新加坡NTT1, server: 151.101.1.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly新加坡NTT2, server: 151.101.1.57, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly-CDN443端口, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: www.mfa.gov.kp}}}
@@ -158,7 +163,12 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶visa.cn:443
       - 🇺🇸 美国洛杉矶115155.xyz:2096
       - 🇺🇸 美国洛杉矶微测网2087
-      - Fastly香港
+      - Fastly香港CMI-NTT1
+      - Fastly香港CMI-NTT2
+      - Fastly香港CMI-Telstra
+      - Fastly日本NTT-PCCW1
+      - Fastly日本NTT-PCCW2
+      - Fastly日本NTT-PCCW3
       - Fastly新加坡NTT1
       - Fastly新加坡NTT2
       - Fastly-CDN443端口
