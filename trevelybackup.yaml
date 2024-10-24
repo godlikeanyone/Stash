@@ -50,6 +50,8 @@ dns:
 proxies:
   - {name: 🇵🇱 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: /xx, headers: {Host: serv.sayuri.us.kg}}}
   - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: /, headers: {Host: cmliussss.com}}}
+  - {name: 🇸🇬 ByteVirt SG, server: [2a12:bec0:16e:5::], port: 56349, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2k5oEfrbjgIvJpDwVYyVIAIFuweK5y9Zpu5xZhlY7VJ6}
+  - {name: 🇭🇰 HKBN, server: hkbn.awscft.eu.org, port: 20804, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: lr9DNjHQEAIHZTAWULR1zuKzjYqysL9jQtw7Vn0I35wP}
   - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sdeweb.hkcsl.com}}}
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 徐州移动中转Oracle, server: iepl1.097420.xyz, port: 45222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32ba7d81-84be-11ef-bb6b-bc241111d95d}
@@ -153,6 +155,8 @@ proxy-groups:
     proxies:
       - 🇵🇱 波兰华沙
       - GCORE中转
+      - 🇸🇬 ByteVirt SG
+      - 🇭🇰 HKBN
       - AnycastNode_PayPal
       - AnycastNode_UK
       - 徐州移动中转Oracle
