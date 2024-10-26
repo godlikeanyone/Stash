@@ -77,7 +77,6 @@ proxies:
   - {name: Fastly英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: 香港HKIX-200Gbps入口, server: 172.64.232.0, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: Visa的钞能力443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
-  - {name: Visa的钞能力80, server: visa.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: GCore-CMI-10Tbps出口, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
   - {name: pastebin, server: pastebin.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -159,7 +158,6 @@ proxy-groups:
       - Fastly英国政府
       - 香港HKIX-200Gbps入口
       - Visa的钞能力443
-      - Visa的钞能力80
       - Visa的钞能力
       - GCore-CMI-10Tbps出口
       - pastebin
