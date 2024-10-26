@@ -52,6 +52,11 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
 proxies:
+  - {name: 🇵🇱 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
+  - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
+  - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: Visa的钞能力443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
+
   - {name: Warsaw  6, server: enough-swift.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: enough-swift.sunbeam921.monster, skip-cert-verify: false}
   - {name: Warsaw  Pro 12, server: just-serval.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: just-serval.sunbeam921.monster, skip-cert-verify: false}
   - {name: 🇦🇪 🅷🆆 Dubai-1K Pro 5, server: wealthy-lemur.lab300.lat, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: wealthy-lemur.lab300.lat, skip-cert-verify: false}
@@ -112,6 +117,10 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - 🇵🇱 波兰华沙
+      - GCORE中转
+      - AnycastNode_UK
+      - Visa的钞能力443
       - Warsaw  6
       - Warsaw  Pro 12
       - 🇦🇪 🅷🆆 Dubai-1K Pro 5
