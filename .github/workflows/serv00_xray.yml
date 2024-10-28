@@ -16,3 +16,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: "22"
         script: cd xray/ && nohup ./xray -c configserv.json
+        debug: true
