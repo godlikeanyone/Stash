@@ -12,7 +12,6 @@ jobs:
       uses: fifsky/ssh-action@master
       with:
         host: "cache11.serv00.com"
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        script: cd xray/ && nohup ./xray -c configserv.json
-        debug: true
+        user: ${{ secrets.USERNAME }}
+        pass: ${{ secrets.PASSWORD }}
+        command: cd xray/ && nohup ./xray -c configserv.json
