@@ -14,4 +14,4 @@ jobs:
         host: "cache11.serv00.com"
         user: ${{ secrets.USERNAME }}
         pass: ${{ secrets.PASSWORD }}
-        command: cd xray/ && nohup ./xray -c configserv.json
+        command: cd xray/ && nohup ./xray -c configserv.json &
