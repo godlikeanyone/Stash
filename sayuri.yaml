@@ -88,6 +88,7 @@ proxies:
   - {name: 宝可梦机场优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 爱料理HK, server: icook.hk, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 爱料理TW, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
+  - {name: 移动优选, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_JP 03, server: 14.6.169.26, port: 10397, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: FREE_KR 04, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -165,6 +166,7 @@ proxy-groups:
       - 宝可梦机场优选IP
       - 爱料理HK
       - 爱料理TW
+      - 移动优选
       - 联通电信优选
       - FREE_JP 03
       - FREE_KR 04
