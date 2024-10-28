@@ -1,4 +1,4 @@
-name: remote ssh command
+name: start xray on serv00
 on:
   workflow_dispatch:
   schedule:
