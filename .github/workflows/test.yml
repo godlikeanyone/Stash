@@ -14,3 +14,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: whoami
+        use_insecure_cipher: true
