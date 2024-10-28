@@ -1,0 +1,18 @@
+name: remote ssh command
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 22 * * *"   # <=== Change this value
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v1.1.0
+      with:
+        host: s11.serv00.com
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: 22
+        script: cd xray/ && nohup ./xray -c configserv.json
