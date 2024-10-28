@@ -15,7 +15,7 @@ jobs:
         user: ${{ secrets.USERNAME }}
         pass: ${{ secrets.PASSWORD }}
         command: |
-          cd xray/ && nohup ./xray -c configserv.json > xray.log 2>&1 &
+          cd xray/ && nohup setsid ./xray -c configserv.json > xray.log 2>&1 &
           sleep 2
           if ps -ef | grep -v grep | grep "./xray -c configserv.json" > /dev/null; then
             exit 0 # 成功启动
