@@ -9,11 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@master
+      uses: fifsky/ssh-action@master
       with:
         host: "cache11.serv00.com"
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: "22"
         script: cd xray/ && nohup ./xray -c configserv.json
         debug: true
