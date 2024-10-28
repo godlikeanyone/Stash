@@ -1,4 +1,4 @@
-name: start xray on serv00
+name: Run Xray on Serv00
 on:
   workflow_dispatch:
   schedule:
