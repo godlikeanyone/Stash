@@ -130,12 +130,12 @@ proxy-groups:
       - GCORE中转
       - AnycastNode_PayPal
       - AnycastNode_UK
-      - 徐州移动中转Oracle
       - Visa的钞能力
       - 香港HKIX-200Gbps入口
       - 电信
       - 移动优选IP
       - 🇹🇼 台湾家宽-电信专线
+      - 徐州移动中转Oracle
       - 🇮🇳 广移中转Akamai
       - 香港阿里云
       - 🇺🇸 美国洛杉矶DMIT
