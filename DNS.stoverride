@@ -11,7 +11,7 @@ dns: #!replace
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
-    - localhost.ptlogin2.qq.com
+    - 'localhost.ptlogin2.qq.com'
     - '*.jegotrip.com.cn'
     - '*.icitymobile.mobi'
     - 'id6.me'
@@ -49,7 +49,7 @@ dns: #!replace
     - 'ff.dorado.sdo.com'
   nameserver:
     - 223.5.5.5
-    - 223.6.6.6
+    - 119.29.29.29
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
