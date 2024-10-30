@@ -55,7 +55,13 @@ proxies:
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 香港HKIX-200Gbps入口, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}  - {name: 🇹🇼 台湾家宽-电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a}
+  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 4, server: 2606:4700:9a91::6524:2a5c, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:12:57, server: 2606:4700:9a95::b90:7d55, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇹🇼 台湾家宽-电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a}
   - {name: 徐州移动中转Oracle, server: iepl1.097420.xyz, port: 45222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32ba7d81-84be-11ef-bb6b-bc241111d95d}
   - {name: 🇮🇳 广移中转Akamai, server: fanin1s.funplus.win, port: 24725, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01c35fad-79e8-4847-a327-03192f49c004}
   - {name: 香港阿里云, server: 8.218.190.81, port: 53, client-fingerprint: chrome, type: hysteria2, password: aries, auth: aries, sni: www.bing.com, skip-cert-verify: true}
@@ -91,11 +97,6 @@ proxies:
   - {name: FREE_JP 03, server: 14.6.169.26, port: 10397, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: FREE_KR 04, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: FREE_KR 06, server: 119.203.125.236, port: 30001, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 4, server: 2606:4700:9a91::6524:2a5c, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 移动-HKG-2024-10-14 16:12:57, server: 2606:4700:9a95::b90:7d55, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 联通-LAS-2024-10-14 16:23:43, server: 2a06:98c1:3120::7f26:390f, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 联通-LAS-2024-10-14 16:10:30, server: 2a06:98c1:56::5649:5116, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 联通-LAS-2024-10-14 16:10:46 2, server: 2606:4700:57::6082:32e, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
@@ -132,6 +133,11 @@ proxy-groups:
       - 香港HKIX-200Gbps入口
       - 电信
       - 移动优选IP
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 2
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 3
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 4
+      - 🇭🇰 移动-HKG-2024-10-14 16:12:57
       - 🇹🇼 台湾家宽-电信专线
       - 徐州移动中转Oracle
       - 🇮🇳 广移中转Akamai
@@ -168,11 +174,6 @@ proxy-groups:
       - FREE_JP 03
       - FREE_KR 04
       - FREE_KR 06
-      - 🇭🇰 移动-HKG-2024-10-14 16:27:37
-      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 2
-      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 3
-      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 4
-      - 🇭🇰 移动-HKG-2024-10-14 16:12:57
       - 联通-LAS-2024-10-14 16:10:30
       - 联通-LAS-2024-10-14 16:10:46 2
       - 联通-SJC-2024-10-14 16:30:45
