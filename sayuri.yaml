@@ -53,10 +53,9 @@ proxies:
   - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 香港HKIX-200Gbps入口, server: 172.64.232.0, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 🇹🇼 台湾家宽-电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a}
+  - {name: 香港HKIX-200Gbps入口, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}  - {name: 🇹🇼 台湾家宽-电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a}
   - {name: 徐州移动中转Oracle, server: iepl1.097420.xyz, port: 45222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32ba7d81-84be-11ef-bb6b-bc241111d95d}
   - {name: 🇮🇳 广移中转Akamai, server: fanin1s.funplus.win, port: 24725, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01c35fad-79e8-4847-a327-03192f49c004}
   - {name: 香港阿里云, server: 8.218.190.81, port: 53, client-fingerprint: chrome, type: hysteria2, password: aries, auth: aries, sni: www.bing.com, skip-cert-verify: true}
@@ -79,7 +78,6 @@ proxies:
   - {name: Fastly-CDN443端口, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly官网, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
-  - {name: GCore-CMI-10Tbps出口, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
   - {name: pastebin, server: pastebin.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: paste.gg, server: paste.gg, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
   - {name: Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
@@ -157,7 +155,6 @@ proxy-groups:
       - Fastly-CDN443端口
       - Fastly官网
       - Fastly英国政府
-      - GCore-CMI-10Tbps出口
       - pastebin
       - paste.gg
       - Cloudflare雷达
