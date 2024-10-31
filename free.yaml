@@ -54,16 +54,28 @@ dns:
 proxies:
   - {name: 🇵🇱 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
   - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
+  - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
-  - {name: Visa的钞能力443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
-  - {name: Warsaw  6, server: enough-swift.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: enough-swift.sunbeam921.monster, skip-cert-verify: false}
-  - {name: Warsaw  Pro 12, server: just-serval.sunbeam921.monster, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: just-serval.sunbeam921.monster, skip-cert-verify: false}
-  - {name: 🇦🇪 🅷🆆 Dubai-1K Pro 5, server: wealthy-lemur.lab300.lat, port: 443, client-fingerprint: chrome, type: trojan, password: 3672449442956713984, sni: wealthy-lemur.lab300.lat, skip-cert-verify: false}
-  - {name: 🇺🇸 美国-Madcity-wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-cloudflare.182682.xyz:2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
-  - {name: 🇺🇸 美国-Madcity-visa.cn:2096, server: visa.cn, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: us.madcity.lol}}}
+  - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港HKIX-200Gbps入口, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港低延迟, server: 162.159.128.219, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 4, server: 2606:4700:9a91::6524:2a5c, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 移动-HKG-2024-10-14 16:12:57, server: 2606:4700:9a95::b90:7d55, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 徐州移动中转Oracle, server: iepl1.097420.xyz, port: 45222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32ba7d81-84be-11ef-bb6b-bc241111d95d}
+  - {name: 🇮🇳 广移中转Akamai, server: fanin1s.funplus.win, port: 24725, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01c35fad-79e8-4847-a327-03192f49c004}
+  - {name: 🇺🇸 美国洛杉矶DMIT, server: ct.090227.xyz, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: dmit.sayuri.cf, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: dmit.sayuri.cf}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT-Fastly, server: gov.uk, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: beijing.cn}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT-GCore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT-GCore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
+  - {name: 🇺🇸 美国洛杉矶wvvww.com:2096, server: wvvww.com, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶visa.cn:443, server: visa.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶115155.xyz:2096, server: 115155.xyz, port: 2096, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: us.madcity.lol}}}
+  - {name: 🇺🇸 美国洛杉矶微测网2087, server: cloudflare.182682.xyz, port: 2087, client-fingerprint: chrome, type: vmess, uuid: a54cc897-d3fa-493b-99ef-40887fdbff24, alterId: 0, cipher: auto, tls: true, servername: us.madcity.lol, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: us.madcity.lol}}}
   - {name: Fastly香港CMI-NTT1, server: 151.101.193.57, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly香港CMI-NTT2, server: 151.101.193.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly香港CMI-Telstra, server: 151.101.77.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
@@ -75,75 +87,71 @@ proxies:
   - {name: Fastly-CDN443端口, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly官网, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
-  - {name: GCore-CMI-10Tbps出口, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
-  - {name: pastebin, server: pastebin.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: paste.gg, server: paste.gg, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 小红书视频, server: sns-video-yc.xhscdn.com, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 爱料理HK, server: icook.hk, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 爱料理TW, server: icook.tw, port: 2053, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 移动优选, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
-  - {name: 香港HKIX-200Gbps入口, server: 172.64.232.0, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: gcore.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: gcore.sayuri.us.kg}}}
-  - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: trojan, password: UFOsos191519, sni: free.sayuri.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: free.sayuri.us.kg}}}
-  - {name: 🇹🇼 台湾家宽-电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c4c76ec6-4a69-4c26-9af5-8f4846b6a19a}
-  - {name: 徐州移动中转Oracle, server: iepl1.097420.xyz, port: 45222, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 32ba7d81-84be-11ef-bb6b-bc241111d95d}
-  - {name: 🇮🇳 广移中转Akamai, server: fanin1s.funplus.win, port: 24725, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 01c35fad-79e8-4847-a327-03192f49c004}
-  - {name: 香港阿里云, server: 8.218.190.81, port: 53, client-fingerprint: chrome, type: hysteria2, password: aries, auth: aries, sni: www.bing.com, skip-cert-verify: true}
-  - {name: www.gov.se, server: www.gov.se, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: notion.so, server: notion.so, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: www.wto.org, server: www.wto.org, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: skk.moe, server: skk.moe, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: www.shopify.com, server: www.shopify.com, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: www.gov.ua, server: www.gov.ua, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: www.digitalocean.com, server: www.digitalocean.com, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: time.is, server: time.is, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: toy-people.com, server: toy-people.com, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: steamdb.info, server: steamdb.info, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: www.wuda.cf, server: www.wuda.cf, port: 443, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 01, server: 59.14.108.107, port: 50003, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 02, server: 59.25.228.177, port: 12574, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 03, server: 114.199.158.41, port: 14095, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 04, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 05, server: 119.200.192.28, port: 37215, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_KR 06, server: 119.203.125.236, port: 30001, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 01, server: 154.9.237.165, port: 20001, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 02, server: 154.9.237.211, port: 20004, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 03, server: 154.9.237.215, port: 20001, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 04, server: 154.9.241.191, port: 28838, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 05, server: 154.29.150.23, port: 50001, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 06, server: 154.40.33.119, port: 36831, client-fingerprint: chrome, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 07, server: 172.64.99.154, port: 2053, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 08, server: 172.64.201.63, port: 2083, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 09, server: 172.64.99.154, port: 2087, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 10, server: 172.64.100.78, port: 2096, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 11, server: 172.64.132.64, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 12, server: duke.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 13, server: fred.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 14, server: hugh.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 15, server: kyle.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 16, server: lynn.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
-  - {name: FREE_US 17, server: theo.ns.cloudflare.com, port: 8443, client-fingerprint: randomized, type: trojan, password: ooo, sni: trojan.mianfeicf.lol, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: trojan.mianfeicf.lol}}}
+  - {name: pastebin, server: pastebin.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: paste.gg, server: paste.gg, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 小红书视频, server: sns-video-yc.xhscdn.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: Notion钞能力, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动优选, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: FREE_JP 03, server: 14.6.169.26, port: 10397, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: FREE_KR 04, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: FREE_KR 06, server: 119.203.125.236, port: 30001, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 联通-LAS-2024-10-14 16:23:43, server: 2a06:98c1:3120::7f26:390f, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 联通-LAS-2024-10-14 16:10:30, server: 2a06:98c1:56::5649:5116, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 联通-LAS-2024-10-14 16:10:46 2, server: 2606:4700:57::6082:32e, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 联通-SJC-2024-10-14 16:30:45, server: 2606:4700:a9::378f:31f0, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-LHR-2024-10-14 16:13:31, server: 2606:4700:3035::6df9:6b13, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-LAX-2024-10-14 16:13:22, server: 2606:4700:4400::162c:1867, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-LAX-2024-10-14 16:15:58, server: 2803:f800:52::8b3:4a1a, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:33:44, server: 2606:4700:e7::340b:7c0e, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:33:44 2, server: 2606:4700:e2::2bc3:2284, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动-SEA-2024-10-14 16:06:10, server: 104.18.27.122, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动-SEA-2024-10-14 16:06:10 2, server: 104.17.252.116, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动-SEA-2024-10-14 16:06:10 3, server: 104.17.242.202, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动-SEA-2024-10-14 16:18:18, server: 172.67.76.200, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 移动-SEA-2024-10-14 16:06:10 4, server: 104.16.52.231, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18, server: 104.20.18.29, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18 2, server: 162.159.143.205, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 联通-HKG-2024-10-14 16:02:55, server: 104.20.17.21, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18 3, server: 172.67.76.200, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 🇭🇰 联通-HKG-2024-10-14 16:01:05, server: 104.20.26.145, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:16:08, server: 104.19.70.97, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:15:39, server: 104.19.96.135, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:11:12, server: 104.19.29.249, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 15:51:25, server: 172.64.102.232, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 电信-SJC-2024-10-14 16:15:39 2, server: 104.19.2.49, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
       - 🇵🇱 波兰华沙
       - GCORE中转
+      - AnycastNode_PayPal
       - AnycastNode_UK
-      - Visa的钞能力443
-      - Warsaw  6
-      - Warsaw  Pro 12
-      - 🇦🇪 🅷🆆 Dubai-1K Pro 5
-      - 🇺🇸 美国-Madcity-wvvww.com:2096
-      - 🇺🇸 美国-Madcity-visa.cn:443
-      - 🇺🇸 美国-Madcity-115155.xyz:2096
-      - 🇺🇸 美国-Madcity-cloudflare.182682.xyz:2087
-      - 🇺🇸 美国-Madcity-visa.cn:2096
+      - Visa的钞能力
+      - 香港HKIX-200Gbps入口
+      - 香港低延迟
+      - 电信
+      - 移动优选IP
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 2
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 3
+      - 🇭🇰 移动-HKG-2024-10-14 16:27:37 4
+      - 🇭🇰 移动-HKG-2024-10-14 16:12:57
+      - 徐州移动中转Oracle
+      - 🇮🇳 广移中转Akamai
+      - 🇺🇸 美国洛杉矶DMIT
+      - 🇺🇸 美国洛杉矶DMIT-Fastly
+      - 🇺🇸 美国洛杉矶DMIT-GCore443
+      - 🇺🇸 美国洛杉矶DMIT-GCore80
+      - 🇺🇸 美国洛杉矶wvvww.com:2096
+      - 🇺🇸 美国洛杉矶visa.cn:443
+      - 🇺🇸 美国洛杉矶115155.xyz:2096
+      - 🇺🇸 美国洛杉矶微测网2087
       - Fastly香港CMI-NTT1
       - Fastly香港CMI-NTT2
       - Fastly香港CMI-Telstra
@@ -155,59 +163,42 @@ proxy-groups:
       - Fastly-CDN443端口
       - Fastly官网
       - Fastly英国政府
-      - GCore-CMI-10Tbps出口
       - pastebin
       - paste.gg
       - Cloudflare雷达
       - CloudflareLogCDN
       - B站
       - 小红书视频
-      - 爱料理HK
-      - 爱料理TW
+      - Notion钞能力
+      - 爱料理
       - 移动优选
       - 联通电信优选
-      - Visa的钞能力
-      - 香港HKIX-200Gbps入口
-      - 电信
-      - 移动优选IP
-      - 🇹🇼 台湾家宽-电信专线
-      - 徐州移动中转Oracle
-      - 🇮🇳 广移中转Akamai
-      - 香港阿里云
-      - www.gov.se
-      - notion.so
-      - www.wto.org
-      - skk.moe
-      - www.shopify.com
-      - www.gov.ua
-      - www.digitalocean.com
-      - time.is
-      - toy-people.com
-      - steamdb.info
-      - www.wuda.cf
-      - FREE_KR 01
-      - FREE_KR 02
-      - FREE_KR 03
+      - FREE_JP 03
       - FREE_KR 04
-      - FREE_KR 05
       - FREE_KR 06
-      - FREE_US 01
-      - FREE_US 02
-      - FREE_US 03
-      - FREE_US 04
-      - FREE_US 05
-      - FREE_US 06
-      - FREE_US 07
-      - FREE_US 08
-      - FREE_US 09
-      - FREE_US 10
-      - FREE_US 11
-      - FREE_US 12
-      - FREE_US 13
-      - FREE_US 14
-      - FREE_US 15
-      - FREE_US 16
-      - FREE_US 17
+      - 联通-LAS-2024-10-14 16:10:30
+      - 联通-LAS-2024-10-14 16:10:46 2
+      - 联通-SJC-2024-10-14 16:30:45
+      - 电信-LHR-2024-10-14 16:13:31
+      - 电信-LAX-2024-10-14 16:13:22
+      - 电信-LAX-2024-10-14 16:15:58
+      - 电信-SJC-2024-10-14 16:33:44
+      - 电信-SJC-2024-10-14 16:33:44 2
+      - 移动-SEA-2024-10-14 16:06:10
+      - 移动-SEA-2024-10-14 16:06:10 2
+      - 移动-SEA-2024-10-14 16:06:10 3
+      - 移动-SEA-2024-10-14 16:18:18
+      - 移动-SEA-2024-10-14 16:06:10 4
+      - 🇭🇰 联通-HKG-2024-10-14 16:18:18
+      - 🇭🇰 联通-HKG-2024-10-14 16:18:18 2
+      - 🇭🇰 联通-HKG-2024-10-14 16:02:55
+      - 🇭🇰 联通-HKG-2024-10-14 16:18:18 3
+      - 🇭🇰 联通-HKG-2024-10-14 16:01:05
+      - 电信-SJC-2024-10-14 16:16:08
+      - 电信-SJC-2024-10-14 16:15:39
+      - 电信-SJC-2024-10-14 16:11:12
+      - 电信-SJC-2024-10-14 15:51:25
+      - 电信-SJC-2024-10-14 16:15:39 2
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
