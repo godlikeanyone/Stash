@@ -54,6 +54,7 @@ proxies:
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 香港HKIX-200Gbps入口, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港低延迟, server: 162.159.128.219, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
@@ -130,6 +131,7 @@ proxy-groups:
       - AnycastNode_UK
       - Visa的钞能力
       - 香港HKIX-200Gbps入口
+      - 香港低延迟
       - 电信
       - 移动优选IP
       - 🇭🇰 移动-HKG-2024-10-14 16:27:37
