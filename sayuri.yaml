@@ -46,7 +46,7 @@ dns:
     - 'ff.dorado.sdo.com'
   nameserver:
     - 223.5.5.5
-    - 223.6.6.6
+    - 119.28.28.28
 proxies:
   - {name: 🇵🇱 波兰华沙, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
   - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
