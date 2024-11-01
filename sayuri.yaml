@@ -95,33 +95,23 @@ proxies:
   - {name: 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 移动优选, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 联通电信优选, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: FREE_JP 03, server: 14.6.169.26, port: 10397, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: FREE_KR 04, server: 115.40.28.225, port: 10911, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: FREE_KR 06, server: 119.203.125.236, port: 30001, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 联通-LAS-2024-10-14 16:23:43, server: 2a06:98c1:3120::7f26:390f, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 联通-LAS-2024-10-14 16:10:30, server: 2a06:98c1:56::5649:5116, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 联通-LAS-2024-10-14 16:10:46 2, server: 2606:4700:57::6082:32e, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 联通-SJC-2024-10-14 16:30:45, server: 2606:4700:a9::378f:31f0, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-LHR-2024-10-14 16:13:31, server: 2606:4700:3035::6df9:6b13, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-LAX-2024-10-14 16:13:22, server: 2606:4700:4400::162c:1867, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-LAX-2024-10-14 16:15:58, server: 2803:f800:52::8b3:4a1a, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:33:44, server: 2606:4700:e7::340b:7c0e, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:33:44 2, server: 2606:4700:e2::2bc3:2284, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动-SEA-2024-10-14 16:06:10, server: 104.18.27.122, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动-SEA-2024-10-14 16:06:10 2, server: 104.17.252.116, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动-SEA-2024-10-14 16:06:10 3, server: 104.17.242.202, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动-SEA-2024-10-14 16:18:18, server: 172.67.76.200, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 移动-SEA-2024-10-14 16:06:10 4, server: 104.16.52.231, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18, server: 104.20.18.29, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18 2, server: 162.159.143.205, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 联通-HKG-2024-10-14 16:02:55, server: 104.20.17.21, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 联通-HKG-2024-10-14 16:18:18 3, server: 172.67.76.200, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 🇭🇰 联通-HKG-2024-10-14 16:01:05, server: 104.20.26.145, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:16:08, server: 104.19.70.97, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:15:39, server: 104.19.96.135, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:11:12, server: 104.19.29.249, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 15:51:25, server: 172.64.102.232, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
-  - {name: 电信-SJC-2024-10-14 16:15:39 2, server: 104.19.2.49, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 01, server: 40.83.122.22, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 02, server: 40.83.122.22, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 03, server: 47.76.75.29, port: 777, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 04, server: 47.76.62.62, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 05, server: 47.76.83.114, port: 11001, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 06, server: 47.76.84.134, port: 1000, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 07, server: 47.238.174.224, port: 10443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 08, server: 62.72.163.169, port: 51206, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 09, server: 124.156.129.206, port: 6666, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 10, server: 154.16.183.190, port: 34152, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 11, server: 154.16.183.190, port: 52402, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 12, server: 161.81.222.185, port: 26567, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 13, server: 223.122.230.147, port: 26643, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 14, server: 223.16.138.113, port: 12457, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 15, server: 223.18.129.85, port: 12345, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 16, server: 223.122.200.155, port: 10823, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
+  - {name: 香港专线 17, server: 223.122.230.147, port: 21179, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -173,32 +163,23 @@ proxy-groups:
       - 爱料理
       - 移动优选
       - 联通电信优选
-      - FREE_JP 03
-      - FREE_KR 04
-      - FREE_KR 06
-      - 联通-LAS-2024-10-14 16:10:30
-      - 联通-LAS-2024-10-14 16:10:46 2
-      - 联通-SJC-2024-10-14 16:30:45
-      - 电信-LHR-2024-10-14 16:13:31
-      - 电信-LAX-2024-10-14 16:13:22
-      - 电信-LAX-2024-10-14 16:15:58
-      - 电信-SJC-2024-10-14 16:33:44
-      - 电信-SJC-2024-10-14 16:33:44 2
-      - 移动-SEA-2024-10-14 16:06:10
-      - 移动-SEA-2024-10-14 16:06:10 2
-      - 移动-SEA-2024-10-14 16:06:10 3
-      - 移动-SEA-2024-10-14 16:18:18
-      - 移动-SEA-2024-10-14 16:06:10 4
-      - 🇭🇰 联通-HKG-2024-10-14 16:18:18
-      - 🇭🇰 联通-HKG-2024-10-14 16:18:18 2
-      - 🇭🇰 联通-HKG-2024-10-14 16:02:55
-      - 🇭🇰 联通-HKG-2024-10-14 16:18:18 3
-      - 🇭🇰 联通-HKG-2024-10-14 16:01:05
-      - 电信-SJC-2024-10-14 16:16:08
-      - 电信-SJC-2024-10-14 16:15:39
-      - 电信-SJC-2024-10-14 16:11:12
-      - 电信-SJC-2024-10-14 15:51:25
-      - 电信-SJC-2024-10-14 16:15:39 2
+      - 香港专线 01
+      - 香港专线 02
+      - 香港专线 03
+      - 香港专线 04
+      - 香港专线 05
+      - 香港专线 06
+      - 香港专线 07
+      - 香港专线 08
+      - 香港专线 09
+      - 香港专线 10
+      - 香港专线 11
+      - 香港专线 12
+      - 香港专线 13
+      - 香港专线 14
+      - 香港专线 15
+      - 香港专线 16
+      - 香港专线 17
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,132203,DIRECT
