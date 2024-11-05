@@ -2,7 +2,7 @@ name: Run Xray on Serv00
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 22 * * *"   # <=== Change this value
+    - cron: "15 22 * * *"
 jobs:
   build:
     name: Build
