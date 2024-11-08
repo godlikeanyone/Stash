@@ -52,12 +52,6 @@ dns:
     - 114.114.114.114
     - 114.114.115.115
 proxies:
-  - {name: 🇭🇰 高速-香港-A1, server: 183.240.255.75, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
-  - {name: 🇭🇰 高速-香港-B1, server: 183.232.229.164, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
-  - {name: 🇭🇰 高速-香港-C1, server: 183.232.229.165, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
-  - {name: 🇭🇰 中国-香港-D1, server: hk.bazhuayujiasu.cc, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
-  - {name: 🇭🇰 中国-香港-E1, server: 58.254.183.32, port: 12002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
-  - {name: 🇭🇰 中国-香港-F1, server: 120.233.98.235, port: 12003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: c3958ac3-3f72-4344-a5c1-12601adce47c}
   - {name: 🇭🇰 高速-香港-A, server: 183.240.255.75, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4322aee9-98c9-4cf6-8cc5-4b3a9bc3a8ec}
   - {name: 🇭🇰 高速-香港-B, server: 183.232.229.164, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4322aee9-98c9-4cf6-8cc5-4b3a9bc3a8ec}
   - {name: 🇭🇰 高速-香港-C, server: 183.232.229.165, port: 11001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 4322aee9-98c9-4cf6-8cc5-4b3a9bc3a8ec}
@@ -115,12 +109,6 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇭🇰 高速-香港-A1
-      - 🇭🇰 高速-香港-B1
-      - 🇭🇰 高速-香港-C1
-      - 🇭🇰 中国-香港-D1
-      - 🇭🇰 中国-香港-E1
-      - 🇭🇰 中国-香港-F1
       - 🇭🇰 高速-香港-A
       - 🇭🇰 高速-香港-B
       - 🇭🇰 高速-香港-C
