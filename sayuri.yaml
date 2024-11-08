@@ -62,6 +62,7 @@ proxies:
   - {name: GCORE中转, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
   - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 美国微软云, server: 20.62.202.159, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 香港专线 06, server: 47.76.84.134, port: 1000, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: 香港专线 07, server: 47.238.174.224, port: 10443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
   - {name: HK 3, server: 47.242.72.208, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.sayuri.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.sayuri.us.kg}}}
@@ -119,6 +120,7 @@ proxy-groups:
       - GCORE中转
       - AnycastNode_PayPal
       - AnycastNode_UK
+      - 美国微软云
       - 香港专线 06
       - 香港专线 07
       - HK 3
