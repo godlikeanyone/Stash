@@ -65,7 +65,6 @@ proxies:
   - {name: 🇯🇵 VIP-日本 - 2239 2, server: 36.151.192.239, port: 11892, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.239, skip-cert-verify: true}
   - {name: 🇺🇸 VIP-美国 - 1198, server: 36.151.192.198, port: 32705, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.198, skip-cert-verify: true}
   - {name: 🇺🇸 VIP-美国 - 2198, server: 36.151.192.198, port: 47475, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.198, skip-cert-verify: true}
-  - {name: 🇺🇸 VIP-美国 - 2239, server: 36.151.192.239, port: 13521, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.239, skip-cert-verify: true}
   - {name: 🇬🇧 VIP-英国 - 2242, server: 36.151.192.242, port: 44036, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.242, skip-cert-verify: true}
   - {name: 🇳🇱 VIP-荷兰 - 1215, server: 36.151.192.215, port: 29769, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.215, skip-cert-verify: true}
   - {name: 美国洛杉矶Bandwagon, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
@@ -129,7 +128,6 @@ proxy-groups:
       - 🇯🇵 VIP-日本 - 2239 2
       - 🇺🇸 VIP-美国 - 1198
       - 🇺🇸 VIP-美国 - 2198
-      - 🇺🇸 VIP-美国 - 2239
       - 🇬🇧 VIP-英国 - 2242
       - 🇳🇱 VIP-荷兰 - 1215
       - 美国洛杉矶Bandwagon
