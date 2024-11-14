@@ -70,7 +70,6 @@ proxies:
   - {name: 美国洛杉矶Bandwagon, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 美国微软云, server: 20.62.202.159, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 香港阿里云-限速, server: 47.242.91.144, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 香港专线-不限速, server: 47.76.84.134, port: 1000, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 香港专线-限速, server: 47.238.174.224, port: 10443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa同IP段, server: 162.159.134.42, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -134,7 +133,6 @@ proxy-groups:
       - 美国洛杉矶Bandwagon
       - 美国微软云
       - 香港阿里云-限速
-      - 香港专线-不限速
       - 香港专线-限速
       - Visa的钞能力
       - Visa同IP段
