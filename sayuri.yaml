@@ -197,7 +197,7 @@ rules:
   - DOMAIN,tieba.baidu.com,🌎 Proxies
   - DOMAIN,tiebac.baidu.com,🌎 Proxies
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
-  - DOAMIN,cp3.hboav.com,✨ Preferred
+  - DOMAIN,cp3.hboav.com,✨ Preferred
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
   - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
   - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
