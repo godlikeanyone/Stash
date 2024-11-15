@@ -205,6 +205,8 @@ rules:
   - DOMAIN,tiebac.baidu.com,🌎 Proxies
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
+  - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
+  - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
   - DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
   - IP-CIDR,114.55.236.88/32,✨ Preferred
   - IP-CIDR,47.97.64.97/32,✨ Preferred
