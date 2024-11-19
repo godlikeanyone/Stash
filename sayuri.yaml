@@ -56,6 +56,9 @@ proxies:
   - {name: AnycastNode_PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: AnycastNode_UK, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2048', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🇭🇰 香港 - 1198, server: 36.151.192.198, port: 10879, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.198, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 - 1201, server: 36.151.192.201, port: 51377, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.201, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 - 1203, server: 36.151.192.203, port: 40388, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.203, skip-cert-verify: true}
+  - {name: 🇭🇰 VIP-香港 - 2215, server: 36.151.192.215, port: 25241, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.215, skip-cert-verify: true}
   - {name: 🇯🇵 VIP-日本 - 1239, server: 36.151.192.239, port: 17806, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.239, skip-cert-verify: true}
   - {name: 🇯🇵 VIP-日本 - 2239, server: 36.151.192.239, port: 12176, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.239, skip-cert-verify: true}
   - {name: 🇯🇵 VIP-日本 - 2239 2, server: 36.151.192.239, port: 11892, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.239, skip-cert-verify: true}
@@ -66,7 +69,6 @@ proxies:
   - {name: 美国洛杉矶Bandwagon, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 🇭🇰 香港阿里云, server: 8.218.80.236, port: 6868, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港HKIX-100Gbps入口, server: 218.102.249.182, port: 5443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港Amazon-EC2, server: 43.198.207.3, port: 2087, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa同IP段, server: 162.159.134.42, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Cloudflare企业路由, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -112,6 +114,9 @@ proxy-groups:
       - AnycastNode_PayPal
       - AnycastNode_UK
       - 🇭🇰 香港 - 1198
+      - 🇭🇰 香港 - 1201
+      - 🇭🇰 香港 - 1203
+      - 🇭🇰 VIP-香港 - 2215
       - 🇯🇵 VIP-日本 - 1239
       - 🇯🇵 VIP-日本 - 2239
       - 🇯🇵 VIP-日本 - 2239 2
@@ -122,7 +127,6 @@ proxy-groups:
       - 美国洛杉矶Bandwagon
       - 🇭🇰 香港阿里云
       - 🇭🇰 香港HKIX-100Gbps入口
-      - 🇭🇰 香港Amazon-EC2
       - Visa的钞能力
       - Visa同IP段
       - Cloudflare企业路由
