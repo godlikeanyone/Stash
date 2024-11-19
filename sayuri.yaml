@@ -188,6 +188,9 @@ rules:
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
   - DOMAIN,cp3.hboav.com,✨ Preferred
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
+  - DOMAIN-SUFFIX,discord.gg,✨ Preferred
+  - DOMAIN-SUFFIX,discord.media,✨ Preferred
+  - DOMAIN-SUFFIX,discordapp.com,✨ Preferred
   - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
   - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
   - DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
