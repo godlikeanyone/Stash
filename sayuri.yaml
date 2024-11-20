@@ -67,7 +67,6 @@ proxies:
   - {name: 🇬🇧 VIP-英国 - 2242, server: 36.151.192.242, port: 44036, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.242, skip-cert-verify: true}
   - {name: 🇳🇱 VIP-荷兰 - 1215, server: 36.151.192.215, port: 29769, client-fingerprint: chrome, type: trojan, password: uVDyjhhl, sni: 36.151.192.215, skip-cert-verify: true}
   - {name: 美国洛杉矶Bandwagon, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
-  - {name: 🇭🇰 香港阿里云, server: 8.218.80.236, port: 6868, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港HKIX-100Gbps入口, server: 218.102.249.182, port: 5443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa的钞能力, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Visa同IP段, server: 162.159.134.42, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -126,7 +125,6 @@ proxy-groups:
       - 🇬🇧 VIP-英国 - 2242
       - 🇳🇱 VIP-荷兰 - 1215
       - 美国洛杉矶Bandwagon
-      - 🇭🇰 香港阿里云
       - 🇭🇰 香港HKIX-100Gbps入口
       - Visa的钞能力
       - Visa同IP段
