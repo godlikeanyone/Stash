@@ -89,9 +89,6 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶DMIT-Fastly, server: gov.uk, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: beijing.cn}}}
   - {name: 🇺🇸 美国洛杉矶DMIT-GCore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶DMIT-GCore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
-  - {name: Fastly香港CMI-NTT1, server: 151.101.193.57, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
-  - {name: Fastly香港CMI-NTT2, server: 151.101.193.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
-  - {name: Fastly香港CMI-Telstra, server: 151.101.77.229, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly-CDN443端口, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly官网, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
   - {name: Fastly英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
@@ -146,9 +143,6 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶DMIT-Fastly
       - 🇺🇸 美国洛杉矶DMIT-GCore443
       - 🇺🇸 美国洛杉矶DMIT-GCore80
-      - Fastly香港CMI-NTT1
-      - Fastly香港CMI-NTT2
-      - Fastly香港CMI-Telstra
       - Fastly-CDN443端口
       - Fastly官网
       - Fastly英国政府
