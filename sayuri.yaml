@@ -170,6 +170,8 @@ rules:
   - IP-ASN,45102,DIRECT
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN,time.is,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
+  - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
   - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
   - DOMAIN,api.weibo.cn,🌎 Proxies
   - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
