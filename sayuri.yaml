@@ -69,6 +69,9 @@ proxies:
   - {name: 美国洛杉矶Bandwagon, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 移动优选IP, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 佳明, server: www.garmin.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 极星, server: www.polestar.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 印尼烟草集团, server: www.blibli.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Sayuri优选IP, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: vvhan优选IP, server: cf.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 香港低延迟IPv6, server: 2a06:98c1:56::4d45:3d73, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -123,6 +126,9 @@ proxy-groups:
       - 美国洛杉矶Bandwagon
       - 电信
       - 移动优选IP
+      - 佳明
+      - 极星
+      - 印尼烟草集团
       - Sayuri优选IP
       - vvhan优选IP
       - 香港低延迟IPv6
