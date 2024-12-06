@@ -69,7 +69,6 @@ proxies:
   - {name: Visa同IP段, server: 162.159.134.42, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: Cloudflare企业路由, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 博通的钞能力, server: www.broadcom.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 香港低延迟IPv4, server: 162.159.128.219, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 移动-HKG-2024-10-14 16:27:37 3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -114,7 +113,6 @@ proxy-groups:
       - Visa同IP段
       - Cloudflare企业路由
       - 博通的钞能力
-      - 香港低延迟IPv4
       - 🇭🇰 移动-HKG-2024-10-14 16:27:37
       - 🇭🇰 移动-HKG-2024-10-14 16:27:37 2
       - 🇭🇰 移动-HKG-2024-10-14 16:27:37 3
