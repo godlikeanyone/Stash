@@ -136,9 +136,9 @@ proxy-groups:
     proxies:
       - 美国洛杉矶Bandwagon - 移动优化
       - 🇺🇸 美国洛杉矶DMIT
-      - 🇺🇸 美国洛杉矶DMIT-Fastly
-      - 🇺🇸 美国洛杉矶DMIT-GCore443
-      - 🇺🇸 美国洛杉矶DMIT-GCore80
+      - 🇺🇸 美国洛杉矶DMIT - Fastly
+      - 🇺🇸 美国洛杉矶DMIT - GCore443
+      - 🇺🇸 美国洛杉矶DMIT - GCore80
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
