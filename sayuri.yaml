@@ -115,10 +115,10 @@ proxy-groups:
       - 🇭🇰 香港 - 移动4
       - 🇭🇰 香港 - 移动5
       - 🇹🇼 台湾 - 电信专线
-      - 🇺🇸 美国洛杉矶DMIT
-      - 🇺🇸 美国洛杉矶DMIT-Fastly
-      - 🇺🇸 美国洛杉矶DMIT-Gcore443
-      - 🇺🇸 美国洛杉矶DMIT-Gcore80
+      - 🇺🇸 美国洛杉矶DMIT - 电信
+      - 🇺🇸 美国洛杉矶DMIT - Fastly
+      - 🇺🇸 美国洛杉矶DMIT - Gcore443
+      - 🇺🇸 美国洛杉矶DMIT - Gcore80
       - Fastly-CDN443端口
       - Fastly官网
       - Fastly英国政府
@@ -133,10 +133,10 @@ proxy-groups:
     type: select
     proxies:
       - 美国洛杉矶Bandwagon - 移动优化
-      - 🇺🇸 美国洛杉矶DMIT
+      - 🇺🇸 美国洛杉矶DMIT - 电信
       - 🇺🇸 美国洛杉矶DMIT - Fastly
-      - 🇺🇸 美国洛杉矶DMIT - GCore443
-      - 🇺🇸 美国洛杉矶DMIT - GCore80
+      - 🇺🇸 美国洛杉矶DMIT - Gcore443
+      - 🇺🇸 美国洛杉矶DMIT - Gcore80
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
