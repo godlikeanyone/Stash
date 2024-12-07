@@ -132,7 +132,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 美国洛杉矶Bandwagon - 移动优化
+      - 美国洛杉矶Bandwagon - 移动
       - 🇺🇸 美国洛杉矶DMIT - 电信
       - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
