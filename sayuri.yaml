@@ -60,6 +60,8 @@ proxies:
   - {name: 🇭🇰 香港 - 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 佳明, server: www.garmin.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 巴黎欧莱雅, server: www.lorealparis.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 家乐福, server: www.carrefour.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 极星, server: www.polestar.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 印尼烟草集团, server: www.blibli.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -87,8 +89,6 @@ proxies:
   - {name: 🇺🇸 美国 - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - 移动cm, server: cmcc.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - 电信cm, server: cf.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -102,6 +102,8 @@ proxy-groups:
       - 🇭🇰 香港 - 电信
       - 🇭🇰 香港 - 移动
       - 🇭🇰 香港 - 佳明
+      - 🇭🇰 香港 - 巴黎欧莱雅
+      - 🇭🇰 香港 - 家乐福
       - 🇭🇰 香港 - 极星
       - 🇭🇰 香港 - 印尼烟草集团
       - 🇺🇸 美国华盛顿 - Sayuri
@@ -129,8 +131,6 @@ proxy-groups:
       - 🇺🇸 美国 - B站
       - 🇺🇸 美国 - Notion
       - 🇺🇸 美国 - 爱料理
-      - 🇭🇰 香港 - 移动cm
-      - 🇭🇰 香港 - 电信cm
   - name: ✨ Preferred
     type: select
     proxies:
