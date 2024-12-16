@@ -146,6 +146,7 @@ rules:
   - IP-ASN,6185,DIRECT
   - IP-ASN,132203,DIRECT
   - IP-ASN,45102,DIRECT
+  - DOMAIN,speedtest.im,DIRECT
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,svc.ms,DIRECT
   - DOMAIN,time.is,DIRECT
