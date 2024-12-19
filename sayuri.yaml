@@ -54,7 +54,6 @@ proxies:
   - {name: 🇭🇰 香港 - 电信1, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: c05bf008-2d9d-4070-91b6-f3aaad66c966, tls: true, servername: tsg.ssorg.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: tsg.ssorg.us.kg}}}
   - {name: 🇺🇸 美国堪萨斯 - 电信, server: ct.090227.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: f1f92090-2856-45de-a6a9-97fa82a4f414, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us.trevely.us.kg, network: ws, ws-opts: {path: /us.trevely.us.kg, headers: {Host: us.trevely.us.kg}}}
   - {name: 🇵🇱 波兰华沙 - 移动, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
-  - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
   - {name: 🇺🇸 美国洛杉矶Bandwagon - 移动, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 🇭🇰 香港 - 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -93,7 +92,6 @@ proxy-groups:
       - 🇭🇰 香港 - 电信1
       - 🇺🇸 美国堪萨斯 - 电信
       - 🇵🇱 波兰华沙 - 移动
-      - 🇺🇸 美国洛杉矶 - Gcore
       - 🇺🇸 美国洛杉矶Bandwagon - 移动
       - 🇭🇰 香港 - 电信
       - 🇭🇰 香港 - 移动
