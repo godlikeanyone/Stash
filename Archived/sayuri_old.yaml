@@ -1,0 +1,253 @@
+port: 7890
+socks-port: 7891
+mode: rule
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - '*.lan'
+    - 'localhost.ptlogin2.qq.com'
+    - '*.jegotrip.com.cn'
+    - '*.icitymobile.mobi'
+    - 'id6.me'
+    - '*.189.cn'
+    # Apple
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    # Microsoft Service
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'xbox.*.microsoft.com'
+    - 'xbox.*.*.microsoft.com'
+    - '+.xboxlive.com'
+    # Game Service
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    - '+.srv.nintendo.net'
+    - '*.n.n.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.battlenet.com.cn'
+    - '+.wotgame.cn'
+    - '+.wggames.cn'
+    - '+.wowsgame.cn'
+    - '+.wargaming.net'
+    - '*.square-enix.com'
+    - '*.finalfantasyxiv.com'
+    - '*.ffxiv.com'
+    - '*.ff14.sdo.com'
+    - 'ff.dorado.sdo.com'
+  nameserver:
+    - 223.5.5.5
+    - 223.6.6.6
+    - 119.29.29.29
+    - 119.28.28.28
+    - 114.114.114.114
+    - 114.114.115.115
+proxies:
+  - {name: 🌐全球智能路由 - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🌐全球智能路由 - PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🇵🇱 波兰华沙 - 移动, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
+  - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
+  - {name: 🇺🇸 美国洛杉矶Bandwagon - 移动, server: cfd.ipa.monster, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: /wwx, headers: {Host: www.wwxwwx.us.kg}}}
+  - {name: 🇭🇰 香港 - 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 佳明, server: www.garmin.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 巴黎欧莱雅, server: www.lorealparis.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 欧莱雅英国, server: www.loreal-paris.co.uk, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 家乐福, server: www.carrefour.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 极星, server: www.polestar.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 印尼烟草集团, server: www.blibli.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - vvhan, server: cf.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 低延迟IPv6, server: 2a06:98c1:56::4d45:3d73, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - HKIX, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - get.tech, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - 博通, server: www.broadcom.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动1, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动4, server: 2606:4700:9a91::6524:2a5c, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 移动5, server: 2606:4700:9a95::b90:7d55, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇹🇼 台湾 - 电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f17cbbdb-ec9a-42f4-9e35-3ea331ddfae9}
+  - {name: 🇺🇸 美国洛杉矶DMIT - 电信, server: ct.090227.xyz, port: 2096, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: dmit.sayuri.cf, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: dmit.sayuri.cf}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: beijing.cn}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT - Gcore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT - Gcore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
+  - {name: 🌐全球智能路由 - Arizona强加密, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
+  - {name: 🌐全球智能路由 - Fastly备用, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
+  - {name: 🌐全球智能路由 - 英国政府备用, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.mfa.gov.kp}}}
+  - {name: 🇺🇸 美国 - Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国 - CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国 - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国 - 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+proxy-groups:
+  - name: 🌎 Proxies
+    type: select
+    proxies:
+      - 🌐全球智能路由 - Fastly
+      - 🌐全球智能路由 - 英国政府
+      - 🌐全球智能路由 - PayPal
+      - 🇵🇱 波兰华沙 - 移动
+      - 🇺🇸 美国洛杉矶 - Gcore
+      - 🇺🇸 美国洛杉矶Bandwagon - 移动
+      - 🇭🇰 香港 - 电信
+      - 🇭🇰 香港 - 移动
+      - 🇭🇰 香港 - 佳明
+      - 🇭🇰 香港 - 巴黎欧莱雅
+      - 🇭🇰 香港 - 欧莱雅英国
+      - 🇭🇰 香港 - 家乐福
+      - 🇭🇰 香港 - 极星
+      - 🇭🇰 香港 - 印尼烟草集团
+      - 🇺🇸 美国华盛顿 - Sayuri
+      - 🇭🇰 香港 - vvhan
+      - 🇭🇰 香港 - 低延迟IPv6
+      - 🇭🇰 香港 - HKIX
+      - 🇩🇪 德国黑森 - Visa
+      - 🇺🇸 美国华盛顿 - get.tech
+      - 🇺🇸 美国华盛顿 - 博通
+      - 🇭🇰 香港 - 移动1
+      - 🇭🇰 香港 - 移动2
+      - 🇭🇰 香港 - 移动3
+      - 🇭🇰 香港 - 移动4
+      - 🇭🇰 香港 - 移动5
+      - 🇹🇼 台湾 - 电信专线
+      - 🇺🇸 美国洛杉矶DMIT - 电信
+      - 🇺🇸 美国洛杉矶DMIT - Fastly
+      - 🇺🇸 美国洛杉矶DMIT - Gcore443
+      - 🇺🇸 美国洛杉矶DMIT - Gcore80
+      - 🌐全球智能路由 - Arizona强加密
+      - 🌐全球智能路由 - Fastly备用
+      - 🌐全球智能路由 - 英国政府备用
+      - 🇺🇸 美国 - Cloudflare雷达
+      - 🇺🇸 美国 - CloudflareLogCDN
+      - 🇺🇸 美国 - B站
+      - 🇺🇸 美国 - Notion
+      - 🇺🇸 美国 - 爱料理
+  - name: ✨ Preferred
+    type: select
+    proxies:
+      - 🇺🇸 美国洛杉矶Bandwagon - 移动
+      - 🇺🇸 美国洛杉矶DMIT - 电信
+      - 🇺🇸 美国洛杉矶DMIT - Fastly
+      - 🇺🇸 美国洛杉矶DMIT - Gcore443
+      - 🇺🇸 美国洛杉矶DMIT - Gcore80
+rules:
+  - IP-ASN,714,DIRECT
+  - IP-ASN,6185,DIRECT
+  - IP-ASN,132203,DIRECT
+  - IP-ASN,45102,DIRECT
+  - DOMAIN,speedtest.im,DIRECT
+  - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
+  - DOMAIN-SUFFIX,svc.ms,DIRECT
+  - DOMAIN,time.is,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
+  - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
+  - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
+  - DOMAIN,api.weibo.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
+  - DOMAIN,tieba.baidu.com,🌎 Proxies
+  - DOMAIN,tiebac.baidu.com,🌎 Proxies
+  - DOMAIN,c.tieba.baidu.com,🌎 Proxies
+  - DOMAIN-SUFFIX,hboav.com,✨ Preferred
+  - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
+  - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
+  - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
+  - DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
+  - IP-CIDR,114.55.236.88/32,✨ Preferred
+  - IP-CIDR,47.97.64.97/32,✨ Preferred
+  - IP-CIDR,47.97.66.48/32,✨ Preferred
+  - IP-CIDR,81.69.116.86/32,✨ Preferred
+  - IP-CIDR,119.45.249.52/32,✨ Preferred
+  - IP-CIDR,81.69.116.87/32,✨ Preferred
+  - IP-CIDR,119.45.2.92/32,✨ Preferred
+  - IP-CIDR,1.13.12.27/32,✨ Preferred
+  - IP-CIDR,81.69.116.102/32,✨ Preferred
+  - IP-CIDR,43.159.25.122/32,✨ Preferred
+  - IP-CIDR,43.159.25.28/32,✨ Preferred
+  - IP-CIDR,47.246.29.223/32,✨ Preferred
+  - IP-CIDR,47.246.29.226/32,✨ Preferred
+  - IP-CIDR,47.246.29.227/32,✨ Preferred
+  - IP-CIDR,47.246.29.225/32,✨ Preferred
+  - IP-CIDR,47.246.29.224/32,✨ Preferred
+  - IP-CIDR,47.246.29.222/32,✨ Preferred
+  - IP-CIDR,47.246.29.229/32,✨ Preferred
+  - IP-CIDR,47.246.29.228/32,✨ Preferred
+  - IP-CIDR,211.152.149.12/32,✨ Preferred
+  - IP-CIDR,49.51.224.95/32,✨ Preferred
+  - IP-CIDR,43.175.44.15/32,✨ Preferred
+  - IP-CIDR,23.236.104.30/32,✨ Preferred
+  - IP-CIDR,43.132.81.61/32,✨ Preferred
+  - IP-CIDR,101.33.27.26/32,✨ Preferred
+  - IP-CIDR,43.152.29.38/32,✨ Preferred
+  - IP-CIDR,43.152.26.110/32,✨ Preferred
+  - IP-CIDR,101.33.11.32/32,✨ Preferred
+  - IP-CIDR,163.181.1.228/32,✨ Preferred
+  - IP-CIDR,163.181.1.226/32,✨ Preferred
+  - IP-CIDR,163.181.1.230/32,✨ Preferred
+  - IP-CIDR,163.181.1.227/32,✨ Preferred
+  - IP-CIDR,163.181.1.231/32,✨ Preferred
+  - IP-CIDR,163.181.1.229/32,✨ Preferred
+  - IP-CIDR,163.181.1.224/32,✨ Preferred
+  - IP-CIDR,163.181.1.225/32,✨ Preferred
+  - IP-CIDR,47.246.23.230/32,✨ Preferred
+  - IP-CIDR,47.246.23.234/32,✨ Preferred
+  - IP-CIDR,47.246.23.228/32,✨ Preferred
+  - IP-CIDR,47.246.23.233/32,✨ Preferred
+  - IP-CIDR,47.246.23.231/32,✨ Preferred
+  - IP-CIDR,47.246.23.232/32,✨ Preferred
+  - IP-CIDR,47.246.23.227/32,✨ Preferred
+  - IP-CIDR,47.246.23.229/32,✨ Preferred
+  - IP-CIDR,43.152.42.109/32,✨ Preferred
+  - IP-CIDR,43.175.22.27/32,✨ Preferred
+  - IP-CIDR,43.175.22.42/32,✨ Preferred
+  - IP-CIDR,43.175.22.26/32,✨ Preferred
+  - IP-CIDR,43.132.84.11/32,✨ Preferred
+  - IP-CIDR,101.33.20.34/32,✨ Preferred
+  - IP-CIDR,49.51.224.105/32,✨ Preferred
+  - IP-CIDR,49.51.224.103/32,✨ Preferred
+  - IP-CIDR,163.181.92.232/32,✨ Preferred
+  - IP-CIDR,163.181.92.233/32,✨ Preferred
+  - IP-CIDR,163.181.92.237/32,✨ Preferred
+  - IP-CIDR,163.181.92.238/32,✨ Preferred
+  - IP-CIDR,163.181.92.231/32,✨ Preferred
+  - IP-CIDR,163.181.92.234/32,✨ Preferred
+  - IP-CIDR,163.181.92.236/32,✨ Preferred
+  - IP-CIDR,163.181.92.235/32,✨ Preferred
+  - IP-CIDR,43.132.83.175/32,✨ Preferred
+  - IP-CIDR,43.132.83.54/32,✨ Preferred
+  - IP-CIDR,43.132.83.9/32,✨ Preferred
+  - IP-CIDR,43.132.91.37/32,✨ Preferred
+  - IP-CIDR,43.132.91.110/32,✨ Preferred
+  - IP-CIDR,43.132.91.45/32,✨ Preferred
+  - IP-CIDR,150.109.222.109/32,✨ Preferred
+  - IP-CIDR,150.109.222.102/32,✨ Preferred
+  - IP-CIDR,150.109.222.97/32,✨ Preferred
+  - IP-CIDR,150.109.223.49/32,✨ Preferred
+  - IP-CIDR,150.109.222.103/32,✨ Preferred
+  - IP-CIDR,150.109.222.99/32,✨ Preferred
+  - IP-CIDR,150.109.222.110/32,✨ Preferred
+  - IP-CIDR,203.205.220.62/32,✨ Preferred
+  - DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
+  - DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
+  - DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
+  - DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.com,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
+  - DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,🌎 Proxies
