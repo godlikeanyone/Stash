@@ -78,7 +78,6 @@ proxies:
   - {name: 🇭🇰 香港 - 移动5, server: 2606:4700:9a95::b90:7d55, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇹🇼 台湾 - 电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f17cbbdb-ec9a-42f4-9e35-3ea331ddfae9}
   - {name: 🇺🇸 美国洛杉矶DMIT - 电信, server: ct.090227.xyz, port: 2096, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: dmit.sayuri.cf, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: dmit.sayuri.cf}}}
-  - {name: 🇺🇸 美国洛杉矶DMIT - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: beijing.cn}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国 - Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -117,7 +116,6 @@ proxy-groups:
       - 🇭🇰 香港 - 移动5
       - 🇹🇼 台湾 - 电信专线
       - 🇺🇸 美国洛杉矶DMIT - 电信
-      - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
       - 🇺🇸 美国 - Cloudflare雷达
@@ -130,7 +128,6 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国洛杉矶Bandwagon - 移动
       - 🇺🇸 美国洛杉矶DMIT - 电信
-      - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
 rules:
