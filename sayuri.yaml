@@ -51,6 +51,9 @@ dns:
     - 114.114.114.114
     - 114.114.115.115
 proxies:
+  - {name: 🌐全球智能路由 - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🌐全球智能路由 - PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🇭🇰 香港 - 电信1, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: c05bf008-2d9d-4070-91b6-f3aaad66c966, tls: true, servername: tsg.ssorg.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: tsg.ssorg.us.kg}}}
   - {name: 🇺🇸 美国堪萨斯 - 电信, server: ct.090227.xyz, port: 8443, client-fingerprint: chrome, type: vmess, uuid: f1f92090-2856-45de-a6a9-97fa82a4f414, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: us.trevely.us.kg, network: ws, ws-opts: {path: /us.trevely.us.kg, headers: {Host: us.trevely.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
@@ -89,6 +92,9 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - 🌐全球智能路由 - Fastly
+      - 🌐全球智能路由 - 英国政府
+      - 🌐全球智能路由 - PayPal
       - 🇭🇰 香港 - 电信1
       - 🇺🇸 美国堪萨斯 - 电信
       - 🇺🇸 美国洛杉矶 - Gcore
