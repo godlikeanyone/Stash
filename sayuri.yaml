@@ -73,7 +73,7 @@ proxies:
   - {name: 🇭🇰 香港 - HKIX, server: 172.64.232.5, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - get.tech, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇺🇸 美国华盛顿 - 博通, server: www.broadcom.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - BootStrap, server: getbootstrap.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动1, server: 2606:4700:8399::2a27:4316, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动2, server: 2606:4700:ff00::4191:1f8, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动3, server: 2606:4700:9b01::670:3aeb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -89,8 +89,8 @@ proxies:
   - {name: 🇺🇸 美国 - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🌐全球智能路由 - Fastly备用, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
-  - {name: 🌐全球智能路由 - 英国政府备用, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
+  - {name: 🌐全球智能路由 - Python, server: www.python.org, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
+  - {name: 🌐全球智能路由 - IPv6, server: 2a04:4e42:1a::645, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
   - {name: 🌐全球智能路由 - Arizona强加密, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
 proxy-groups:
   - name: 🌎 Proxies
@@ -118,7 +118,7 @@ proxy-groups:
       - 🇭🇰 香港 - HKIX
       - 🇩🇪 德国黑森 - Visa
       - 🇺🇸 美国华盛顿 - get.tech
-      - 🇺🇸 美国华盛顿 - 博通
+      - 🇺🇸 美国华盛顿 - BootStrap
       - 🇭🇰 香港 - 移动1
       - 🇭🇰 香港 - 移动2
       - 🇭🇰 香港 - 移动3
@@ -134,8 +134,8 @@ proxy-groups:
       - 🇺🇸 美国 - B站
       - 🇺🇸 美国 - Notion
       - 🇺🇸 美国 - 爱料理
-      - 🌐全球智能路由 - Fastly备用
-      - 🌐全球智能路由 - 英国政府备用
+      - 🌐全球智能路由 - Python
+      - 🌐全球智能路由 - IPv6
       - 🌐全球智能路由 - Arizona强加密
   - name: ✨ Preferred
     type: select
