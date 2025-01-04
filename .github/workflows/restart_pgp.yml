@@ -2,7 +2,7 @@ name: Restart PGP
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 2 * * *"
+    - cron: "15 2,12 * * *"
 jobs:
   build:
     name: Build
