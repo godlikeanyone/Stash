@@ -56,7 +56,7 @@ proxies:
   - {name: 🌐全球智能路由 - PayPal, server: www.paypal.com.cn, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
   - {name: 🇵🇱 波兰华沙 - 移动, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
-  - {name: 🇺🇸 美国洛杉矶Bandwagon - 移动, server: cf.vvhan.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: '/wwx?ed=2560', headers: {Host: www.wwxwwx.us.kg}}}
+  - {name: 🇺🇸 美国洛杉矶Bandwagon - 爱料理, server: icook.tw, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: '/wwx?ed=2560', headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 🇭🇰 香港 - 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -88,7 +88,7 @@ proxy-groups:
       - 🌐全球智能路由 - PayPal
       - 🇺🇸 美国洛杉矶 - Gcore
       - 🇵🇱 波兰华沙 - 移动
-      - 🇺🇸 美国洛杉矶Bandwagon - 移动
+      - 🇺🇸 美国洛杉矶Bandwagon - 爱料理
       - 🇭🇰 香港 - 电信
       - 🇭🇰 香港 - 移动
       - 🇺🇸 美国华盛顿 - Sayuri
@@ -114,7 +114,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶Bandwagon - 移动
+      - 🇺🇸 美国洛杉矶Bandwagon - 爱料理
       - 🇺🇸 美国洛杉矶DMIT - 电信
       - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
