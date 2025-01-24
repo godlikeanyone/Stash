@@ -58,8 +58,10 @@ proxies:
   - {name: 🇵🇱 波兰华沙 - 移动, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶Bandwagon - 爱料理, server: icook.tw, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: '/wwx?ed=2560', headers: {Host: www.wwxwwx.us.kg}}}
   - {name: 🇭🇰 香港 - 谷歌云, server: 35.215.187.184, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 迈凯伦汽车, server: cars.mclaren.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 迈凯伦集团, server: www.mclaren.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - 洲际酒店集团, server: www.ihgplc.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - vvhan, server: cf.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - get.tech, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - BootStrap, server: getbootstrap.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -86,8 +88,10 @@ proxy-groups:
       - 🇵🇱 波兰华沙 - 移动
       - 🇺🇸 美国洛杉矶Bandwagon - 爱料理
       - 🇭🇰 香港 - 谷歌云
+      - 🇭🇰 香港 - 迈凯伦汽车
+      - 🇭🇰 香港 - 迈凯伦集团
+      - 🇺🇸 美国华盛顿 - 洲际酒店集团
       - 🇺🇸 美国华盛顿 - Sayuri
-      - 🇭🇰 香港 - vvhan
       - 🇩🇪 德国黑森 - Visa
       - 🇺🇸 美国华盛顿 - get.tech
       - 🇺🇸 美国华盛顿 - BootStrap
