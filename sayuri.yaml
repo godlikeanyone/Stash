@@ -65,7 +65,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - get.tech, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - BootStrap, server: getbootstrap.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇹🇼 台湾 - 电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f17cbbdb-ec9a-42f4-9e35-3ea331ddfae9}
-  - {name: 🇺🇸 美国洛杉矶DMIT - 电信, server: ct.090227.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: testv.sayuri.cf, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: testv.sayuri.cf}}}
+  - {name: 🇺🇸 美国洛杉矶DMIT - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: testv.sayuri.cf, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: testv.sayuri.cf}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: www.cuhk.edu.hk}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: dmit.sayuri.us.kg}}}
@@ -97,7 +97,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - get.tech
       - 🇺🇸 美国华盛顿 - BootStrap
       - 🇹🇼 台湾 - 电信专线
-      - 🇺🇸 美国洛杉矶DMIT - 电信
+      - 🇺🇸 美国洛杉矶DMIT - B站
       - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
@@ -115,7 +115,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶Bandwagon - 爱料理
-      - 🇺🇸 美国洛杉矶DMIT - 电信
+      - 🇺🇸 美国洛杉矶DMIT - B站
       - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
