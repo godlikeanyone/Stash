@@ -57,8 +57,7 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
   - {name: 🇵🇱 波兰华沙 - 移动, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, alterId: 0, cipher: auto, tls: true, servername: serv.sayuri.us.kg, network: ws, ws-opts: {path: '/xx', headers: {Host: serv.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶Bandwagon - 爱料理, server: icook.tw, port: 8443, client-fingerprint: chrome, type: vless, uuid: a0543301-b134-479f-892c-72e8a2fa6064, tls: true, servername: www.wwxwwx.us.kg, network: ws, ws-opts: {path: '/wwx?ed=2560', headers: {Host: www.wwxwwx.us.kg}}}
-  - {name: 🇭🇰 香港 - 电信, server: ct.090227.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - 移动, server: cfd.ipa.monster, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇭🇰 香港 - 谷歌云, server: 35.215.187.184, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - vvhan, server: cf.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -70,16 +69,13 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore80, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: dmit.sayuri.us.kg}}}
   - {name: 🇺🇸 美国 - Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - CloudflareLogCDN, server: cdn.logr-ingest.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - 爱料理, server: icook.tw, port: 2053, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🌐全球智能路由 - Fastly备用, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
   - {name: 🌐全球智能路由 - Klaviyo, server: static.klaviyo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: static.klaviyo.com, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
   - {name: 🌐全球智能路由 - Arizona, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
-  - {name: 🇭🇰 香港 - 移动IPv6, server: 2606:4700:9a91::6524:2a5c, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇭🇰 香港 - 低延迟IPv6, server: 2a06:98c1:56::4d45:3d73, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-proxy-groups:
+  proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
@@ -89,8 +85,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶 - Gcore
       - 🇵🇱 波兰华沙 - 移动
       - 🇺🇸 美国洛杉矶Bandwagon - 爱料理
-      - 🇭🇰 香港 - 电信
-      - 🇭🇰 香港 - 移动
+      - 🇭🇰 香港 - 谷歌云
       - 🇺🇸 美国华盛顿 - Sayuri
       - 🇭🇰 香港 - vvhan
       - 🇩🇪 德国黑森 - Visa
@@ -102,15 +97,12 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
       - 🇺🇸 美国 - Cloudflare雷达
-      - 🇭🇰 香港 - CloudflareLogCDN
       - 🇺🇸 美国 - B站
       - 🇺🇸 美国 - Notion
       - 🇺🇸 美国 - 爱料理
       - 🌐全球智能路由 - Fastly备用
       - 🌐全球智能路由 - Klaviyo
       - 🌐全球智能路由 - Arizona
-      - 🇭🇰 香港 - 移动IPv6
-      - 🇭🇰 香港 - 低延迟IPv6
   - name: ✨ Preferred
     type: select
     proxies:
