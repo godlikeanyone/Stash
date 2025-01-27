@@ -64,6 +64,7 @@ proxies:
   - {name: 🇭🇰 香港 - 迈凯伦集团, server: www.mclaren.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 洲际酒店集团, server: www.ihgplc.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 华尔道夫, server: www.waldorftowers.nyc, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - 安缦, server: www.aman.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - get.tech, server: get.tech, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -76,7 +77,7 @@ proxies:
   - {name: 🇺🇸 美国 - Cloudflare雷达, server: performance.radar.cloudflare.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🌐全球智能路由 - Fastly备用, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
+  - {name: 🌐全球智能路由 - 雅高, server: all.accor.com, port: 80, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: false, servername: gov.uk, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
   - {name: 🌐全球智能路由 - Klaviyo, server: static.klaviyo.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: static.klaviyo.com, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
   - {name: 🌐全球智能路由 - Arizona, server: www.arizona.edu, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: www.arizona.edu, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: www.csust.edu.cn}}}
 proxy-groups:
@@ -96,6 +97,7 @@ proxy-groups:
       - 🇭🇰 香港 - 迈凯伦集团
       - 🇺🇸 美国华盛顿 - 洲际酒店集团
       - 🇺🇸 美国华盛顿 - 华尔道夫
+      - 🇺🇸 美国华盛顿 - 安缦
       - 🇺🇸 美国华盛顿 - Sayuri
       - 🇩🇪 德国黑森 - Visa
       - 🇺🇸 美国华盛顿 - get.tech
@@ -108,7 +110,7 @@ proxy-groups:
       - 🇺🇸 美国 - Cloudflare雷达
       - 🇺🇸 美国 - B站
       - 🇺🇸 美国 - Notion
-      - 🌐全球智能路由 - Fastly备用
+      - 🌐全球智能路由 - 雅高
       - 🌐全球智能路由 - Klaviyo
       - 🌐全球智能路由 - Arizona
   - name: ✨ Preferred
