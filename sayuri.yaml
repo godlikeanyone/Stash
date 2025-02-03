@@ -120,11 +120,11 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶Bandwagon - Notion
       - 🇺🇸 美国洛杉矶DMIT - B站
       - 🇺🇸 美国洛杉矶DMIT - Fastly
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
       - 🇺🇸 美国洛杉矶DMIT - Gcore80
+      - 🇺🇸 美国洛杉矶Bandwagon - Notion
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
