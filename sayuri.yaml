@@ -125,6 +125,7 @@ rules:
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,svc.ms,DIRECT
   - DOMAIN,time.is,DIRECT
+  - DOMAIN,api.bilibili.com,🌎 Proxies
   - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
   - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
   - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
