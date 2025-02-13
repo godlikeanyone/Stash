@@ -129,6 +129,7 @@ rules:
   - DOMAIN-SUFFIX,svc.ms,DIRECT
   - DOMAIN,speedtest.im,DIRECT
   - DOMAIN,time.is,DIRECT
+  - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
   - DOMAIN,api.bilibili.com,🌎 Proxies
   - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
   - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
