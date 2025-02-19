@@ -61,6 +61,7 @@ proxies:
   - {name: 🇭🇰 香港 - 移动2, server: 104.25.254.197, port: 2096, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: vless.lioil.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动3, server: 104.25.253.197, port: 2053, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: vless.lioil.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - 优选IP, server: fk.bestip.one, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 葡萄牙航空, server: www.flytap.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -93,6 +94,7 @@ proxy-groups:
       - 🇭🇰 香港 - 移动2
       - 🇭🇰 香港 - 移动3
       - 🇺🇸 美国华盛顿 - DMIT
+      - 🇺🇸 美国华盛顿 - 优选IP
       - 🇺🇸 美国华盛顿 - 印尼鹰航
       - 🇺🇸 美国华盛顿 - 葡萄牙航空
       - 🇺🇸 美国华盛顿 - 瑞典政府
