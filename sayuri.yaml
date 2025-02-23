@@ -60,6 +60,8 @@ proxies:
   - {name: 🇭🇰 香港 - AKILE, server: 83.147.2.104, port: 8080, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: vless.lioil.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇭🇰 香港 - 移动, server: 104.25.253.197, port: 2053, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: vless.lioil.us.kg, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - 云中转, server: download.ywgho.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 优选IP, server: fk.bestip.one, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - GitHub, server: www.hubp.me, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
@@ -68,7 +70,8 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - 微测网, server: sayuri.cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - 中东航空, server: www.mea.com.lb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇺🇸 美国华盛顿 - CMLiu, server: GitHub.CMLiussss.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
-  - {name: 🇩🇪 德国黑森 - Visa, server: visa.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - Visa, server: www.visa.com.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
+  - {name: 🇺🇸 美国华盛顿 - Shopify, server: www.shopify.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: vless.lioil.us.kg, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: vless.lioil.us.kg}}}
   - {name: 🇹🇼 台湾 - 电信专线, server: sstw01.mypokeworld.link, port: 54001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f17cbbdb-ec9a-42f4-9e35-3ea331ddfae9}
   - {name: 🇺🇸 美国洛杉矶DMIT - B站, server: upos-sz-mirrorcf1ov.bilivideo.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: testv.sayuri.cf, alpn: [h3], network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: testv.sayuri.cf}}}
   - {name: 🇺🇸 美国洛杉矶DMIT - Gcore443, server: gcore.182682.xyz, port: 443, client-fingerprint: chrome, type: vmess, uuid: a1db2012-e194-41f7-a20f-96ec69af70b8, alterId: 0, cipher: auto, tls: true, servername: dmit.sayuri.us.kg, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: dmit.sayuri.us.kg}}}
@@ -88,6 +91,8 @@ proxy-groups:
       - 🇭🇰 香港 - AKILE
       - 🇭🇰 香港 - 移动
       - 🇺🇸 美国华盛顿 - DMIT
+      - 🇺🇸 美国华盛顿 - 云中转
+      - 🇺🇸 美国华盛顿 - Sayuri
       - 🇺🇸 美国华盛顿 - 优选IP
       - 🇺🇸 美国华盛顿 - GitHub
       - 🇺🇸 美国华盛顿 - 印尼鹰航
@@ -96,7 +101,8 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - 微测网
       - 🇺🇸 美国华盛顿 - 中东航空
       - 🇺🇸 美国华盛顿 - CMLiu
-      - 🇩🇪 德国黑森 - Visa
+      - 🇺🇸 美国华盛顿 - Visa
+      - 🇺🇸 美国华盛顿 - Shopify
       - 🇹🇼 台湾 - 电信专线
       - 🇺🇸 美国洛杉矶DMIT - B站
       - 🇺🇸 美国洛杉矶DMIT - Gcore443
