@@ -104,6 +104,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
+      - 🇹🇼 台湾 - 专线
       - 🇵🇱 波兰华沙 - CMLiu
 rules:
   - IP-ASN,714,DIRECT
