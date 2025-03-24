@@ -1,7 +1,7 @@
 name: DNS
 desc: 自定义DNS
 category: Network
-icon: https://cdn.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Alibaba.png
+icon: https://cdn.jsdelivr.net/gh/Koolson/Qure/refs/heads/master/IconSet/Area.png
 
 dns: #!replace
   enable: true
@@ -48,11 +48,8 @@ dns: #!replace
     - 'ff.dorado.sdo.com'
   nameserver:
     - 223.5.5.5
-    - 223.6.6.6
     - 119.29.29.29
-    - 119.28.28.28
     - 114.114.114.114
-    - 114.114.115.115
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
