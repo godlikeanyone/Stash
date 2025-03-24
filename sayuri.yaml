@@ -69,7 +69,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 微测网, server: cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 中东航空, server: www.mea.com.lb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - CMLiu, server: GitHub.CMLiussss.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Termly, server: app.termly.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Visa, server: www.visa.com.tw, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Shopify, server: www.shopify.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - 专线, server: tw.poke-mon.xyz, port: 20000, client-fingerprint: chrome, type: hysteria2, password: 38375953-b028-4f06-84e4-831045559562, auth: 38375953-b028-4f06-84e4-831045559562, sni: www.bing.com, skip-cert-verify: true}
@@ -96,7 +96,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - 瑞典政府
       - 🇺🇸 美国华盛顿 - 微测网
       - 🇺🇸 美国华盛顿 - 中东航空
-      - 🇺🇸 美国华盛顿 - CMLiu
+      - 🇺🇸 美国华盛顿 - Termly
       - 🇺🇸 美国华盛顿 - Visa
       - 🇺🇸 美国华盛顿 - Shopify
       - 🇹🇼 台湾 - 专线
