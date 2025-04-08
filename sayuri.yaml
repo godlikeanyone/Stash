@@ -58,6 +58,7 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶 - Gcore, server: gcore.182682.xyz, port: 80, client-fingerprint: chrome, type: vless, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, tls: false, network: ws, ws-opts: {path: '/', headers: {Host: cmliussss.com}}}
   - {name: 🇭🇰 香港 - STACKS, server: 205.198.105.70, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - 移动, server: 104.25.253.197, port: 2053, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: fast.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon, server: 199.115.230.138, port: 12934, client-fingerprint: chrome, type: vless, uuid: 381b9b37-c38b-41d7-b705-59234dcd7fdc, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 云中转, server: download.ywgho.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -85,6 +86,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶 - Gcore
       - 🇭🇰 香港 - STACKS
       - 🇭🇰 香港 - 移动
+      - 🇺🇸 美国华盛顿 - Bandwagon
       - 🇺🇸 美国华盛顿 - DMIT
       - 🇺🇸 美国华盛顿 - HubSpot
       - 🇺🇸 美国华盛顿 - 云中转
@@ -104,6 +106,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
+      - 🇺🇸 美国华盛顿 - Bandwagon
       - 🇹🇼 台湾 - 专线
 rules:
   - IP-ASN,714,DIRECT
