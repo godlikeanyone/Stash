@@ -58,6 +58,9 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Bandwagon, server: xui.harry.nom.za, port: 2096, client-fingerprint: chrome, type: vless, uuid: dde75dfd-35d8-4e38-b3a2-6cebf9165242, tls: false, network: tcp}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - HubSpot1, server: js.hsadspixel.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - HubSpot2, server: cta-service-cms2.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - HubSpot3, server: forms.hscollectedforms.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 云中转, server: download.ywgho.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 优选IP, server: fk.bestip.one, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -86,6 +89,9 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon
       - 🇺🇸 美国华盛顿 - DMIT
       - 🇺🇸 美国华盛顿 - HubSpot
+      - 🇺🇸 美国华盛顿 - HubSpot1
+      - 🇺🇸 美国华盛顿 - HubSpot2
+      - 🇺🇸 美国华盛顿 - HubSpot3
       - 🇺🇸 美国华盛顿 - 云中转
       - 🇺🇸 美国华盛顿 - Sayuri
       - 🇺🇸 美国华盛顿 - 优选IP
