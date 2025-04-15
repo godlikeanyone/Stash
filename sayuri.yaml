@@ -9,8 +9,6 @@ dns:
     - '*.lan'
     - 'localhost.ptlogin2.qq.com'
     - '*.jegotrip.com.cn'
-    - '*.icitymobile.mobi'
-    - 'id6.me'
     - '*.189.cn'
     # Apple
     - 'swscan.apple.com'
@@ -25,24 +23,6 @@ dns:
     - 'xbox.*.microsoft.com'
     - 'xbox.*.*.microsoft.com'
     - '+.xboxlive.com'
-    # Game Service
-    - '+.stun.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*.*.*'
-    - '+.srv.nintendo.net'
-    - '*.n.n.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.battlenet.com.cn'
-    - '+.wotgame.cn'
-    - '+.wggames.cn'
-    - '+.wowsgame.cn'
-    - '+.wargaming.net'
-    - '*.square-enix.com'
-    - '*.finalfantasyxiv.com'
-    - '*.ffxiv.com'
-    - '*.ff14.sdo.com'
-    - 'ff.dorado.sdo.com'
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
