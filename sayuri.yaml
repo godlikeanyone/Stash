@@ -56,6 +56,7 @@ proxies:
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.176.169, port: 11920, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: fast.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - AKILE, server: 91.229.132.49, port: 8080, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: fast.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Bandwagon, server: xui.harry.nom.za, port: 2096, client-fingerprint: chrome, type: vless, uuid: dde75dfd-35d8-4e38-b3a2-6cebf9165242, tls: false, network: tcp}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: 104.25.253.197, port: 2087, client-fingerprint: chrome, type: vless, uuid: dde75dfd-35d8-4e38-b3a2-6cebf9165242, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - MOEYY, server: github.moeyy.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -88,6 +89,7 @@ proxy-groups:
       - 🇭🇰 香港 - DMIT
       - 🇭🇰 香港 - AKILE
       - 🇺🇸 美国华盛顿 - Bandwagon
+      - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国华盛顿 - DMIT
       - 🇺🇸 美国华盛顿 - MOEYY
       - 🇺🇸 美国华盛顿 - HubSpot
@@ -111,6 +113,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国华盛顿 - Bandwagon
+      - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇹🇼 台湾 - 专线
 rules:
   - IP-ASN,714,DIRECT
