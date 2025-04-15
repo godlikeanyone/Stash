@@ -12,8 +12,6 @@ dns: #!replace
     - '*.lan'
     - 'localhost.ptlogin2.qq.com'
     - '*.jegotrip.com.cn'
-    - '*.icitymobile.mobi'
-    - 'id6.me'
     - '*.189.cn'
     # Apple
     - 'swscan.apple.com'
@@ -22,33 +20,9 @@ dns: #!replace
     - 'swdownload.apple.com'
     - 'swcdn.apple.com'
     - 'swdist.apple.com'
-    # Microsoft Service
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - 'xbox.*.microsoft.com'
-    - 'xbox.*.*.microsoft.com'
-    - '+.xboxlive.com'
-    # Game Service
-    - '+.stun.*.*'
-    - '+.stun.*.*.*'
-    - '+.stun.*.*.*.*'
-    - '+.stun.*.*.*.*.*'
-    - '+.srv.nintendo.net'
-    - '*.n.n.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.battlenet.com.cn'
-    - '+.wotgame.cn'
-    - '+.wggames.cn'
-    - '+.wowsgame.cn'
-    - '+.wargaming.net'
-    - '*.square-enix.com'
-    - '*.finalfantasyxiv.com'
-    - '*.ffxiv.com'
-    - '*.ff14.sdo.com'
-    - 'ff.dorado.sdo.com'
   nameserver:
-    - 223.5.5.5
     - 180.184.1.1
+    - 223.5.5.5
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
