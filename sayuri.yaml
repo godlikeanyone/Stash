@@ -40,6 +40,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: 104.25.253.197, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇸🇬 新加坡 - 阿里云, server: affsgcdsurdx.ap-southeast-1.clawcloudrun.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: affsgcdsurdx.ap-southeast-1.clawcloudrun.com}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 0sm, server: cf.0sm.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - MOEYY, server: github.moeyy.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -74,6 +75,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇸🇬 新加坡 - 阿里云
       - 🇫🇷 法国 - Wise
+      - 🇺🇸 美国华盛顿 - 0sm
       - 🇺🇸 美国华盛顿 - DMIT
       - 🇺🇸 美国华盛顿 - MOEYY
       - 🇺🇸 美国华盛顿 - HubSpot
