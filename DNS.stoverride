@@ -21,7 +21,7 @@ dns: #!replace
     - 'swdist.apple.com'
   nameserver:
     - 223.5.5.5
-    - 180.184.1.1
+    - 119.29.29.29
 rules:
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
