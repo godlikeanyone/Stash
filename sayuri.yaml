@@ -26,7 +26,7 @@ dns:
     - '+.xboxlive.com'
   nameserver:
     - 223.5.5.5
-    - 119.29.29.29
+    - 180.184.1.1
 proxies:
   - {name: 🌐全球智能路由 - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
@@ -52,6 +52,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - 优选IP, server: fk.bestip.one, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - GitHub, server: www.hubp.me, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇬🇧 英国伦敦 - 瑞典政府, server: www.gov.se, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 微测网, server: sayuri.cloudflare.182682.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 中东航空, server: www.mea.com.lb, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -87,6 +88,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - 优选IP
       - 🇺🇸 美国华盛顿 - GitHub
       - 🇺🇸 美国华盛顿 - 印尼鹰航
+      - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
       - 🇬🇧 英国伦敦 - 瑞典政府
       - 🇺🇸 美国华盛顿 - 微测网
       - 🇺🇸 美国华盛顿 - 中东航空
