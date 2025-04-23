@@ -32,6 +32,7 @@ proxies:
   - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - 阿拉斯加航空, server: www.alaskaair.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - Reddit, server: www.redditstatic.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
+  - {name: 🌐全球智能路由 - Speedtest, server: speedtest.net, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🇭🇰 香港 - STACKS, server: 205.198.105.70, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.176.169, port: 11920, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: fast.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - AKILE, server: 91.229.132.49, port: 8080, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, tfo: false, skip-cert-verify: true, servername: fast.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: fast.wwxgxn.cfd}}}
@@ -69,6 +70,7 @@ proxy-groups:
       - 🌐全球智能路由 - 英国政府
       - 🌐全球智能路由 - 阿拉斯加航空
       - 🌐全球智能路由 - Reddit
+      - 🌐全球智能路由 - Speedtest
       - 🇭🇰 香港 - STACKS
       - 🇭🇰 香港 - DMIT
       - 🇭🇰 香港 - AKILE
