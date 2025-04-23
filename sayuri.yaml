@@ -43,7 +43,6 @@ proxies:
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Steam, server: cdn.cloudflare.steamstatic.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 0sm, server: cf.0sm.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - DMIT, server: www.dmit.io, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - MOEYY, server: github.moeyy.xyz, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot1, server: js.hsadspixel.net, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, servername: fast.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: fast.wwxgxn.cfd}}}
@@ -81,7 +80,6 @@ proxy-groups:
       - 🇫🇷 法国 - Wise
       - 🇺🇸 美国华盛顿 - Steam
       - 🇺🇸 美国华盛顿 - 0sm
-      - 🇺🇸 美国华盛顿 - DMIT
       - 🇺🇸 美国华盛顿 - MOEYY
       - 🇺🇸 美国华盛顿 - HubSpot
       - 🇺🇸 美国华盛顿 - HubSpot1
