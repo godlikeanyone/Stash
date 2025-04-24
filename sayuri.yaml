@@ -122,6 +122,7 @@ rules:
   - DOMAIN,tieba.baidu.com,🌎 Proxies
   - DOMAIN,tiebac.baidu.com,🌎 Proxies
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
+  - DOMAIN,gemini.google.com,✨ Preferred
   - DOMAIN-SUFFIX,hboav.com,✨ Preferred
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
   - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
