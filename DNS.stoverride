@@ -20,7 +20,7 @@ dns: #!replace
     - 'swcdn.apple.com'
     - 'swdist.apple.com'
   nameserver:
-    - 119.29.29.29
+    - 223.5.5.5
     - 180.184.1.1
 rules:
   - IP-ASN,714,DIRECT
