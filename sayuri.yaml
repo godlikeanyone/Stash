@@ -25,8 +25,8 @@ dns:
     - 'xbox.*.*.microsoft.com'
     - '+.xboxlive.com'
   nameserver:
+    - 223.5.5.5
     - 119.29.29.29
-    - 180.184.1.1
 proxies:
   - {name: 🌐全球智能路由 - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
