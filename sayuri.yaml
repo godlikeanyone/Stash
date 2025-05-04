@@ -31,7 +31,6 @@ proxies:
   - {name: 🌐全球智能路由 - Fastly, server: fastly.com, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - 英国政府, server: gov.uk, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
   - {name: 🌐全球智能路由 - Speedtest, server: speedtest.net, port: 80, client-fingerprint: chrome, type: vless, uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30, tls: false, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: sdeweb.hkcsl.com}}}
-  - {name: 🇭🇰 香港 - STACKS, server: 205.198.105.70, port: 443, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - 移动104, server: 104.25.253.197, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, tfo: false, skip-cert-verify: true, servername: freeworld.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - 移动172, server: 172.64.146.3, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, tfo: false, skip-cert-verify: true, servername: freeworld.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - 移动172备用, server: 172.64.153.88, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, tfo: false, skip-cert-verify: true, servername: freeworld.wwxgxn.cfd, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -63,7 +62,6 @@ proxy-groups:
       - 🌐全球智能路由 - Fastly
       - 🌐全球智能路由 - 英国政府
       - 🌐全球智能路由 - Speedtest
-      - 🇭🇰 香港 - STACKS
       - 🇭🇰 香港 - 移动104
       - 🇭🇰 香港 - 移动172
       - 🇭🇰 香港 - 移动172备用
