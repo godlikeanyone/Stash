@@ -40,6 +40,7 @@ proxies:
   - {name: 🇸🇬 新加坡 - 阿里云, server: affsgcdsurdx.ap-southeast-1.clawcloudrun.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 4608c798-2946-4ff8-90a3-a43be039ce36, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: affsgcdsurdx.ap-southeast-1.clawcloudrun.com}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Cloudflare, server: stun.cloudflare.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Cloudflare AI, server: playground.ai.cloudflare.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Steam, server: cdn.cloudflare.steamstatic.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 新加坡, server: singapore.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 卡塔尔政府, server: www.gco.gov.qa, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -69,6 +70,7 @@ proxy-groups:
       - 🇸🇬 新加坡 - 阿里云
       - 🇫🇷 法国 - Wise
       - 🇺🇸 美国华盛顿 - Cloudflare
+      - 🇺🇸 美国华盛顿 - Cloudflare AI
       - 🇺🇸 美国华盛顿 - Steam
       - 🇺🇸 美国华盛顿 - 新加坡
       - 🇺🇸 美国华盛顿 - 卡塔尔政府
