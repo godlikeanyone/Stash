@@ -100,7 +100,6 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
-      - 🇸🇬 新加坡 - 阿里云
       - 🇹🇼 台湾 - 专线
 rules:
   - IP-ASN,714,DIRECT
