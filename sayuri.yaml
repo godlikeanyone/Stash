@@ -39,7 +39,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: workers.cloudflare.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇬🇧 英国豪恩斯洛 - OralB, server: oralb.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - OralB, server: oralb.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Delivr, server: delivr.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Cloudflare, server: stun.cloudflare.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Cloudflare ONE, server: one.dash.cloudflare.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -49,7 +49,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - MOEYY, server: github.moeyy.xyz, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 优选IP, server: fk.bestip.one, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🌐全球智能路由 - 优选IP, server: fk.bestip.one, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇬🇧 英国伦敦 - 瑞典政府, server: www.gov.se, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -71,7 +71,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
       - 🇫🇷 法国 - Wise
-      - 🇬🇧 英国豪恩斯洛 - OralB
+      - 🇺🇸 美国华盛顿 - OralB
       - 🇺🇸 美国华盛顿 - Delivr
       - 🇺🇸 美国华盛顿 - Cloudflare
       - 🇺🇸 美国华盛顿 - Cloudflare ONE
@@ -81,7 +81,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - MOEYY
       - 🇺🇸 美国华盛顿 - HubSpot
       - 🇺🇸 美国华盛顿 - Sayuri
-      - 🇺🇸 美国华盛顿 - 优选IP
+      - 🌐全球智能路由 - 优选IP
       - 🇺🇸 美国华盛顿 - 印尼鹰航
       - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
       - 🇬🇧 英国伦敦 - 瑞典政府
