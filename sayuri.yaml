@@ -56,6 +56,7 @@ proxies:
   - {name: 🇬🇧 英国伦敦 - 瑞典政府, server: www.gov.se, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 微测网, server: sayuri.cloudflare.182682.xyz, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - 专线, server: sstw03.136470.xyz, port: 54003, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: OTQ3ZDRkMDBkYTFiNjQzYw==:MzgzNzU5NTMtYjAyOC00Zg==}
+  - {name: 🇹🇼 台湾 - 环球, server: 66.235.200.17, port: 2053, client-fingerprint: chrome, type: vless, uuid: 920d2c36-fb41-4fd3-abd3-9bb11224b704, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: 248cbff8, headers: {Host: waphk.ovo2024.dpdns.org}}}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
 proxy-groups:
   - name: 🌎 Proxies
@@ -89,6 +90,7 @@ proxy-groups:
       - 🇬🇧 英国伦敦 - 瑞典政府
       - 🇺🇸 美国华盛顿 - 微测网
       - 🇹🇼 台湾 - 专线
+      - 🇹🇼 台湾 - 环球
       - 🇺🇸 美国 - Notion
   - name: ✨ Preferred
     type: select
