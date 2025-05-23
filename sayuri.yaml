@@ -40,6 +40,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: workers.cloudflare.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 宝塔, server: www.aapanel.com, port: 443, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - OralB, server: oralb.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Delivr, server: delivr.com, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Cloudflare, server: www.cloudflare.net, port: 2053, client-fingerprint: chrome, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -75,6 +76,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
       - 🇫🇷 法国 - Wise
+      - 🇩🇪 德国 - 宝塔
       - 🇺🇸 美国华盛顿 - OralB
       - 🇺🇸 美国华盛顿 - Delivr
       - 🇺🇸 美国华盛顿 - Cloudflare
