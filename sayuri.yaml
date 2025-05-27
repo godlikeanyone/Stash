@@ -110,29 +110,46 @@ proxy-groups:
       - 🇺🇸 美国阿什本 - AWS
       - 🇹🇼 台湾 - 专线
 rules:
+  # Apple
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
+  # Tencent
   - IP-ASN,132203,DIRECT
+  # Aliyun
   - IP-ASN,45102,DIRECT
+  # AirClipboard
   - DOMAIN,airclipbd.com,DIRECT
+  # Sharepoint
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,svc.ms,DIRECT
+  # Speedtest
   - DOMAIN,speedtest.im,DIRECT
+  # Time.is
   - DOMAIN,time.is,DIRECT
+  # 无忧行
   - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
+  # Bilibili
   - DOMAIN,api.bilibili.com,🌎 Proxies
+  # 即刻
   - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
   - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
+  # 懂车帝
   - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
+  # 微博
   - DOMAIN,api.weibo.cn,🌎 Proxies
   - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
+  # 百度贴吧
   - DOMAIN,tieba.baidu.com,🌎 Proxies
   - DOMAIN,tiebac.baidu.com,🌎 Proxies
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
+  # Gemini
   - DOMAIN,proactivebackend-pa.googleapis.com,✨ Preferred
   - DOMAIN,gemini.google.com,✨ Preferred
+  # 5278
   - DOMAIN-SUFFIX,hboav.com,✨ Preferred
+  # Wealthsimple
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
+  # 小红书
   - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
   - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
   - DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
@@ -210,6 +227,7 @@ rules:
   - IP-CIDR,150.109.222.99/32,✨ Preferred
   - IP-CIDR,150.109.222.110/32,✨ Preferred
   - IP-CIDR,203.205.220.62/32,✨ Preferred
+  # Linkedin
   - DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
   - DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
   - DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
