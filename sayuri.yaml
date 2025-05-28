@@ -37,7 +37,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Notability, server: notability.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 冰书, server: cf.cdn.bingbook.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon, server: xui.harry.nom.za, port: 2096, client-fingerprint: chrome, type: vless, uuid: dde75dfd-35d8-4e38-b3a2-6cebf9165242, tls: false, network: tcp}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon Reality, server: xui.harry.nom.za, port: 8443, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: workers.cloudflare.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -76,7 +76,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Pages
       - 🇺🇸 美国华盛顿 - Notability
       - 🇺🇸 美国华盛顿 - 冰书
-      - 🇺🇸 美国华盛顿 - Bandwagon
+      - 🇺🇸 美国华盛顿 - Bandwagon Reality
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
       - 🇫🇷 法国 - Wise
