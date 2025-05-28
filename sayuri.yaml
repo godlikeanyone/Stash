@@ -32,6 +32,7 @@ proxies:
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.179.238, port: 20177, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - iLayer, server: 149.88.95.42, port: 2083, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - LeaseWeb, server: 192.131.142.161, port: 46639, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇯🇵 日本 - 172, server: 172.64.229.170, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Workers, server: workers.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -71,6 +72,7 @@ proxy-groups:
       - 🇭🇰 香港 - DMIT
       - 🇭🇰 香港 - iLayer
       - 🇭🇰 香港 - LeaseWeb
+      - 🇯🇵 日本 - 172
       - 🇺🇸 美国华盛顿 - 104
       - 🇺🇸 美国华盛顿 - Workers
       - 🇺🇸 美国华盛顿 - Pages
