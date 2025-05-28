@@ -105,7 +105,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国华盛顿 - Bandwagon
+      - 🇺🇸 美国华盛顿 - Bandwagon Reality
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
       - 🇹🇼 台湾 - 专线
