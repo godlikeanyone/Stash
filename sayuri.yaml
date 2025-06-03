@@ -29,8 +29,6 @@ dns:
     - 119.29.29.29
 proxies:
   - {name: 🇭🇰 香港 - M247, server: 195.54.171.57, port: 8443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - 阿里云1, server: 47.243.57.167, port: 28094, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - 阿里云2, server: 8.218.66.205, port: 24838, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.179.238, port: 20177, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - iLayer, server: 149.88.95.42, port: 2083, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - LeaseWeb, server: 192.131.142.161, port: 46639, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -73,8 +71,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 香港 - M247
-      - 🇭🇰 香港 - 阿里云1
-      - 🇭🇰 香港 - 阿里云2
       - 🇭🇰 香港 - DMIT
       - 🇭🇰 香港 - iLayer
       - 🇭🇰 香港 - LeaseWeb
