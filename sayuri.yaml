@@ -37,6 +37,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - VPS789, server: bestcf.top, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - CFIP, server: cfip.1323123.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Workers, server: workers.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇩🇪 德国 - Notability, server: notability.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, skip-cert-verify: false, client-fingerprint: chrome, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -52,14 +53,12 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Cloudflare, server: www.cloudflare.net, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Cloudflare ONE, server: one.dash.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Steam, server: cdn.cloudflare.steamstatic.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 新加坡, server: singapore.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 卡塔尔政府, server: www.gco.gov.qa, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 新加坡, server: singapore.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 卡塔尔政府, server: www.gco.gov.qa, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - MOEYY, server: github.moeyy.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - HubSpot, server: js.hubspot.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Sayuri, server: sayuri.cf.cname.vvhan.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🌐全球智能路由 - 优选IP, server: fk.bestip.one, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇬🇧 英国伦敦 - 瑞典政府, server: www.gov.se, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 微测网, server: sayuri.cloudflare.182682.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - 专线, server: sstw03.136470.xyz, port: 54003, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: OTQ3ZDRkMDBkYTFiNjQzYw==:MzgzNzU5NTMtYjAyOC00Zg==}
@@ -77,6 +76,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - 104
       - 🇺🇸 美国华盛顿 - VPS789
       - 🇺🇸 美国华盛顿 - CFIP
+      - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
       - 🇺🇸 美国华盛顿 - Workers
       - 🇺🇸 美国华盛顿 - Pages
       - 🇩🇪 德国 - Notability
@@ -92,14 +92,12 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Cloudflare
       - 🇺🇸 美国华盛顿 - Cloudflare ONE
       - 🇺🇸 美国华盛顿 - Steam
-      - 🇺🇸 美国华盛顿 - 新加坡
-      - 🇺🇸 美国华盛顿 - 卡塔尔政府
+      - 🇩🇪 德国 - 新加坡
+      - 🇩🇪 德国 - 卡塔尔政府
       - 🇺🇸 美国华盛顿 - MOEYY
       - 🇺🇸 美国华盛顿 - HubSpot
-      - 🇺🇸 美国华盛顿 - Sayuri
       - 🌐全球智能路由 - 优选IP
       - 🇺🇸 美国华盛顿 - 印尼鹰航
-      - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
       - 🇬🇧 英国伦敦 - 瑞典政府
       - 🇺🇸 美国华盛顿 - 微测网
       - 🇹🇼 台湾 - 专线
