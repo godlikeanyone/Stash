@@ -110,6 +110,7 @@ proxy-groups:
       - 🇹🇼 台湾 - 专线
 rules:
   # Apple
+  - DOMAIN-SUFFIX,apple.com,DIRECT
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
   # Tencent
