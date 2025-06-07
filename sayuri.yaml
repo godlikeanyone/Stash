@@ -1,6 +1,3 @@
-port: 7890
-socks-port: 7891
-mode: rule
 dns:
   enable: true
   ipv6: true
@@ -33,7 +30,9 @@ proxies:
   - {name: 🇯🇵 日本 - 阿里云, server: 47.79.93.186, port: 31770, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 🇯🇵 日本 - 172, server: 172.64.229.15, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国 - 89, server: 89.116.250.99, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - VPS789, server: bestcf.top, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - CFIP, server: cfip.1323123.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Visa, server: www.visa.co.jp, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Workers, server: workers.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -70,7 +69,9 @@ proxy-groups:
       - 🇯🇵 日本 - 阿里云
       - 🇯🇵 日本 - 172
       - 🇺🇸 美国华盛顿 - 104
+      - 🇺🇸 美国 - 89
       - 🇺🇸 美国华盛顿 - VPS789
+      - 🇺🇸 美国华盛顿 - CFIP
       - 🇺🇸 美国华盛顿 - Visa
       - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
       - 🇺🇸 美国华盛顿 - Workers
