@@ -28,6 +28,7 @@ proxies:
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.179.238, port: 20177, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: "/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560", headers: {Host: argo.wwxgxn.cfd}}}
   - {name: 🇯🇵 日本 - 阿里云, server: 47.79.93.186, port: 31770, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🌐全球智能路由 - Best, server: bestproxy.030101.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Best, server: bestcf.030101.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - VPS789, server: bestcf.top, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -65,6 +66,7 @@ proxy-groups:
       - 🇭🇰 香港 - DMIT
       - 🇹🇼 台湾 - GCP
       - 🇯🇵 日本 - 阿里云
+      - 🌐全球智能路由 - Best
       - 🇺🇸 美国华盛顿 - Best
       - 🇺🇸 美国华盛顿 - 104
       - 🇺🇸 美国华盛顿 - VPS789
