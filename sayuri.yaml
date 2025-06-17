@@ -25,7 +25,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🇬🇧 英国伦敦 - 阿里云, server: 79.133.176.229, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: true, servername: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, client-fingerprint: randomized, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}}
+  - {name: 🇺🇸 美国华盛顿 - 阿里云, server: 163.181.208.253, port: 2053, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: true, servername: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, client-fingerprint: randomized, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}}
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.179.238, port: 20177, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: "/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560", headers: {Host: argo.wwxgxn.cfd}}}
   - {name: 🇯🇵 日本 - 阿里云HY2, server: 47.79.93.186, port: 31770, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
@@ -62,7 +62,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇬🇧 英国伦敦 - 阿里云
+      - 🇺🇸 美国华盛顿 - 阿里云
       - 🇭🇰 香港 - DMIT
       - 🇹🇼 台湾 - GCP
       - 🇯🇵 日本 - 阿里云HY2
