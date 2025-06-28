@@ -109,7 +109,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇯🇵 日本 - 阿里云HY2
-      - 🇯🇵 日本 - 阿里云Reality
       - 🇺🇸 美国华盛顿 - Bandwagon Reality
       - 🇺🇸 美国华盛顿 - Bandwagon HY2
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
