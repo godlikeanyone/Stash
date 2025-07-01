@@ -48,6 +48,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: workers.cloudflare.com, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
   - {name: 🇺🇸 美国洛杉矶 - Reality, server: xui.xy.wwxgxn.cfd, port: 8443, reality-opts: {public-key: ncXBpJ1yKCrrQdFvkhNJXC-B5wKWB9QsFofXRT7Ih0Y, short-id: "7f70a772" }, client-fingerprint: ios, type: vless, uuid: 2177288a-00d4-4fa0-a39e-b26be3836018, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: updates.cdn-apple.com, network: tcp}
+  - {name: 🇩🇪 德国法兰克福 - 腾讯云, server: sayuri.xiamenyingjian.com, port: 54321, reality-opts: {public-key: hdG2wJ7TFIklZYLqmVc6SslvtNwzsDCFa6a3JrAZr3M, short-id: "4aebbed3" }, client-fingerprint: chrome, type: vless, uuid: 85f5c666-ad87-4e14-ae1d-7f0cb171f820, tls: true, flow: xtls-rprx-vision, servername: m.media-amazon.com, network: tcp}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇩🇪 德国 - 宝塔, server: www.aapanel.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇩🇪 德国 - Visa, server: www.visa.cn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -91,6 +92,7 @@ proxy-groups:
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
       - 🇺🇸 美国阿什本 - AWS
       - 🇺🇸 美国洛杉矶 - Reality
+      - 🇩🇪 德国法兰克福 - 腾讯云
       - 🇫🇷 法国 - Wise
       - 🇩🇪 德国 - 宝塔
       - 🇩🇪 德国 - Visa
@@ -117,6 +119,7 @@ proxy-groups:
       - 🇹🇼 台湾 - GCP
       - 🇺🇸 美国阿什本 - AWS
       - 🇺🇸 美国洛杉矶 - Reality
+      - 🇩🇪 德国法兰克福 - 腾讯云
       - 🇹🇼 台湾 - 专线
 rules:
   # Apple
