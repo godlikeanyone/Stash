@@ -127,6 +127,7 @@ rules:
   - IP-ASN,45102,DIRECT
   # AirClipboard
   - DOMAIN,airclipbd.com,DIRECT
+  - DOMAIN,boardrop.app,DIRECT
   # Sharepoint
   - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
   - DOMAIN-SUFFIX,svc.ms,DIRECT
