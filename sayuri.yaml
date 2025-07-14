@@ -29,10 +29,11 @@ proxies:
   - {name: 🇺🇸 美国 - 阿里云, server: 163.181.208.253, port: 443, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: true, servername: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua, client-fingerprint: randomized, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: 1750049800117.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua}}}
   - {name: 🇭🇰 香港 - DMIT, server: 154.12.179.238, port: 20177, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - 阿里云, server: 47.242.145.136 , port: 8001, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: "/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560", headers: {Host: argo.wwxgxn.cfd}}}
+  - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: '/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560', headers: {Host: argo.wwxgxn.cfd}}}
   - {name: 🇯🇵 日本 - 阿里云HY2, server: 47.79.37.186, port: 31770, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 🇯🇵 日本 - 952711, server: 47.79.145.117, port: 35998, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 🇯🇵 日本 - 阿里云, server: 47.79.144.82, port: 32317, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: false, alpn: [h3]}
+  - {name: 🇺🇸 美国洛杉矶 - Madcity, server: 162.159.254.137, port: 443, client-fingerprint: chrome, type: vless, uuid: c0546f83-5f5e-4b26-b355-32517d05c81d, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: mc1.777999.lol, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: mc1.777999.lol}}}
   - {name: 🇺🇸 美国华盛顿 - TV, server: cloudflare.tv, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Convera, server: convera.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -48,7 +49,7 @@ proxies:
   - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
   - {name: 🇺🇸 美国洛杉矶 - Reality, server: xui.xy.wwxgxn.cfd, port: 8443, reality-opts: {public-key: ncXBpJ1yKCrrQdFvkhNJXC-B5wKWB9QsFofXRT7Ih0Y, short-id: "7f70a772" }, client-fingerprint: ios, type: vless, uuid: 2177288a-00d4-4fa0-a39e-b26be3836018, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: updates.cdn-apple.com, network: tcp}
   - {name: 🇺🇸 美国圣何塞 - Reality, server: rn.wwxgxn.cfd, port: 50001, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
-  - {name: 🇺🇸 美国圣何塞 - CDN, server: cf.cdn.bingbook.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: "/sayuri?ed=2560", headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国圣何塞 - CDN, server: cf.cdn.bingbook.cn, port: 443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
   - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇩🇪 德国 - 宝塔, server: www.aapanel.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇩🇪 德国 - Visa, server: www.visa.cn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
@@ -75,6 +76,7 @@ proxy-groups:
       - 🇯🇵 日本 - 阿里云HY2
       - 🇯🇵 日本 - 952711
       - 🇯🇵 日本 - 阿里云
+      - 🇺🇸 美国洛杉矶 - Madcity
       - 🇺🇸 美国华盛顿 - TV
       - 🇺🇸 美国华盛顿 - Convera
       - 🇺🇸 美国华盛顿 - 104
@@ -111,6 +113,7 @@ proxy-groups:
       - 🇯🇵 日本 - 阿里云HY2
       - 🇯🇵 日本 - 952711
       - 🇯🇵 日本 - 阿里云
+      - 🇺🇸 美国洛杉矶 - Madcity
       - 🇺🇸 美国华盛顿 - Bandwagon Reality
       - 🇺🇸 美国华盛顿 - Bandwagon HY2
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
