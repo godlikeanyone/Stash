@@ -60,7 +60,6 @@ proxies:
   - {name: 🇩🇪 德国 - 卡塔尔政府, server: www.gco.gov.qa, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🌐全球智能路由 - cfxr, server: cfxr.eu.org, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🌐全球智能路由 - lzj, server: nezha.lzj.pp.ua, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🌐全球智能路由 - 172, server: 172.64.229.234, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - 专线, server: sstw03.136470.xyz, port: 54003, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: OTQ3ZDRkMDBkYTFiNjQzYw==:MzgzNzU5NTMtYjAyOC00Zg==}
@@ -104,7 +103,6 @@ proxy-groups:
       - 🇩🇪 德国 - 卡塔尔政府
       - 🌐全球智能路由 - cfxr
       - 🌐全球智能路由 - lzj
-      - 🌐全球智能路由 - 172
       - 🇺🇸 美国华盛顿 - 印尼鹰航
       - 🇺🇸 美国华盛顿 - 瑞典政府
       - 🇹🇼 台湾 - 专线
