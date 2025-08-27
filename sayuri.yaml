@@ -65,10 +65,10 @@ proxies:
   - {name: 🌐全球智能路由 - Docker, server: docker.1panel.live, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇹🇼 台湾 - 专线, server: sstw03.136470.xyz, port: 54003, client-fingerprint: chrome, type: ss, cipher: 2022-blake3-aes-128-gcm, password: OTQ3ZDRkMDBkYTFiNjQzYw==:MzgzNzU5NTMtYjAyOC00Zg==}
   - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 190, server: 190.93.246.191, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - 162, server: 162.159.254.137, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇯🇵 日本 - Linode, server: jp01.poke-mon.xyz, port: 20000, client-fingerprint: chrome, type: hysteria2, password: 38375953-b028-4f06-84e4-831045559562, auth: 38375953-b028-4f06-84e4-831045559562, sni: www.bing.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -113,10 +113,10 @@ proxy-groups:
       - 🌐全球智能路由 - Docker
       - 🇺🇸 美国华盛顿 - 印尼鹰航
       - 🇺🇸 美国华盛顿 - 瑞典政府
-      - 🇹🇼 台湾 - 专线
       - 🇺🇸 美国 - Notion
       - 🇺🇸 美国华盛顿 - 190
       - 🇺🇸 美国华盛顿 - 162
+      - 🇯🇵 日本 - Linode
   - name: ✨ Preferred
     type: select
     proxies:
@@ -131,7 +131,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶 - Reality
       - 🇺🇸 美国圣何塞 - Reality
       - 🇺🇸 美国圣何塞 - CDN
-      - 🇹🇼 台湾 - 专线
+      - 🇯🇵 日本 - Linode
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
