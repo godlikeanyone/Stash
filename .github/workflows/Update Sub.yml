@@ -69,18 +69,18 @@ jobs:
               if line.startswith("- {name: 🌐全球智能路由 - Snippets") and snippets_index < len(selected):
                   node = selected[snippets_index].groupdict()
                   line = re.sub(r"uuid: [0-9a-fA-F\-]+", f"uuid: {node['uuid']}", line)
-                  line = re.sub(r"servername: [^,]+", f"servername: {node['sni']}", line)
+                  line = re.sub(r'servername:\s*"?[^",]+?"?', f'servername: {node["sni"]}', line)
                   line = re.sub(r"server: [^,]+", f"server: {node['server']}", line)
                   line = re.sub(r'path: ".*?"', f'path: "{requests.utils.unquote(node["path"])}"', line)
-                  line = re.sub(r'Host: [^}]+', f'Host: {node["host"]}', line)
+                  line = re.sub(r'Host:\s*"?[^"}]+?"?', f'Host: {node["host"]}', line)
                   snippets_index += 1
               elif line.startswith("- {name: 🌐全球智能路由 - Snippets2") and snippets_index < len(selected):
                   node = selected[snippets_index].groupdict()
                   line = re.sub(r"uuid: [0-9a-fA-F\-]+", f"uuid: {node['uuid']}", line)
-                  line = re.sub(r"servername: [^,]+", f"servername: {node['sni']}", line)
+                  line = re.sub(r'servername:\s*"?[^",]+?"?', f'servername: {node["sni"]}', line)
                   line = re.sub(r"server: [^,]+", f"server: {node['server']}", line)
                   line = re.sub(r'path: ".*?"', f'path: "{requests.utils.unquote(node["path"])}"', line)
-                  line = re.sub(r'Host: [^}]+', f'Host: {node["host"]}', line)
+                  line = re.sub(r'Host:\s*"?[^"}]+?"?', f'Host: {node["host"]}', line)
                   snippets_index += 1
               new_lines.append(line)
           
