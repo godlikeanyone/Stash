@@ -1,75 +1,75 @@
-name: Update Sub
+name: Update Sayuri VLESS Nodes
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: "0 */6 * * *" # 每6小时运行一次
+    - cron: "0 0 * * *"  # 每天 UTC 0 点触发，可修改
 
 jobs:
-  update:
+  update_sayuri:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Fetch and update sayuri.yaml
+      - name: Replace Snippets nodes with latest vless
         run: |
-          python <<'EOF'
+          pip install requests pyyaml
+
           import requests, re
 
-          # 拉取 sayuri.yaml 原文
-          base_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
-          base_text = requests.get(base_url, timeout=10).text
+          # 拉取 sayuri.yaml
+          base_text = requests.get("https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml").text
 
-          # 获取订阅
-          sub_url = "https://cfxr.eu.org/getSub"
-          subs = requests.get(sub_url, timeout=10).text.strip().splitlines()
-
-          # 提取前两个 vless 节点
+          # 拉取订阅
+          subs = requests.get("https://cfxr.eu.org/getSub").text.strip().splitlines()
           vless = [s for s in subs if s.startswith("vless://")]
-          if not vless:
-              raise SystemExit("订阅里没有 vless 节点！")
-          elif len(vless) == 1:
-              vless = [vless[0], vless[0]]
-          else:
-              vless = vless[:2]
+          if len(vless) < 2:
+              vless = vless[:1]*2  # 保证至少两条
 
-          def vless_to_inline(name, link):
-              m = re.match(r"vless://([^@]+)@([^:]+):(\d+)\?(.+)#(.+)", link)
-              if not m: 
-                  return ""
+          # 提取 path 和 host
+          def extract_path_host(line):
+              m = re.search(r'path: "(.*?)"', line)
+              path = m.group(1) if m else "/"
+              m2 = re.search(r'Host: ([^}]+)', line)
+              host = m2.group(1) if m2 else None
+              return path, host
+
+          # 找原始 Snippets 节点
+          orig1 = re.search(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", base_text).group(0)
+          orig2 = re.search(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", base_text).group(0)
+          path1, host1 = extract_path_host(orig1)
+          path2, host2 = extract_path_host(orig2)
+
+          # 替换函数
+          def vless_to_line(orig_line, vless_link, path, host):
+              m = re.match(r"vless://([^@]+)@([^:]+):(\d+)\?(.+)#(.+)", vless_link)
+              if not m: return orig_line
               uuid, server, port, params, _ = m.groups()
               opts = dict([p.split("=",1) for p in params.split("&") if "=" in p])
-              line = f'- {{name: {name}, server: {server}, port: {port}, client-fingerprint: chrome, type: vless, uuid: {uuid}, tls: {str(opts.get("security")=="tls").lower()}, tfo: false, skip-cert-verify: false'
-              if opts.get("type") == "ws":
-                  host = opts.get("host", server)
-                  path = opts.get("path", "/")
-                  line += f', network: ws, ws-opts: {{path: "{path}", headers: {{Host: {host}}}}}}}'
-              else:
-                  line += "}"
+              tls = str(opts.get("security")=="tls").lower()
+              line = re.sub(r'uuid: [^,}]+', f'uuid: {uuid}', orig_line)
+              line = re.sub(r'server: [^,}]+', f'server: {server}', line)
+              line = re.sub(r'port: [^,}]+', f'port: {port}', line)
+              line = re.sub(r'tls: (true|false)', f'tls: {tls}', line)
+              line = re.sub(r'path: ".*?"', f'path: "{path}"', line)
+              line = re.sub(r'Host: [^}]+', f'Host: {host}', line)
               return line
 
-          snip1 = vless_to_inline("🌐全球智能路由 - Snippets", vless[0])
-          snip2 = vless_to_inline("🌐全球智能路由 - Snippets2", vless[1])
+          # 替换节点
+          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", vless_to_line(orig1, vless[0], path1, host1), base_text)
+          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", vless_to_line(orig2, vless[1], path2, host2), base_text)
 
-          # 替换原始文本里的节点行
-          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", snip1, base_text)
-          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", snip2, base_text)
-
-          # 写回文件
-          with open("sayuri.yaml", "w", encoding="utf-8") as f:
+          # 写回
+          with open("sayuri.yaml","w",encoding="utf-8") as f:
               f.write(base_text)
-
-          EOF
 
       - name: Commit changes
         run: |
