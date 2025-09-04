@@ -24,6 +24,7 @@ jobs:
 
       - name: Fetch subscription and update YAML
         run: |
+          python << 'EOF'
           import re, requests, yaml
 
           # 1. 获取订阅
@@ -70,8 +71,8 @@ jobs:
           with open("sayuri.yaml", "w", encoding="utf-8") as f:
               yaml.safe_dump(data, f, allow_unicode=True)
 
-          print(f"Updated {len(nodes)} nodes in sayuri.yaml")
-
+          EOF
+          
       - name: Commit and push
         run: |
           git config user.name "github-actions"
