@@ -1,92 +1,54 @@
-name: Update VLESS Proxies
+import re
+import requests
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # 每天UTC 00:00运行
-  workflow_dispatch:
+# 1. 获取订阅
+sub_url = "https://cfxr.eu.org/getSub"
+r = requests.get(sub_url)
+r.raise_for_status()
+content = r.text
 
-jobs:
-  update-proxies:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+# 2. 匹配 registry.cyou 上的 vless 节点
+vless_pattern = re.compile(
+    r"vless://(?P<uuid>[0-9a-fA-F-]+)@registry\.cyou:443"
+    r"\?encryption=[^&]+"
+    r"(?:&security=(?P<security>[^&]+))?"
+    r"&sni=(?P<sni>[^&]+)"
+    r"&type=ws"
+    r"&host=(?P<host>[^&]+)"
+    r"&path=(?P<path>[^#]+)"
+)
+matches = list(vless_pattern.finditer(content))
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
+# 3. 固定模板 name
+names = ["🌐全球智能路由 - Snippets", "🌐全球智能路由 - Snippets2"]
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml requests
+# 4. 构建 proxies 文本
+nodes_text = ""
+if len(matches) >= 2:
+    selected = matches[:2]
+elif len(matches) == 1:
+    selected = [matches[0], matches[0]]  # 用同一个节点替换两个
+else:
+    selected = []  # 没有节点就清空 proxies
 
-      - name: Fetch subscription and update YAML
-        run: |
-          python << 'EOF'
-          import re
-          import requests
-          import yaml
-          
-          # 1. 获取订阅
-          sub_url = "https://cfxr.eu.org/getSub"
-          r = requests.get(sub_url)
-          r.raise_for_status()
-          content = r.text
-          
-          # 2. 正则提取 VLESS 节点
-          vless_pattern = re.compile(
-              r"vless://(?P<uuid>[0-9a-fA-F-]+)@(?P<server>[^:]+):(?P<port>\d+)"
-              r"\?encryption=[^&]+"
-              r"(?:&security=(?P<security>[^&]+))?"
-              r"&sni=(?P<sni>[^&]+)"
-              r"&type=(?P<type>[^&]+)"
-              r"&host=(?P<host>[^&]+)"
-              r"&path=(?P<path>[^#]+)"
-              r"#(?P<name>[^ ]+)"
-          )
-          nodes = []
-          for match in vless_pattern.finditer(content):
-              node = match.groupdict()
-              nodes.append({
-                  "name": f"🌐全球智能路由 - {node['name']}",
-                  "server": node["server"],
-                  "port": int(node["port"]),
-                  "client-fingerprint": "chrome",
-                  "type": node["type"],
-                  "uuid": node["uuid"],
-                  "tls": True if node.get("security","").lower() == "tls" else False,
-                  "tfo": False,
-                  "skip-cert-verify": False,
-                  "servername": node["sni"],
-                  "network": node["type"],
-                  "ws-opts": {
-                      "path": requests.utils.unquote(node["path"]),
-                      "headers": {"Host": node["host"]}
-                  }
-              })
-          
-          # 3. 获取 sayuri.yaml
-          yaml_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
-          r2 = requests.get(yaml_url)
-          r2.raise_for_status()
-          data = yaml.safe_load(r2.text)
-          
-          # 4. 更新 proxies
-          data['proxies'] = nodes
-          
-          # 5. 写入文档
-          with open("sayuri.yaml", "w", encoding="utf-8") as f:
-              yaml.safe_dump(data, f, allow_unicode=True)
+for i, match in enumerate(selected):
+    node = match.groupdict()
+    nodes_text += f"""  - {{name: {names[i]}, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: {node['uuid']}, tls: {str(node.get('security','').lower()=='tls').lower()}, tfo: false, skip-cert-verify: false, servername: {node['sni']}, network: ws, ws-opts: {{path: "{requests.utils.unquote(node['path'])}", headers: {{Host: {node['host']}}}}}}}\n"""
 
+# 5. 获取 sayuri.yaml
+yaml_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
+r2 = requests.get(yaml_url)
+r2.raise_for_status()
+yaml_text = r2.text
 
-          EOF
-          
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add sayuri.yaml
-          git commit -m "Update VLESS proxies from subscription" || echo "No changes to commit"
-          git push
+# 6. 替换 proxies 区块
+yaml_text_new = re.sub(
+    r"(proxies:\s*\n)(?:[^\n]*\n)*(?=(?:\w+:|$))",
+    r"\1" + nodes_text,
+    yaml_text,
+    flags=re.MULTILINE
+)
+
+# 7. 写回文档
+with open("sayuri.yaml", "w", encoding="utf-8") as f:
+    f.write(yaml_text_new)
