@@ -3,7 +3,7 @@ name: Update Sub
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 0 * * *"
+    - cron: "0 */6 * * *" # 每6小时运行一次
 
 jobs:
   update:
@@ -19,75 +19,55 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install pyyaml requests
+        run: pip install requests
 
       - name: Fetch and update sayuri.yaml
         run: |
           python <<'EOF'
-          import requests, yaml, re
+          import requests, re
 
-          # 获取最新 sayuri.yaml
+          # 拉取 sayuri.yaml 原文
           base_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
-          base_resp = requests.get(base_url, timeout=10)
-          base_resp.raise_for_status()
-          config = yaml.safe_load(base_resp.text)
+          base_text = requests.get(base_url, timeout=10).text
 
           # 获取订阅
           sub_url = "https://cfxr.eu.org/getSub"
-          resp = requests.get(sub_url, timeout=10)
-          subs = resp.text.strip().splitlines()
+          subs = requests.get(sub_url, timeout=10).text.strip().splitlines()
 
-          # 解析 vless 链接
-          parsed = []
-          for line in subs:
-              if line.startswith("vless://"):
-                  m = re.match(r"vless://([^@]+)@([^:]+):(\d+)\?(.+)#(.+)", line)
-                  if not m: 
-                      continue
-                  uuid, server, port, params, name = m.groups()
-                  opts = dict([p.split("=",1) for p in params.split("&") if "=" in p])
-
-                  proxy = {
-                      "server": server,
-                      "port": int(port),
-                      "type": "vless",
-                      "uuid": uuid,
-                      "tls": opts.get("security") == "tls",
-                      "tfo": False,
-                      "skip-cert-verify": False,
-                      "client-fingerprint": "chrome",
-                  }
-                  if opts.get("type") == "ws":
-                      proxy["network"] = "ws"
-                      proxy["ws-opts"] = {
-                          "path": opts.get("path","/"),
-                          "headers": {"Host": opts.get("host", server)}
-                      }
-                  parsed.append(proxy)
-
-          # 取前两个，如果不足两个则复制第一个
-          if len(parsed) == 0:
+          # 提取前两个 vless 节点
+          vless = [s for s in subs if s.startswith("vless://")]
+          if not vless:
               raise SystemExit("订阅里没有 vless 节点！")
-          elif len(parsed) == 1:
-              nodes = [parsed[0], parsed[0].copy()]
+          elif len(vless) == 1:
+              vless = [vless[0], vless[0]]
           else:
-              nodes = parsed[:2]
+              vless = vless[:2]
 
-          # 替换 proxies 里 Snippets 节点
-          new_proxies = []
-          for p in config.get("proxies", []):
-              if p.get("name") == "🌐全球智能路由 - Snippets":
-                  new_proxies.append({"name": "🌐全球智能路由 - Snippets", **nodes[0]})
-              elif p.get("name") == "🌐全球智能路由 - Snippets2":
-                  new_proxies.append({"name": "🌐全球智能路由 - Snippets2", **nodes[1]})
+          def vless_to_inline(name, link):
+              m = re.match(r"vless://([^@]+)@([^:]+):(\d+)\?(.+)#(.+)", link)
+              if not m: 
+                  return ""
+              uuid, server, port, params, _ = m.groups()
+              opts = dict([p.split("=",1) for p in params.split("&") if "=" in p])
+              line = f'- {{name: {name}, server: {server}, port: {port}, client-fingerprint: chrome, type: vless, uuid: {uuid}, tls: {str(opts.get("security")=="tls").lower()}, tfo: false, skip-cert-verify: false'
+              if opts.get("type") == "ws":
+                  host = opts.get("host", server)
+                  path = opts.get("path", "/")
+                  line += f', network: ws, ws-opts: {{path: "{path}", headers: {{Host: {host}}}}}}}'
               else:
-                  new_proxies.append(p)
+                  line += "}"
+              return line
 
-          config["proxies"] = new_proxies
+          snip1 = vless_to_inline("🌐全球智能路由 - Snippets", vless[0])
+          snip2 = vless_to_inline("🌐全球智能路由 - Snippets2", vless[1])
+
+          # 替换原始文本里的节点行
+          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", snip1, base_text)
+          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", snip2, base_text)
 
           # 写回文件
           with open("sayuri.yaml", "w", encoding="utf-8") as f:
-              yaml.dump(config, f, allow_unicode=True, sort_keys=False)
+              f.write(base_text)
 
           EOF
 
