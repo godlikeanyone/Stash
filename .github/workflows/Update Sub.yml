@@ -2,7 +2,7 @@ name: Update VLESS Proxies
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天UTC 00:00运行
+    - cron: '5 0 * * *'
   workflow_dispatch:
 
 jobs:
