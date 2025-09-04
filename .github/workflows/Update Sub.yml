@@ -25,17 +25,26 @@ jobs:
       - name: Fetch subscription and update YAML
         run: |
           python << 'EOF'
-          import re, requests, yaml
-
+          import re
+          import requests
+          import yaml
+          
           # 1. 获取订阅
           sub_url = "https://cfxr.eu.org/getSub"
           r = requests.get(sub_url)
           r.raise_for_status()
           content = r.text
-
+          
           # 2. 正则提取 VLESS 节点
           vless_pattern = re.compile(
-              r"vless://(?P<uuid>[0-9a-fA-F-]+)@(?P<server>[^:]+):(?P<port>\d+)\?encryption=[^&]+&security=[^&]+&sni=(?P<sni>[^&]+)&type=(?P<type>[^&]+)&host=(?P<host>[^&]+)&path=(?P<path>[^#]+)#(?P<name>[^ ]+)"
+              r"vless://(?P<uuid>[0-9a-fA-F-]+)@(?P<server>[^:]+):(?P<port>\d+)"
+              r"\?encryption=[^&]+"
+              r"(?:&security=(?P<security>[^&]+))?"
+              r"&sni=(?P<sni>[^&]+)"
+              r"&type=(?P<type>[^&]+)"
+              r"&host=(?P<host>[^&]+)"
+              r"&path=(?P<path>[^#]+)"
+              r"#(?P<name>[^ ]+)"
           )
           nodes = []
           for match in vless_pattern.finditer(content):
@@ -47,7 +56,7 @@ jobs:
                   "client-fingerprint": "chrome",
                   "type": node["type"],
                   "uuid": node["uuid"],
-                  "tls": True if node["security"].lower() == "tls" else False,
+                  "tls": True if node.get("security","").lower() == "tls" else False,
                   "tfo": False,
                   "skip-cert-verify": False,
                   "servername": node["sni"],
@@ -57,19 +66,20 @@ jobs:
                       "headers": {"Host": node["host"]}
                   }
               })
-
+          
           # 3. 获取 sayuri.yaml
           yaml_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
           r2 = requests.get(yaml_url)
           r2.raise_for_status()
           data = yaml.safe_load(r2.text)
-
+          
           # 4. 更新 proxies
           data['proxies'] = nodes
-
-          # 5. 写入文件
+          
+          # 5. 写入文档
           with open("sayuri.yaml", "w", encoding="utf-8") as f:
               yaml.safe_dump(data, f, allow_unicode=True)
+
 
           EOF
           
