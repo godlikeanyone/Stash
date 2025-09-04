@@ -19,7 +19,7 @@ jobs:
       - name: Replace Snippets nodes with latest vless
         run: |
           pip install requests pyyaml
-
+          python <<'EOF'
           import requests, re
 
           # 拉取 sayuri.yaml
@@ -67,6 +67,8 @@ jobs:
           # 写回
           with open("sayuri.yaml","w",encoding="utf-8") as f:
               f.write(base_text)
+
+          EOF
 
       - name: Commit changes
         run: |
