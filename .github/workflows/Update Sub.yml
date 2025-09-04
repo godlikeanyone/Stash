@@ -1,9 +1,6 @@
-name: Update Sayuri VLESS Nodes
-
+name: Update Nodes
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"  # 每天 UTC 0 点触发，可修改
 
