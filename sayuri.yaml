@@ -1,269 +1,295 @@
 dns:
   enable: true
-  ipv6: true
   enhanced-mode: fake-ip
   fake-ip-filter:
-    - '*.lan'
-    - 'localhost.ptlogin2.qq.com'
-    - '*.jegotrip.com.cn'
-    - '*.189.cn'
-    - 'time.*.com'
-    # Apple
-    - 'swscan.apple.com'
-    - 'mesu.apple.com'
-    - 'swquery.apple.com'
-    - 'swdownload.apple.com'
-    - 'swcdn.apple.com'
-    - 'swdist.apple.com'
-    # Microsoft Service
-    - '*.msftconnecttest.com'
-    - '*.msftncsi.com'
-    - 'xbox.*.microsoft.com'
-    - 'xbox.*.*.microsoft.com'
-    - '+.xboxlive.com'
+  - '*.lan'
+  - localhost.ptlogin2.qq.com
+  - '*.jegotrip.com.cn'
+  - '*.189.cn'
+  - time.*.com
+  - swscan.apple.com
+  - mesu.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - '*.msftconnecttest.com'
+  - '*.msftncsi.com'
+  - xbox.*.microsoft.com
+  - xbox.*.*.microsoft.com
+  - +.xboxlive.com
+  ipv6: true
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+  - 223.5.5.5
+  - 119.29.29.29
 proxies:
-  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 019915fd-2fa5-16a1-f735-3813d6a9c0a4, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2Fsnippets%3Fip%3Dproxyip%3Aport%28443%29%26nat64%3D6to4", headers: {Host: lovemoneycat.ggff.net}}}
-  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 019915fd-2fa5-16a1-f735-3813d6a9c0a4, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "%2Fsnippets%3Fip%3Dproxyip%3Aport%28443%29%26nat64%3D6to4", headers: {Host: lovemoneycat.ggff.net}}}
-  - {name: 🇭🇰 香港 - CF, server: 141.101.115.11, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - 阿里云, server: 47.242.145.136, port: 8001, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - 移动, server: 104.17.53.155, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - CMI, server: 104.16.241.241 , port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: '/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560', headers: {Host: argo.wwxgxn.cfd}}}
-  - {name: 🇯🇵 日本 - 阿里云, server: 47.79.144.82, port: 32317, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 🇯🇵 日本 - Alead, server: 47.79.145.128, port: 36081, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 🇯🇵 日本 - Freelead, server: 47.79.145.20, port: 33112, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
-  - {name: 🇯🇵 日本 - Visa, server: www.visa.cn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - TV, server: cloudflare.tv, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - ZeroTrust, server: one.dash.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 联想拯救者, server: legion.lenovo.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 联想, server: go2.lenovo.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Convera, server: convera.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇩🇪 德国 - 104 Pro, server: 104.26.12.27, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇬🇧 英国 - Cloudflare, server: quick-edit.devprod.cloudflare.dev, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇩🇪 德国 - Notability, server: notability.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon Reality, server: xui.harry.nom.za, port: 8443, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon HY2, server: sui.harry.nom.za, port: 12345, client-fingerprint: chrome, type: hysteria2, password: dZfqfCA8Q1, auth: dZfqfCA8Q1, skip-cert-verify: true, alpn: [h3]}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
-  - {name: 🇺🇸 美国洛杉矶 - Reality, server: xui.xy.wwxgxn.cfd, port: 8443, reality-opts: {public-key: ncXBpJ1yKCrrQdFvkhNJXC-B5wKWB9QsFofXRT7Ih0Y, short-id: "7f70a772" }, client-fingerprint: ios, type: vless, uuid: 2177288a-00d4-4fa0-a39e-b26be3836018, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: updates.cdn-apple.com, network: tcp}
-  - {name: 🇺🇸 美国圣何塞 - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
-  - {name: 🇺🇸 美国圣何塞 - CDN, server: cf.cdn.bingbook.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇩🇪 德国 - 宝塔, server: www.aapanel.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - OralB, server: oralb.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Delivr, server: delivr.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇩🇪 德国 - 新加坡, server: singapore.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇩🇪 德国 - 卡塔尔政府, server: www.gco.gov.qa, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🌐全球智能路由 - cfxr, server: cfxr.eu.org, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🌐全球智能路由 - lzj, server: nezha.lzj.pp.ua, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🌐全球智能路由 - Docker, server: docker.1panel.live, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 190, server: 190.93.246.191, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - 162, server: 162.159.254.137, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
-  - {name: 🇯🇵 日本 - Linode, type: trojan, server: ssjp01.go52pokemon.com, port: 54225, password: 38375953-b028-4f06-84e4-831045559562, udp: true, sni: itunes.apple.com, skip-cert-verify: true }
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-5
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: www2.zmxquick.cloudns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-3747-2f1a-377d05036e9a
+  ws-opts:
+    headers:
+      Host: www2.zmxquick.cloudns.org
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-2025/09/06
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: www.vl.de5.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-c265-2f1a-377d7c23ffa3
+  ws-opts:
+    headers:
+      Host: www.vl.de5.net
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-1
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: cfvs.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-0e3d-2f1a-377d2103dcd0
+  ws-opts:
+    headers:
+      Host: cfvs.eu.org
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-2
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: lovemoneycat.ggff.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-eae6-2f1a-377db9d9ff6f
+  ws-opts:
+    headers:
+      Host: lovemoneycat.ggff.net
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-3
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: www.zmxquick.cloudns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-e022-2f1a-377d5f7f8f69
+  ws-opts:
+    headers:
+      Host: www.zmxquick.cloudns.org
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+- client-fingerprint: chrome
+  name: 🌐全球智能路由 - snippets-4
+  network: ws
+  port: 443
+  server: registry.cyou
+  servername: www.flashspeed.cloud-ip.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: ws
+  uuid: 01991612-430f-7a02-2f1a-377d0c83fec8
+  ws-opts:
+    headers:
+      Host: www.flashspeed.cloud-ip.cc
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
 proxy-groups:
-  - name: 🌎 Proxies
-    type: select
-    proxies:
-      - 🌐全球智能路由 - Snippets
-      - 🌐全球智能路由 - Snippets2
-      - 🇭🇰 香港 - CF
-      - 🇭🇰 香港 - 阿里云
-      - 🇭🇰 香港 - 移动
-      - 🇭🇰 香港 - CMI
-      - 🇹🇼 台湾 - GCP
-      - 🇯🇵 日本 - 阿里云
-      - 🇯🇵 日本 - Alead
-      - 🇯🇵 日本 - Freelead
-      - 🇯🇵 日本 - Visa
-      - 🇺🇸 美国华盛顿 - TV
-      - 🇺🇸 美国华盛顿 - ZeroTrust
-      - 🇺🇸 美国华盛顿 - 联想拯救者
-      - 🇺🇸 美国华盛顿 - 联想
-      - 🇺🇸 美国华盛顿 - Convera
-      - 🇺🇸 美国华盛顿 - 104
-      - 🇩🇪 德国 - 104 Pro
-      - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
-      - 🇺🇸 美国华盛顿 - Pages
-      - 🇬🇧 英国 - Cloudflare
-      - 🇩🇪 德国 - Notability
-      - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon HY2
-      - 🇺🇸 美国华盛顿 - Bandwagon TLS
-      - 🇺🇸 美国阿什本 - AWS
-      - 🇺🇸 美国洛杉矶 - Reality
-      - 🇺🇸 美国圣何塞 - Reality
-      - 🇺🇸 美国圣何塞 - CDN
-      - 🇫🇷 法国 - Wise
-      - 🇩🇪 德国 - 宝塔
-      - 🇺🇸 美国华盛顿 - OralB
-      - 🇺🇸 美国华盛顿 - Delivr
-      - 🇩🇪 德国 - 新加坡
-      - 🇩🇪 德国 - 卡塔尔政府
-      - 🌐全球智能路由 - cfxr
-      - 🌐全球智能路由 - lzj
-      - 🌐全球智能路由 - Docker
-      - 🇺🇸 美国华盛顿 - 印尼鹰航
-      - 🇺🇸 美国华盛顿 - 瑞典政府
-      - 🇺🇸 美国 - Notion
-      - 🇺🇸 美国华盛顿 - 190
-      - 🇺🇸 美国华盛顿 - 162
-      - 🇯🇵 日本 - Linode
-  - name: ✨ Preferred
-    type: select
-    proxies:
-      - 🇯🇵 日本 - 阿里云
-      - 🇯🇵 日本 - Alead
-      - 🇯🇵 日本 - Freelead
-      - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon HY2
-      - 🇺🇸 美国华盛顿 - Bandwagon TLS
-      - 🇹🇼 台湾 - GCP
-      - 🇺🇸 美国阿什本 - AWS
-      - 🇺🇸 美国洛杉矶 - Reality
-      - 🇺🇸 美国圣何塞 - Reality
-      - 🇺🇸 美国圣何塞 - CDN
-      - 🇯🇵 日本 - Linode
+- name: 🌎 Proxies
+  proxies:
+  - 🌐全球智能路由 - Snippets
+  - 🌐全球智能路由 - Snippets2
+  - 🇭🇰 香港 - CF
+  - 🇭🇰 香港 - 阿里云
+  - 🇭🇰 香港 - 移动
+  - 🇭🇰 香港 - CMI
+  - 🇹🇼 台湾 - GCP
+  - 🇯🇵 日本 - 阿里云
+  - 🇯🇵 日本 - Alead
+  - 🇯🇵 日本 - Freelead
+  - 🇯🇵 日本 - Visa
+  - 🇺🇸 美国华盛顿 - TV
+  - 🇺🇸 美国华盛顿 - ZeroTrust
+  - 🇺🇸 美国华盛顿 - 联想拯救者
+  - 🇺🇸 美国华盛顿 - 联想
+  - 🇺🇸 美国华盛顿 - Convera
+  - 🇺🇸 美国华盛顿 - 104
+  - 🇩🇪 德国 - 104 Pro
+  - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
+  - 🇺🇸 美国华盛顿 - Pages
+  - 🇬🇧 英国 - Cloudflare
+  - 🇩🇪 德国 - Notability
+  - 🇺🇸 美国华盛顿 - Bandwagon Reality
+  - 🇺🇸 美国华盛顿 - Bandwagon HY2
+  - 🇺🇸 美国华盛顿 - Bandwagon TLS
+  - 🇺🇸 美国阿什本 - AWS
+  - 🇺🇸 美国洛杉矶 - Reality
+  - 🇺🇸 美国圣何塞 - Reality
+  - 🇺🇸 美国圣何塞 - CDN
+  - 🇫🇷 法国 - Wise
+  - 🇩🇪 德国 - 宝塔
+  - 🇺🇸 美国华盛顿 - OralB
+  - 🇺🇸 美国华盛顿 - Delivr
+  - 🇩🇪 德国 - 新加坡
+  - 🇩🇪 德国 - 卡塔尔政府
+  - 🌐全球智能路由 - cfxr
+  - 🌐全球智能路由 - lzj
+  - 🌐全球智能路由 - Docker
+  - 🇺🇸 美国华盛顿 - 印尼鹰航
+  - 🇺🇸 美国华盛顿 - 瑞典政府
+  - 🇺🇸 美国 - Notion
+  - 🇺🇸 美国华盛顿 - 190
+  - 🇺🇸 美国华盛顿 - 162
+  - 🇯🇵 日本 - Linode
+  type: select
+- name: ✨ Preferred
+  proxies:
+  - 🇯🇵 日本 - 阿里云
+  - 🇯🇵 日本 - Alead
+  - 🇯🇵 日本 - Freelead
+  - 🇺🇸 美国华盛顿 - Bandwagon Reality
+  - 🇺🇸 美国华盛顿 - Bandwagon HY2
+  - 🇺🇸 美国华盛顿 - Bandwagon TLS
+  - 🇹🇼 台湾 - GCP
+  - 🇺🇸 美国阿什本 - AWS
+  - 🇺🇸 美国洛杉矶 - Reality
+  - 🇺🇸 美国圣何塞 - Reality
+  - 🇺🇸 美国圣何塞 - CDN
+  - 🇯🇵 日本 - Linode
+  type: select
 rules:
-  # Apple
-  - DOMAIN-SUFFIX,apple.com,DIRECT
-  - IP-ASN,714,DIRECT
-  - IP-ASN,6185,DIRECT
-  # Tencent
-  - IP-ASN,132203,DIRECT
-  # Aliyun
-  - IP-ASN,45102,DIRECT
-  # AirClipboard
-  - DOMAIN,airclipbd.com,DIRECT
-  - DOMAIN,boardrop.app,DIRECT
-  # Sharepoint
-  - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
-  - DOMAIN-SUFFIX,svc.ms,DIRECT
-  # Speedtest
-  - DOMAIN,speedtest.im,DIRECT
-  # Time.is
-  - DOMAIN,time.is,DIRECT
-  # 无忧行
-  - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
-  # Bilibili
-  - DOMAIN,api.bilibili.com,🌎 Proxies
-  # 即刻
-  - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
-  - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
-  # 懂车帝
-  - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
-  # 微博
-  - DOMAIN,api.weibo.cn,🌎 Proxies
-  - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
-  # 百度贴吧
-  - DOMAIN,tieba.baidu.com,🌎 Proxies
-  - DOMAIN,tiebac.baidu.com,🌎 Proxies
-  - DOMAIN,c.tieba.baidu.com,🌎 Proxies
-  # Gemini
-  - DOMAIN,proactivebackend-pa.googleapis.com,✨ Preferred
-  - DOMAIN,gemini.google.com,✨ Preferred
-  # 5278
-  - DOMAIN-SUFFIX,hboav.com,✨ Preferred
-  # Wealthsimple
-  - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
-  # 小红书
-  - DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
-  - DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
-  - DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
-  - IP-CIDR,114.55.236.88/32,✨ Preferred
-  - IP-CIDR,47.97.64.97/32,✨ Preferred
-  - IP-CIDR,47.97.66.48/32,✨ Preferred
-  - IP-CIDR,81.69.116.86/32,✨ Preferred
-  - IP-CIDR,119.45.249.52/32,✨ Preferred
-  - IP-CIDR,81.69.116.87/32,✨ Preferred
-  - IP-CIDR,119.45.2.92/32,✨ Preferred
-  - IP-CIDR,1.13.12.27/32,✨ Preferred
-  - IP-CIDR,81.69.116.102/32,✨ Preferred
-  - IP-CIDR,43.159.25.122/32,✨ Preferred
-  - IP-CIDR,43.159.25.28/32,✨ Preferred
-  - IP-CIDR,47.246.29.223/32,✨ Preferred
-  - IP-CIDR,47.246.29.226/32,✨ Preferred
-  - IP-CIDR,47.246.29.227/32,✨ Preferred
-  - IP-CIDR,47.246.29.225/32,✨ Preferred
-  - IP-CIDR,47.246.29.224/32,✨ Preferred
-  - IP-CIDR,47.246.29.222/32,✨ Preferred
-  - IP-CIDR,47.246.29.229/32,✨ Preferred
-  - IP-CIDR,47.246.29.228/32,✨ Preferred
-  - IP-CIDR,211.152.149.12/32,✨ Preferred
-  - IP-CIDR,49.51.224.95/32,✨ Preferred
-  - IP-CIDR,43.175.44.15/32,✨ Preferred
-  - IP-CIDR,23.236.104.30/32,✨ Preferred
-  - IP-CIDR,43.132.81.61/32,✨ Preferred
-  - IP-CIDR,101.33.27.26/32,✨ Preferred
-  - IP-CIDR,43.152.29.38/32,✨ Preferred
-  - IP-CIDR,43.152.26.110/32,✨ Preferred
-  - IP-CIDR,101.33.11.32/32,✨ Preferred
-  - IP-CIDR,163.181.1.228/32,✨ Preferred
-  - IP-CIDR,163.181.1.226/32,✨ Preferred
-  - IP-CIDR,163.181.1.230/32,✨ Preferred
-  - IP-CIDR,163.181.1.227/32,✨ Preferred
-  - IP-CIDR,163.181.1.231/32,✨ Preferred
-  - IP-CIDR,163.181.1.229/32,✨ Preferred
-  - IP-CIDR,163.181.1.224/32,✨ Preferred
-  - IP-CIDR,163.181.1.225/32,✨ Preferred
-  - IP-CIDR,47.246.23.230/32,✨ Preferred
-  - IP-CIDR,47.246.23.234/32,✨ Preferred
-  - IP-CIDR,47.246.23.228/32,✨ Preferred
-  - IP-CIDR,47.246.23.233/32,✨ Preferred
-  - IP-CIDR,47.246.23.231/32,✨ Preferred
-  - IP-CIDR,47.246.23.232/32,✨ Preferred
-  - IP-CIDR,47.246.23.227/32,✨ Preferred
-  - IP-CIDR,47.246.23.229/32,✨ Preferred
-  - IP-CIDR,43.152.42.109/32,✨ Preferred
-  - IP-CIDR,43.175.22.27/32,✨ Preferred
-  - IP-CIDR,43.175.22.42/32,✨ Preferred
-  - IP-CIDR,43.175.22.26/32,✨ Preferred
-  - IP-CIDR,43.132.84.11/32,✨ Preferred
-  - IP-CIDR,101.33.20.34/32,✨ Preferred
-  - IP-CIDR,49.51.224.105/32,✨ Preferred
-  - IP-CIDR,49.51.224.103/32,✨ Preferred
-  - IP-CIDR,163.181.92.232/32,✨ Preferred
-  - IP-CIDR,163.181.92.233/32,✨ Preferred
-  - IP-CIDR,163.181.92.237/32,✨ Preferred
-  - IP-CIDR,163.181.92.238/32,✨ Preferred
-  - IP-CIDR,163.181.92.231/32,✨ Preferred
-  - IP-CIDR,163.181.92.234/32,✨ Preferred
-  - IP-CIDR,163.181.92.236/32,✨ Preferred
-  - IP-CIDR,163.181.92.235/32,✨ Preferred
-  - IP-CIDR,43.132.83.175/32,✨ Preferred
-  - IP-CIDR,43.132.83.54/32,✨ Preferred
-  - IP-CIDR,43.132.83.9/32,✨ Preferred
-  - IP-CIDR,43.132.91.37/32,✨ Preferred
-  - IP-CIDR,43.132.91.110/32,✨ Preferred
-  - IP-CIDR,43.132.91.45/32,✨ Preferred
-  - IP-CIDR,150.109.222.109/32,✨ Preferred
-  - IP-CIDR,150.109.222.102/32,✨ Preferred
-  - IP-CIDR,150.109.222.97/32,✨ Preferred
-  - IP-CIDR,150.109.223.49/32,✨ Preferred
-  - IP-CIDR,150.109.222.103/32,✨ Preferred
-  - IP-CIDR,150.109.222.99/32,✨ Preferred
-  - IP-CIDR,150.109.222.110/32,✨ Preferred
-  - IP-CIDR,203.205.220.62/32,✨ Preferred
-  # Linkedin
-  - DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
-  - DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
-  - DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
-  - DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
-  - DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
-  - DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
-  - DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
-  - DOMAIN-SUFFIX,licdn.com,🌎 Proxies
-  - DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
-  - DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
-  - DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
-  - DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
-  - GEOIP,CN,DIRECT
-  - MATCH,🌎 Proxies
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- IP-ASN,714,DIRECT
+- IP-ASN,6185,DIRECT
+- IP-ASN,132203,DIRECT
+- IP-ASN,45102,DIRECT
+- DOMAIN,airclipbd.com,DIRECT
+- DOMAIN,boardrop.app,DIRECT
+- DOMAIN,invictusgod-my.sharepoint.com,DIRECT
+- DOMAIN-SUFFIX,svc.ms,DIRECT
+- DOMAIN,speedtest.im,DIRECT
+- DOMAIN,time.is,DIRECT
+- DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
+- DOMAIN,api.bilibili.com,🌎 Proxies
+- DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
+- DOMAIN-SUFFIX,jellow.site,🌎 Proxies
+- DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
+- DOMAIN,api.weibo.cn,🌎 Proxies
+- DOMAIN-SUFFIX,weibo.com,🌎 Proxies
+- DOMAIN,tieba.baidu.com,🌎 Proxies
+- DOMAIN,tiebac.baidu.com,🌎 Proxies
+- DOMAIN,c.tieba.baidu.com,🌎 Proxies
+- DOMAIN,proactivebackend-pa.googleapis.com,✨ Preferred
+- DOMAIN,gemini.google.com,✨ Preferred
+- DOMAIN-SUFFIX,hboav.com,✨ Preferred
+- DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
+- DOMAIN,sns-na-i9.xhscdn.com,✨ Preferred
+- DOMAIN,sns-video-yc.xhscdn.com,✨ Preferred
+- DOMAIN-SUFFIX,xiaohongshu.com,✨ Preferred
+- IP-CIDR,114.55.236.88/32,✨ Preferred
+- IP-CIDR,47.97.64.97/32,✨ Preferred
+- IP-CIDR,47.97.66.48/32,✨ Preferred
+- IP-CIDR,81.69.116.86/32,✨ Preferred
+- IP-CIDR,119.45.249.52/32,✨ Preferred
+- IP-CIDR,81.69.116.87/32,✨ Preferred
+- IP-CIDR,119.45.2.92/32,✨ Preferred
+- IP-CIDR,1.13.12.27/32,✨ Preferred
+- IP-CIDR,81.69.116.102/32,✨ Preferred
+- IP-CIDR,43.159.25.122/32,✨ Preferred
+- IP-CIDR,43.159.25.28/32,✨ Preferred
+- IP-CIDR,47.246.29.223/32,✨ Preferred
+- IP-CIDR,47.246.29.226/32,✨ Preferred
+- IP-CIDR,47.246.29.227/32,✨ Preferred
+- IP-CIDR,47.246.29.225/32,✨ Preferred
+- IP-CIDR,47.246.29.224/32,✨ Preferred
+- IP-CIDR,47.246.29.222/32,✨ Preferred
+- IP-CIDR,47.246.29.229/32,✨ Preferred
+- IP-CIDR,47.246.29.228/32,✨ Preferred
+- IP-CIDR,211.152.149.12/32,✨ Preferred
+- IP-CIDR,49.51.224.95/32,✨ Preferred
+- IP-CIDR,43.175.44.15/32,✨ Preferred
+- IP-CIDR,23.236.104.30/32,✨ Preferred
+- IP-CIDR,43.132.81.61/32,✨ Preferred
+- IP-CIDR,101.33.27.26/32,✨ Preferred
+- IP-CIDR,43.152.29.38/32,✨ Preferred
+- IP-CIDR,43.152.26.110/32,✨ Preferred
+- IP-CIDR,101.33.11.32/32,✨ Preferred
+- IP-CIDR,163.181.1.228/32,✨ Preferred
+- IP-CIDR,163.181.1.226/32,✨ Preferred
+- IP-CIDR,163.181.1.230/32,✨ Preferred
+- IP-CIDR,163.181.1.227/32,✨ Preferred
+- IP-CIDR,163.181.1.231/32,✨ Preferred
+- IP-CIDR,163.181.1.229/32,✨ Preferred
+- IP-CIDR,163.181.1.224/32,✨ Preferred
+- IP-CIDR,163.181.1.225/32,✨ Preferred
+- IP-CIDR,47.246.23.230/32,✨ Preferred
+- IP-CIDR,47.246.23.234/32,✨ Preferred
+- IP-CIDR,47.246.23.228/32,✨ Preferred
+- IP-CIDR,47.246.23.233/32,✨ Preferred
+- IP-CIDR,47.246.23.231/32,✨ Preferred
+- IP-CIDR,47.246.23.232/32,✨ Preferred
+- IP-CIDR,47.246.23.227/32,✨ Preferred
+- IP-CIDR,47.246.23.229/32,✨ Preferred
+- IP-CIDR,43.152.42.109/32,✨ Preferred
+- IP-CIDR,43.175.22.27/32,✨ Preferred
+- IP-CIDR,43.175.22.42/32,✨ Preferred
+- IP-CIDR,43.175.22.26/32,✨ Preferred
+- IP-CIDR,43.132.84.11/32,✨ Preferred
+- IP-CIDR,101.33.20.34/32,✨ Preferred
+- IP-CIDR,49.51.224.105/32,✨ Preferred
+- IP-CIDR,49.51.224.103/32,✨ Preferred
+- IP-CIDR,163.181.92.232/32,✨ Preferred
+- IP-CIDR,163.181.92.233/32,✨ Preferred
+- IP-CIDR,163.181.92.237/32,✨ Preferred
+- IP-CIDR,163.181.92.238/32,✨ Preferred
+- IP-CIDR,163.181.92.231/32,✨ Preferred
+- IP-CIDR,163.181.92.234/32,✨ Preferred
+- IP-CIDR,163.181.92.236/32,✨ Preferred
+- IP-CIDR,163.181.92.235/32,✨ Preferred
+- IP-CIDR,43.132.83.175/32,✨ Preferred
+- IP-CIDR,43.132.83.54/32,✨ Preferred
+- IP-CIDR,43.132.83.9/32,✨ Preferred
+- IP-CIDR,43.132.91.37/32,✨ Preferred
+- IP-CIDR,43.132.91.110/32,✨ Preferred
+- IP-CIDR,43.132.91.45/32,✨ Preferred
+- IP-CIDR,150.109.222.109/32,✨ Preferred
+- IP-CIDR,150.109.222.102/32,✨ Preferred
+- IP-CIDR,150.109.222.97/32,✨ Preferred
+- IP-CIDR,150.109.223.49/32,✨ Preferred
+- IP-CIDR,150.109.222.103/32,✨ Preferred
+- IP-CIDR,150.109.222.99/32,✨ Preferred
+- IP-CIDR,150.109.222.110/32,✨ Preferred
+- IP-CIDR,203.205.220.62/32,✨ Preferred
+- DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
+- DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
+- DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
+- DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
+- DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
+- DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
+- DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
+- DOMAIN-SUFFIX,licdn.com,🌎 Proxies
+- DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
+- DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
+- DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
+- DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
+- GEOIP,CN,DIRECT
+- MATCH,🌎 Proxies
