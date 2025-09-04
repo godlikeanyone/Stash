@@ -68,38 +68,19 @@ jobs:
           for line in lines:
               if line.startswith("- {name: 🌐全球智能路由 - Snippets") and snippets_index < len(selected):
                   node = selected[snippets_index].groupdict()
-                  # 替换 uuid
-                  line = re.sub(r'uuid:\s*[0-9a-fA-F-]+', f"uuid: {node['uuid']}", line)
-                  
-                  # 替换 servername（匹配所有非逗号或闭括号字符，包含引号）
-                  line = re.sub(r'servername:\s*("[^"]*"|[^,}]+)', f'servername: {node["sni"]}', line)
-                  
-                  # 替换 server
-                  line = re.sub(r'server:\s*("[^"]*"|[^,}]+)', f'server: {node["server"]}', line)
-                  
-                  # 替换 ws-opts.path
-                  line = re.sub(r'path:\s*".*?"', f'path: "{requests.utils.unquote(node["path"])}"', line)
-                  
-                  # 替换 ws-opts.headers.Host（匹配嵌套大括号里的值）
-                  line = re.sub(r'Host:\s*("[^"]*"|[^}]+)', f'Host: {node["host"]}', line)
+                  snippet_text = re.sub(r'uuid:\s*[0-9a-fA-F-]+', f"uuid: {node['uuid']}", snippet_text)
+                  snippet_text = re.sub(r'servername:\s*[^,}]+', f'servername: {node["sni"]}', snippet_text)
+                  snippet_text = re.sub(r'server:\s*[^,}]+', f'server: {node["server"]}', snippet_text)
+                  snippet_text = re.sub(r'path:\s*".*?"', f'path: "{node["path"]}"', snippet_text)
+                  snippet_text = re.sub(r'Host:\s*[^}]+', f'Host: {node["host"]}', snippet_text)
                   snippets_index += 1
               elif line.startswith("- {name: 🌐全球智能路由 - Snippets2") and snippets_index < len(selected):
                   node = selected[snippets_index].groupdict()
-                  # 替换 uuid
-                  line = re.sub(r'uuid:\s*[0-9a-fA-F-]+', f"uuid: {node['uuid']}", line)
-                  
-                  # 替换 servername（匹配所有非逗号或闭括号字符，包含引号）
-                  line = re.sub(r'servername:\s*("[^"]*"|[^,}]+)', f'servername: {node["sni"]}', line)
-                  
-                  # 替换 server
-                  line = re.sub(r'server:\s*("[^"]*"|[^,}]+)', f'server: {node["server"]}', line)
-                  
-                  # 替换 ws-opts.path
-                  line = re.sub(r'path:\s*".*?"', f'path: "{requests.utils.unquote(node["path"])}"', line)
-                  
-                  # 替换 ws-opts.headers.Host（匹配嵌套大括号里的值）
-                  line = re.sub(r'Host:\s*("[^"]*"|[^}]+)', f'Host: {node["host"]}', line)
-
+                  snippet_text = re.sub(r'uuid:\s*[0-9a-fA-F-]+', f"uuid: {node['uuid']}", snippet_text)
+                  snippet_text = re.sub(r'servername:\s*[^,}]+', f'servername: {node["sni"]}', snippet_text)
+                  snippet_text = re.sub(r'server:\s*[^,}]+', f'server: {node["server"]}', snippet_text)
+                  snippet_text = re.sub(r'path:\s*".*?"', f'path: "{node["path"]}"', snippet_text)
+                  snippet_text = re.sub(r'Host:\s*[^}]+', f'Host: {node["host"]}', snippet_text)
                   snippets_index += 1
               new_lines.append(line)
           
