@@ -28,13 +28,13 @@ jobs:
           import re
           import requests
           
-          # 获取订阅
+          # 1. 获取订阅
           sub_url = "https://cfxr.eu.org/getSub"
           r = requests.get(sub_url)
           r.raise_for_status()
           content = r.text
           
-          # 匹配 registry.cyou 上的 vless 节点
+          # 2. 匹配 registry.cyou 上的 vless 节点
           vless_pattern = re.compile(
               r"vless://(?P<uuid>[0-9a-fA-F-]+)@registry\.cyou:443"
               r"\?encryption=[^&]+"
@@ -46,39 +46,49 @@ jobs:
           )
           matches = list(vless_pattern.finditer(content))
           
-          # 固定模板 name
+          # 3. 固定模板 name
           names = ["🌐全球智能路由 - Snippets", "🌐全球智能路由 - Snippets2"]
           
-          # 构建 proxies 文本
+          # 4. 构建 proxies 文本
           nodes_text = ""
           if len(matches) >= 2:
               selected = matches[:2]
           elif len(matches) == 1:
               selected = [matches[0], matches[0]]  # 单条节点重复
           else:
-              selected = []  # 没有节点就清空 proxies
+              selected = []
           
           for i, match in enumerate(selected):
               node = match.groupdict()
               nodes_text += f"""  - {{name: {names[i]}, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: {node['uuid']}, tls: {str(node.get('security','').lower()=='tls').lower()}, tfo: false, skip-cert-verify: false, servername: {node['sni']}, network: ws, ws-opts: {{path: "{requests.utils.unquote(node['path'])}", headers: {{Host: {node['host']}}}}}}}\n"""
           
-          # 获取 sayuri.yaml
+          # 5. 获取 sayuri.yaml
           yaml_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
           r2 = requests.get(yaml_url)
           r2.raise_for_status()
           yaml_text = r2.text
           
-          # 替换 proxies 区块（只匹配缩进行，保留后续内容）
+          # 6. 替换 proxies 区块
+          #   - 匹配 proxies: 行后的缩进内容，最多只替换两条节点
+          def replace_proxies(match):
+              lines = match.group(0).splitlines()
+              # 保留 proxies: 行
+              new_lines = [lines[0]]
+              # 添加新节点
+              new_lines.append(nodes_text.rstrip())  # 去掉最后的换行，避免多余空行
+              return "\n".join(new_lines) + "\n"
+          
           yaml_text_new = re.sub(
               r"(proxies:\s*\n)([ \t\-].*\n)*",
-              r"\1" + nodes_text,
+              replace_proxies,
               yaml_text,
               flags=re.MULTILINE
           )
           
-          # 写回文档
+          # 7. 写回文档
           with open("sayuri.yaml", "w", encoding="utf-8") as f:
               f.write(yaml_text_new)
+
 
           EOF
           
