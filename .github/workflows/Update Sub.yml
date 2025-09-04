@@ -1,79 +1,81 @@
-name: Update Nodes
+name: Update VLESS Proxies
+
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"  # 每天 UTC 0 点触发，可修改
+    - cron: '0 0 * * *' # 每天UTC 00:00运行
+  workflow_dispatch:
 
 jobs:
-  update_sayuri:
+  update-proxies:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: 3.11
 
-      - name: Replace Snippets nodes with latest vless
+      - name: Install dependencies
         run: |
-          pip install requests pyyaml
-          python <<'EOF'
-          import requests, re
+          python -m pip install --upgrade pip
+          pip install pyyaml requests
 
-          # 拉取 sayuri.yaml
-          base_text = requests.get("https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml").text
-
-          # 拉取订阅
-          subs = requests.get("https://cfxr.eu.org/getSub").text.strip().splitlines()
-          vless = [s for s in subs if s.startswith("vless://")]
-          if len(vless) < 2:
-              vless = vless[:1]*2  # 保证至少两条
-
-          # 提取 path 和 host
-          def extract_path_host(line):
-              m = re.search(r'path: "(.*?)"', line)
-              path = m.group(1) if m else "/"
-              m2 = re.search(r'Host: ([^}]+)', line)
-              host = m2.group(1) if m2 else None
-              return path, host
-
-          # 找原始 Snippets 节点
-          orig1 = re.search(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", base_text).group(0)
-          orig2 = re.search(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", base_text).group(0)
-          path1, host1 = extract_path_host(orig1)
-          path2, host2 = extract_path_host(orig2)
-
-          # 替换函数
-          def vless_to_line(orig_line, vless_link, path, host):
-              m = re.match(r"vless://([^@]+)@([^:]+):(\d+)\?(.+)#(.+)", vless_link)
-              if not m: return orig_line
-              uuid, server, port, params, _ = m.groups()
-              opts = dict([p.split("=",1) for p in params.split("&") if "=" in p])
-              tls = str(opts.get("security")=="tls").lower()
-              line = re.sub(r'uuid: [^,}]+', f'uuid: {uuid}', orig_line)
-              line = re.sub(r'server: [^,}]+', f'server: {server}', line)
-              line = re.sub(r'port: [^,}]+', f'port: {port}', line)
-              line = re.sub(r'tls: (true|false)', f'tls: {tls}', line)
-              line = re.sub(r'path: ".*?"', f'path: "{path}"', line)
-              line = re.sub(r'Host: [^}]+', f'Host: {host}', line)
-              return line
-
-          # 替换节点
-          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets[^\n]*", vless_to_line(orig1, vless[0], path1, host1), base_text)
-          base_text = re.sub(r"- \{name: 🌐全球智能路由 - Snippets2[^\n]*", vless_to_line(orig2, vless[1], path2, host2), base_text)
-
-          # 写回
-          with open("sayuri.yaml","w",encoding="utf-8") as f:
-              f.write(base_text)
-
-          EOF
-
-      - name: Commit changes
+      - name: Fetch subscription and update YAML
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          import re, requests, yaml
+
+          # 1. 获取订阅
+          sub_url = "https://cfxr.eu.org/getSub"
+          r = requests.get(sub_url)
+          r.raise_for_status()
+          content = r.text
+
+          # 2. 正则提取 VLESS 节点
+          vless_pattern = re.compile(
+              r"vless://(?P<uuid>[0-9a-fA-F-]+)@(?P<server>[^:]+):(?P<port>\d+)\?encryption=[^&]+&security=[^&]+&sni=(?P<sni>[^&]+)&type=(?P<type>[^&]+)&host=(?P<host>[^&]+)&path=(?P<path>[^#]+)#(?P<name>[^ ]+)"
+          )
+          nodes = []
+          for match in vless_pattern.finditer(content):
+              node = match.groupdict()
+              nodes.append({
+                  "name": f"🌐全球智能路由 - {node['name']}",
+                  "server": node["server"],
+                  "port": int(node["port"]),
+                  "client-fingerprint": "chrome",
+                  "type": node["type"],
+                  "uuid": node["uuid"],
+                  "tls": True if node["security"].lower() == "tls" else False,
+                  "tfo": False,
+                  "skip-cert-verify": False,
+                  "servername": node["sni"],
+                  "network": node["type"],
+                  "ws-opts": {
+                      "path": requests.utils.unquote(node["path"]),
+                      "headers": {"Host": node["host"]}
+                  }
+              })
+
+          # 3. 获取 sayuri.yaml
+          yaml_url = "https://raw.githubusercontent.com/godlikeanyone/Stash/refs/heads/main/sayuri.yaml"
+          r2 = requests.get(yaml_url)
+          r2.raise_for_status()
+          data = yaml.safe_load(r2.text)
+
+          # 4. 更新 proxies
+          data['proxies'] = nodes
+
+          # 5. 写入文件
+          with open("sayuri.yaml", "w", encoding="utf-8") as f:
+              yaml.safe_dump(data, f, allow_unicode=True)
+
+          print(f"Updated {len(nodes)} nodes in sayuri.yaml")
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add sayuri.yaml
-          git commit -m "Replace Snippets nodes with latest vless" || echo "No changes"
+          git commit -m "Update VLESS proxies from subscription" || echo "No changes to commit"
           git push
