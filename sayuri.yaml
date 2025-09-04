@@ -25,14 +25,113 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 0199161f-e077-f905-6750-04e50bad67f4, tls: true, tfo: false, skip-cert-verify: false, servername: lovemoneycat.ggff.net, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: lovemoneycat.ggff.net}}}
-  - {name: 🌐全球智能路由 - Snippets2, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 0199161f-e077-f397-6750-04e5fa414cc0, tls: true, tfo: false, skip-cert-verify: false, servername: www.zmxquick.cloudns.org, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: www.zmxquick.cloudns.org}}}
+  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: false, servername: nl6vsd.4lfomvwft3.6t8503m.itm516m3gb.hfs.2uu3v7fnkm.ckiyf7ab0aw.iyj2h29.cbl8s.kvdxnnx6hn.yhlra2elno.dc0.evx54.ilo1r.arvd0a0x.fq0a20h5b2.yz9zblj.cy12oe22r.w9g23p.jxe5qplz.v1dij73kvyfci3rw77wuu8y48h877l6tsxgoz.nudt.edu.kg, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: nl6vsd.4lfomvwft3.6t8503m.itm516m3gb.hfs.2uu3v7fnkm.ckiyf7ab0aw.iyj2h29.cbl8s.kvdxnnx6hn.yhlra2elno.dc0.evx54.ilo1r.arvd0a0x.fq0a20h5b2.yz9zblj.cy12oe22r.w9g23p.jxe5qplz.v1dij73kvyfci3rw77wuu8y48h877l6tsxgoz.nudt.edu.kg}}}
+  - {name: 🌐全球智能路由 - Snippets2, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, tfo: false, skip-cert-verify: false, servername: 49qo7d.s4czu0mw.zjq5u2mmt9y.gyxbdybg9p.xb4.8vp47.9t13j17.o1fuljouevv.8ojl854pi1k.bg489.g80wn.51u7l02.nlx2i9fypg.ecxn4k09mi.zkpn2afcdy.0vaixzbjtri.r85bn.fhhy.g6ka6.nq4ah7e.ot9f538qfbhhpo1y9rtfv304rnivnjqssjx7.nudt.edu.kg, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: 49qo7d.s4czu0mw.zjq5u2mmt9y.gyxbdybg9p.xb4.8vp47.9t13j17.o1fuljouevv.8ojl854pi1k.bg489.g80wn.51u7l02.nlx2i9fypg.ecxn4k09mi.zkpn2afcdy.0vaixzbjtri.r85bn.fhhy.g6ka6.nq4ah7e.ot9f538qfbhhpo1y9rtfv304rnivnjqssjx7.nudt.edu.kg}}}
+  - {name: 🇭🇰 香港 - CF, server: 141.101.115.11, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇭🇰 香港 - 阿里云, server: 47.242.145.136, port: 8001, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇭🇰 香港 - 移动, server: 104.17.53.155, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇭🇰 香港 - CMI, server: 104.16.241.241 , port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: '/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560', headers: {Host: argo.wwxgxn.cfd}}}
+  - {name: 🇯🇵 日本 - 阿里云, server: 47.79.144.82, port: 32317, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🇯🇵 日本 - Alead, server: 47.79.145.128, port: 36081, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🇯🇵 日本 - Freelead, server: 47.79.145.20, port: 33112, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🇯🇵 日本 - Visa, server: www.visa.cn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - TV, server: cloudflare.tv, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - ZeroTrust, server: one.dash.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 联想拯救者, server: legion.lenovo.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 联想, server: go2.lenovo.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Convera, server: convera.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 104, server: 104.19.73.126, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 104 Pro, server: 104.26.12.27, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇬🇧 英国 - Cloudflare, server: quick-edit.devprod.cloudflare.dev, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - Notability, server: notability.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon Reality, server: xui.harry.nom.za, port: 8443, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon HY2, server: sui.harry.nom.za, port: 12345, client-fingerprint: chrome, type: hysteria2, password: dZfqfCA8Q1, auth: dZfqfCA8Q1, skip-cert-verify: true, alpn: [h3]}
+  - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: www.gov.se, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国阿什本 - AWS, server: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com, port: 443, client-fingerprint: chrome, type: vless, uuid: fecc0ba6-f68e-408d-ae8e-fe27c25223fc, tls: true, network: ws, ws-opts: {path: '/ws?ed=2560', headers: {Host: 7a059b09-749e-4995-9b56-562fac29b459.deepnoteproject.com}}}
+  - {name: 🇺🇸 美国洛杉矶 - Reality, server: xui.xy.wwxgxn.cfd, port: 8443, reality-opts: {public-key: ncXBpJ1yKCrrQdFvkhNJXC-B5wKWB9QsFofXRT7Ih0Y, short-id: "7f70a772" }, client-fingerprint: ios, type: vless, uuid: 2177288a-00d4-4fa0-a39e-b26be3836018, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: updates.cdn-apple.com, network: tcp}
+  - {name: 🇺🇸 美国圣何塞 - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
+  - {name: 🇺🇸 美国圣何塞 - CDN, server: cf.cdn.bingbook.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇫🇷 法国 - Wise, server: platform.wise.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 宝塔, server: www.aapanel.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - OralB, server: oralb.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - Delivr, server: delivr.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 新加坡, server: singapore.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇩🇪 德国 - 卡塔尔政府, server: www.gco.gov.qa, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🌐全球智能路由 - cfxr, server: cfxr.eu.org, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🌐全球智能路由 - lzj, server: nezha.lzj.pp.ua, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🌐全球智能路由 - Docker, server: docker.1panel.live, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 印尼鹰航, server: www.garuda-indonesia.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 瑞典政府, server: www.gov.se, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国 - Notion, server: notion.site, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 190, server: 190.93.246.191, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿 - 162, server: 162.159.254.137, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: freeworld.wwxgxn.cfd, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: freeworld.wwxgxn.cfd}}}
+  - {name: 🇯🇵 日本 - Linode, type: trojan, server: ssjp01.go52pokemon.com, port: 54225, password: 38375953-b028-4f06-84e4-831045559562, udp: true, sni: itunes.apple.com, skip-cert-verify: true }
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 0199161f-e077-f905-6750-04e50bad67f4, tls: true, tfo: false, skip-cert-verify: false, servername: lovemoneycat.ggff.net, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: lovemoneycat.ggff.net}}}
-  - {name: 🌐全球智能路由 - Snippets2, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 0199161f-e077-f397-6750-04e5fa414cc0, tls: true, tfo: false, skip-cert-verify: false, servername: www.zmxquick.cloudns.org, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: www.zmxquick.cloudns.org}}}
+      - 🌐全球智能路由 - Snippets
+      - 🌐全球智能路由 - Snippets2
+      - 🇭🇰 香港 - CF
+      - 🇭🇰 香港 - 阿里云
+      - 🇭🇰 香港 - 移动
+      - 🇭🇰 香港 - CMI
+      - 🇹🇼 台湾 - GCP
+      - 🇯🇵 日本 - 阿里云
+      - 🇯🇵 日本 - Alead
+      - 🇯🇵 日本 - Freelead
+      - 🇯🇵 日本 - Visa
+      - 🇺🇸 美国华盛顿 - TV
+      - 🇺🇸 美国华盛顿 - ZeroTrust
+      - 🇺🇸 美国华盛顿 - 联想拯救者
+      - 🇺🇸 美国华盛顿 - 联想
+      - 🇺🇸 美国华盛顿 - Convera
+      - 🇺🇸 美国华盛顿 - 104
+      - 🇩🇪 德国 - 104 Pro
+      - 🇺🇸 美国华盛顿 - 澳洲驻华使馆
+      - 🇺🇸 美国华盛顿 - Pages
+      - 🇬🇧 英国 - Cloudflare
+      - 🇩🇪 德国 - Notability
+      - 🇺🇸 美国华盛顿 - Bandwagon Reality
+      - 🇺🇸 美国华盛顿 - Bandwagon HY2
+      - 🇺🇸 美国华盛顿 - Bandwagon TLS
+      - 🇺🇸 美国阿什本 - AWS
+      - 🇺🇸 美国洛杉矶 - Reality
+      - 🇺🇸 美国圣何塞 - Reality
+      - 🇺🇸 美国圣何塞 - CDN
+      - 🇫🇷 法国 - Wise
+      - 🇩🇪 德国 - 宝塔
+      - 🇺🇸 美国华盛顿 - OralB
+      - 🇺🇸 美国华盛顿 - Delivr
+      - 🇩🇪 德国 - 新加坡
+      - 🇩🇪 德国 - 卡塔尔政府
+      - 🌐全球智能路由 - cfxr
+      - 🌐全球智能路由 - lzj
+      - 🌐全球智能路由 - Docker
+      - 🇺🇸 美国华盛顿 - 印尼鹰航
+      - 🇺🇸 美国华盛顿 - 瑞典政府
+      - 🇺🇸 美国 - Notion
+      - 🇺🇸 美国华盛顿 - 190
+      - 🇺🇸 美国华盛顿 - 162
+      - 🇯🇵 日本 - Linode
+  - name: ✨ Preferred
+    type: select
+    proxies:
+      - 🇯🇵 日本 - 阿里云
+      - 🇯🇵 日本 - Alead
+      - 🇯🇵 日本 - Freelead
+      - 🇺🇸 美国华盛顿 - Bandwagon Reality
+      - 🇺🇸 美国华盛顿 - Bandwagon HY2
+      - 🇺🇸 美国华盛顿 - Bandwagon TLS
+      - 🇹🇼 台湾 - GCP
+      - 🇺🇸 美国阿什本 - AWS
+      - 🇺🇸 美国洛杉矶 - Reality
+      - 🇺🇸 美国圣何塞 - Reality
+      - 🇺🇸 美国圣何塞 - CDN
+      - 🇯🇵 日本 - Linode
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
