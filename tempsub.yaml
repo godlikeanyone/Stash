@@ -31,8 +31,8 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶
-      - 🇺🇸 美国圣何塞
+      - 🇺🇸 美国洛杉矶 - Reality
+      - 🇺🇸 美国圣何塞 - Reality
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
