@@ -27,12 +27,14 @@ dns:
 proxies:
   - {name: 🇺🇸 美国洛杉矶 - Reality, server: 107.150.2.239, port: 56020, reality-opts: {public-key: cu2Dy3O6CJyt-ZQeKCxsUCp6lvibA7ZmFKkA0z2qFS8, short-id: "cd379e2a3162" }, client-fingerprint: ios, type: vless, uuid: 5d0dc6f5-da9c-4d2a-8960-2bd856e93b7a, tls: true, flow: xtls-rprx-vision, servername: www.nvidia.com, network: tcp}
   - {name: 🇺🇸 美国圣何塞 - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
+  - {name: 🇺🇸 美国圣何塞 - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶 - Reality
       - 🇺🇸 美国圣何塞 - Reality
+      - 🇺🇸 美国圣何塞 - 瑞典政府
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
