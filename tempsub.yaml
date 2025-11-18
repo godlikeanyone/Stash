@@ -1,0 +1,83 @@
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - '*.lan'
+    - 'localhost.ptlogin2.qq.com'
+    - '*.jegotrip.com.cn'
+    - '*.189.cn'
+    - 'time.*.com'
+    # Apple
+    - 'swscan.apple.com'
+    - 'mesu.apple.com'
+    - 'swquery.apple.com'
+    - 'swdownload.apple.com'
+    - 'swcdn.apple.com'
+    - 'swdist.apple.com'
+    # Microsoft Service
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - 'xbox.*.microsoft.com'
+    - 'xbox.*.*.microsoft.com'
+    - '+.xboxlive.com'
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+proxies:
+  - {name: 🇺🇸美国洛杉矶, server: 107.150.2.239, port: 56020, reality-opts: {public-key: cu2Dy3O6CJyt-ZQeKCxsUCp6lvibA7ZmFKkA0z2qFS8, short-id: "cd379e2a3162" }, client-fingerprint: ios, type: vless, uuid: 5d0dc6f5-da9c-4d2a-8960-2bd856e93b7a, tls: true, flow: xtls-rprx-vision, servername: www.nvidia.com, network: tcp}
+proxy-groups:
+  - name: 🌎 Proxies
+    type: select
+    proxies:
+      - 🇺🇸美国洛杉矶
+rules:
+  # Apple
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - IP-ASN,714,DIRECT
+  - IP-ASN,6185,DIRECT
+  # Tencent
+  - IP-ASN,132203,DIRECT
+  # Aliyun
+  - IP-ASN,45102,DIRECT
+  # AirClipboard
+  - DOMAIN,airclipbd.com,DIRECT
+  - DOMAIN,boardrop.app,DIRECT
+  # Sharepoint
+  - DOMAIN,invictusgod-my.sharepoint.com,DIRECT
+  - DOMAIN-SUFFIX,svc.ms,DIRECT
+  # Speedtest
+  - DOMAIN,speedtest.im,DIRECT
+  # Time.is
+  - DOMAIN,time.is,DIRECT
+  # 无忧行
+  - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
+  # Bilibili
+  - DOMAIN,api.bilibili.com,🌎 Proxies
+  # 即刻
+  - DOMAIN-SUFFIX,ruguoapp.com,🌎 Proxies
+  - DOMAIN-SUFFIX,jellow.site,🌎 Proxies
+  # 懂车帝
+  - DOMAIN-SUFFIX,dcarapi.com,🌎 Proxies
+  # 微博
+  - DOMAIN,api.weibo.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,weibo.com,🌎 Proxies
+  # 百度贴吧
+  - DOMAIN,tieba.baidu.com,🌎 Proxies
+  - DOMAIN,tiebac.baidu.com,🌎 Proxies
+  - DOMAIN,c.tieba.baidu.com,🌎 Proxies
+  # Linkedin
+  - DOMAIN,e122475.dscg.akamaiedge.net,🌎 Proxies
+  - DOMAIN,licdn.cn.cdn20.com,🌎 Proxies
+  - DOMAIN,linkedin.sc.omtrdc.net,🌎 Proxies
+  - DOMAIN-SUFFIX,bizographics.com,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,licdn.com,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.at,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.cn,🌎 Proxies
+  - DOMAIN-SUFFIX,linkedin.com,🌎 Proxies
+  - DOMAIN-SUFFIX,lnkd.in,🌎 Proxies
+  - GEOIP,CN,DIRECT
+  - MATCH,🌎 Proxies
