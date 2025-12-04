@@ -25,7 +25,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 019aa16a-d558-6297-eb7f-17c67c8231fd, tls: true, tfo: false, skip-cert-verify: false, servername: sni.wwxgxn.cfd, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: sni.wwxgxn.cfd}}}
+  - {name: 🌐全球智能路由 - Snippets, server: registry.cyou, port: 443, client-fingerprint: chrome, type: vless, uuid: 019aa237-054b-bb70-954b-01b9680b86f7, tls: true, tfo: false, skip-cert-verify: false, servername: sni.wwxgxn.cfd, network: ws, ws-opts: {path: "/snippets?ip=proxyip:port(443)&nat64=6to4", headers: {Host: sni.wwxgxn.cfd}}}
   - {name: 🇹🇼 台湾 - GCP, server: www.gov.se, port: 443, type: vmess, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, alterId: 0, cipher: auto, tls: true, client-fingerprint: chrome, servername: argo.wwxgxn.cfd, network: ws, ws-opts: {path: '/1950a49e-68b4-44cd-b92b-1fae3729f048-vm?ed=2560', headers: {Host: argo.wwxgxn.cfd}}}
   - {name: 🇯🇵 日本 - 阿里云, server: 47.79.144.82, port: 32317, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
   - {name: 🇯🇵 日本 - Alead, server: 47.79.145.128, port: 36081, client-fingerprint: chrome, type: hysteria2, password: 1950a49e-68b4-44cd-b92b-1fae3729f048, auth: 1950a49e-68b4-44cd-b92b-1fae3729f048, sni: www.bing.com, skip-cert-verify: true, alpn: [h3]}
