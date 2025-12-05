@@ -27,6 +27,7 @@ dns:
 proxies:
   - {name: 🇺🇸 美国洛杉矶 - Reality, server: 107.150.2.239, port: 56020, reality-opts: {public-key: cu2Dy3O6CJyt-ZQeKCxsUCp6lvibA7ZmFKkA0z2qFS8, short-id: "cd379e2a3162" }, client-fingerprint: ios, type: vless, uuid: 5d0dc6f5-da9c-4d2a-8960-2bd856e93b7a, tls: true, flow: xtls-rprx-vision, servername: www.nvidia.com, network: tcp}
   - {name: test, server: rnla.wwxgxn.cfd, port: 34320, type: vless, uuid: 7c4d8fe7-066a-4ca0-8867-ac7de11181a7, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: QEinl7dEW7tkSWkMuFxUiVnNCxonwV3M0NddCa6No3M, short-id: "63" }, servername: d1.awsstatic.com, client-fingerprint: chrome, network: tcp}
+  - {name: Cloudflare, server: rnla.wwxgxn.cfd, port: 8443, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: cdn.rnla.wwxgxn.cfd, client-fingerprint: chrome, network: ws, ws-opts: {path: "/sayuri?ed=2560", headers: {Host: cdn.rnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶 - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cdn.rnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.rnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶 - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cdn.rnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.rnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶 - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cdn.rnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.rnla.wwxgxn.cfd}}}
@@ -51,6 +52,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国洛杉矶 - Reality
       - test
+      - Cloudflare
       - 🇺🇸 美国洛杉矶 - 瑞典政府
       - 🇺🇸 美国洛杉矶 - 优选域名
       - 🇺🇸 美国洛杉矶 - 南洋理工
