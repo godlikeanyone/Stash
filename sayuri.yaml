@@ -55,7 +55,6 @@ proxies:
   - {name: 🇺🇸 美国圣何塞 - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国圣何塞 - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿 - Bandwagon Reality, server: xui.harry.nom.za, port: 8443, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon HY2, server: sui.harry.nom.za, port: 12345, client-fingerprint: chrome, type: hysteria2, password: dZfqfCA8Q1, auth: dZfqfCA8Q1, skip-cert-verify: true, alpn: [h3]}
   - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
 proxy-groups:
   - name: 🌎 Proxies
@@ -91,7 +90,6 @@ proxy-groups:
       - 🇺🇸 美国圣何塞 - 南洋理工
       - 🇺🇸 美国圣何塞 - Ed
       - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon HY2
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
   - name: ✨ Preferred
     type: select
@@ -108,7 +106,6 @@ proxy-groups:
       - 🇺🇸 美国圣何塞 - 南洋理工
       - 🇺🇸 美国圣何塞 - Ed
       - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon HY2
       - 🇺🇸 美国华盛顿 - Bandwagon TLS
 rules:
   # Apple
