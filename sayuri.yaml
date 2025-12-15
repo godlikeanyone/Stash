@@ -25,10 +25,13 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🇺🇸 美国洛杉矶 - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶 - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶 - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶 - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - DMIT, server: 154.17.7.168, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - DMIT2, server: 154.21.86.85, port: 443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - xTom, server: 104.245.12.121, port: 1443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=152.67.101.72:23010?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - CMI, server: b3.cfyx.20237737.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 优选IP, server: 104.17.164.217, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -54,21 +57,24 @@ proxies:
   - {name: 🇩🇪 德国 - 104 Pro, server: 104.26.12.27, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - 澳洲驻华使馆, server: china.embassy.gov.au, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国圣何塞 - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
-  - {name: 🇺🇸 美国圣何塞 - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国圣何塞 - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国圣何塞 - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国圣何塞 - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon Reality, server: xui.harry.nom.za, port: 8555, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon TLS, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 瑞典政府, server: www.gov.se, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿Bandwagon - Reality, server: xui.harry.nom.za, port: 8555, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
+  - {name: 🇺🇸 美国华盛顿Bandwagon - TLS, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶 - 瑞典政府
-      - 🇺🇸 美国洛杉矶 - 优选域名
-      - 🇺🇸 美国洛杉矶 - 南洋理工
-      - 🇺🇸 美国洛杉矶 - Ed
+      - 🇺🇸 美国洛杉矶RackNerd - 瑞典政府
+      - 🇺🇸 美国洛杉矶RackNerd - 优选域名
+      - 🇺🇸 美国洛杉矶RackNerd - 南洋理工
+      - 🇺🇸 美国洛杉矶RackNerd - Ed
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT2
+      - 🇺🇸 美国洛杉矶RackNerd - xTom
       - 🇭🇰 香港 - Sin
       - 🇭🇰 香港 - CMI
       - 🇭🇰 香港 - 优选IP
@@ -99,22 +105,25 @@ proxy-groups:
       - 🇺🇸 美国圣何塞 - 优选域名
       - 🇺🇸 美国圣何塞 - 南洋理工
       - 🇺🇸 美国圣何塞 - Ed
-      - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon TLS
+      - 🇺🇸 美国华盛顿Bandwagon - Reality
+      - 🇺🇸 美国华盛顿Bandwagon - TLS
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶 - 瑞典政府
-      - 🇺🇸 美国洛杉矶 - 优选域名
-      - 🇺🇸 美国洛杉矶 - 南洋理工
-      - 🇺🇸 美国洛杉矶 - Ed
-      - 🇺🇸 美国圣何塞 - Reality
-      - 🇺🇸 美国圣何塞 - 瑞典政府
-      - 🇺🇸 美国圣何塞 - 优选域名
-      - 🇺🇸 美国圣何塞 - 南洋理工
-      - 🇺🇸 美国圣何塞 - Ed
-      - 🇺🇸 美国华盛顿 - Bandwagon Reality
-      - 🇺🇸 美国华盛顿 - Bandwagon TLS
+      - 🇺🇸 美国洛杉矶RackNerd - 瑞典政府
+      - 🇺🇸 美国洛杉矶RackNerd - 优选域名
+      - 🇺🇸 美国洛杉矶RackNerd - 南洋理工
+      - 🇺🇸 美国洛杉矶RackNerd - Ed
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT2
+      - 🇺🇸 美国洛杉矶RackNerd - xTom
+      - 🇺🇸 美国洛杉矶RackNerd - Reality
+      - 🇺🇸 美国洛杉矶RackNerd - 瑞典政府
+      - 🇺🇸 美国洛杉矶RackNerd - 优选域名
+      - 🇺🇸 美国洛杉矶RackNerd - 南洋理工
+      - 🇺🇸 美国洛杉矶RackNerd - Ed
+      - 🇺🇸 美国华盛顿Bandwagon - Reality
+      - 🇺🇸 美国华盛顿Bandwagon - TLS
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
