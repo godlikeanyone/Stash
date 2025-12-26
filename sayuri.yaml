@@ -27,7 +27,7 @@ dns:
 proxies:
   - {name: 🇺🇸 美国洛杉矶RackNerd - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - 移动优选, server: bestcf.030101.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶RackNerd - Visa, server: www.visa.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - CF88, server: freeyx.cloudflare88.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - DMIT, server: 154.26.189.70, port: 443, client-fingerprint: chrome, type: vless, uuid: a5c1ddad-df1a-4234-828c-847942de89d1, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=152.67.101.72:23010?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 优选IP, server: 104.17.164.217, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -60,7 +60,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国洛杉矶RackNerd - 优选域名
       - 🇺🇸 美国洛杉矶RackNerd - 移动优选
-      - 🇺🇸 美国洛杉矶RackNerd - Visa
+      - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇭🇰 香港 - Sin
       - 🇭🇰 香港 - 优选IP
@@ -92,7 +92,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国洛杉矶RackNerd - 优选域名
       - 🇺🇸 美国洛杉矶RackNerd - 移动优选
-      - 🇺🇸 美国洛杉矶RackNerd - Visa
+      - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇺🇸 美国圣何塞RackNerd - Reality
       - 🇺🇸 美国圣何塞RackNerd - 优选域名
