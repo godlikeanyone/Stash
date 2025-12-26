@@ -50,10 +50,8 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国圣何塞RackNerd - Reality, server: rn.wwxgxn.cfd, port: 443, reality-opts: {public-key: m93ugpz4lWSvG5wPlqth_HrgdqLE-VUy_CdiV2mPuhk, short-id: "c2dcaf2f9673f6e9" }, client-fingerprint: chrome, type: vless, uuid: cde7ff21-995c-4d1d-80ae-229c6800f54d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: d1.awsstatic.com, network: tcp}
   - {name: 🇺🇸 美国圣何塞RackNerd - 优选域名, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国圣何塞RackNerd - 南洋理工, server: www.ntu.edu.sg, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国圣何塞RackNerd - Ed, server: edstem.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 572a0d47-567c-4085-a2de-69cc41365a27, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: rncf.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: rncf.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国华盛顿Bandwagon - Reality, server: xui.harry.nom.za, port: 8555, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
-  - {name: 🇺🇸 美国华盛顿Bandwagon - TLS, server: www.visa.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国华盛顿Bandwagon - TLS, server: freeyx.cloudflare88.eu.org, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
 proxy-groups:
   - name: 🌎 Proxies
     type: select
@@ -84,8 +82,6 @@ proxy-groups:
       - 🇺🇸 美国圣何塞RackNerd - Reality
       - 🇺🇸 美国圣何塞RackNerd - 优选域名
       - 🇺🇸 美国圣何塞RackNerd - 南洋理工
-      - 🇺🇸 美国圣何塞RackNerd - Ed
-      - 🇺🇸 美国华盛顿Bandwagon - Reality
       - 🇺🇸 美国华盛顿Bandwagon - TLS
   - name: ✨ Preferred
     type: select
@@ -96,8 +92,6 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇺🇸 美国圣何塞RackNerd - Reality
       - 🇺🇸 美国圣何塞RackNerd - 优选域名
-      - 🇺🇸 美国圣何塞RackNerd - 南洋理工
-      - 🇺🇸 美国圣何塞RackNerd - Ed
       - 🇺🇸 美国华盛顿Bandwagon - Reality
       - 🇺🇸 美国华盛顿Bandwagon - TLS
 rules:
