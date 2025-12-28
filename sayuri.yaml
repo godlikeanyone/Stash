@@ -119,8 +119,6 @@ rules:
   - DOMAIN,speedtest.im,DIRECT
   # Time.is
   - DOMAIN,time.is,DIRECT
-  # QQ频道
-  - DOMAIN,sq.bls.mdt.qq.com,🌎 Proxies
   # 无忧行
   - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
   # Bilibili
