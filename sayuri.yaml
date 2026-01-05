@@ -25,7 +25,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🇺🇸 美国洛杉矶RackNerd - doon, server: cdns.doon.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - 1357900, server: 1357900.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - bestcf030101, server: bestcf.030101.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - CF88, server: freeyx.cloudflare88.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - seeck, server: cloudflare.seeck.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
@@ -63,7 +63,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶RackNerd - doon
+      - 🇺🇸 美国洛杉矶RackNerd - 1357900
       - 🇺🇸 美国洛杉矶RackNerd - bestcf030101
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
@@ -100,7 +100,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶RackNerd - doon
+      - 🇺🇸 美国洛杉矶RackNerd - 1357900
       - 🇺🇸 美国洛杉矶RackNerd - bestcf030101
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
