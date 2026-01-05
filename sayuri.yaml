@@ -29,7 +29,7 @@ proxies:
   - {name: 🇺🇸 美国洛杉矶RackNerd - bestcf030101, server: bestcf.030101.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - CF88, server: freeyx.cloudflare88.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - seeck, server: cloudflare.seeck.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=152.67.101.72:23010?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - DMIT, server: 154.21.89.25, port: 443, client-fingerprint: chrome, type: vless, uuid: a5c1ddad-df1a-4234-828c-847942de89d1, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}  - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=152.67.101.72:23010?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 优选IP, server: 104.17.164.217, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 20237737, server: b3.cfyx.20237737.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - bestcf030101, server: bestcf.030101.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -38,8 +38,8 @@ proxies:
   - {name: 🌐全球智能路由 - nrt, server: nrt.xxxxxxxx.nyc.mn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 468123, server: cloudflare.468123.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇯🇵 日本 - Visa, server: www.visa.cn, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国华盛顿 - DMIT, server: 154.17.7.168, port: 8443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国华盛顿 - DMIT2, server: 154.17.4.192, port: 8084, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT1, server: 154.17.7.168, port: 8443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT2, server: 154.17.228.219, port: 1311, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT3, server: 154.17.237.42, port: 8570, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - CDNJS, server: ajax.cdnjs.com, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - dmit.io, server: dmit.io, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -67,6 +67,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶RackNerd - bestcf030101
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇭🇰 香港 - Sin
       - 🇭🇰 香港 - 优选IP
       - 🇭🇰 香港 - 20237737
@@ -76,7 +77,7 @@ proxy-groups:
       - 🌐全球智能路由 - nrt
       - 🌐全球智能路由 - 468123
       - 🇯🇵 日本 - Visa
-      - 🇺🇸 美国华盛顿 - DMIT
+      - 🇺🇸 美国华盛顿 - DMIT1
       - 🇺🇸 美国华盛顿 - DMIT2
       - 🇺🇸 美国华盛顿 - DMIT3
       - 🇺🇸 美国华盛顿 - CDNJS
@@ -104,6 +105,7 @@ proxy-groups:
       - 🇺🇸 美国洛杉矶RackNerd - bestcf030101
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇺🇸 美国圣何塞RackNerd - Reality
       - 🇺🇸 美国圣何塞RackNerd - doon
       - 🇺🇸 美国华盛顿Bandwagon - Reality
