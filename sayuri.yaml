@@ -25,7 +25,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
-  - {name: 🇺🇸 美国洛杉矶RackNerd - Sin, server: saas.sin.fan, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - Shopify, server: static.shopify.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - nrt, server: nrt.xxxxxxxx.nyc.mn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - CF88, server: freeyx.cloudflare88.eu.org, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - seeck, server: cloudflare.seeck.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
@@ -60,7 +60,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶RackNerd - Sin
+      - 🇺🇸 美国洛杉矶RackNerd - Shopify
       - 🇺🇸 美国洛杉矶RackNerd - nrt
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
@@ -94,7 +94,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
-      - 🇺🇸 美国洛杉矶RackNerd - Sin
+      - 🇺🇸 美国洛杉矶RackNerd - Shopify
       - 🇺🇸 美国洛杉矶RackNerd - nrt
       - 🇺🇸 美国洛杉矶RackNerd - CF88
       - 🇺🇸 美国洛杉矶RackNerd - seeck
