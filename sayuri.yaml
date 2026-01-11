@@ -122,7 +122,7 @@ rules:
   - DOMAIN,airclipbd.com,DIRECT
   - DOMAIN,boardrop.app,DIRECT
   # Speedtest
-  - DOMAIN,speedtest.im,DIRECT
+  - DOMAIN,speed.do,DIRECT
   # Time.is
   - DOMAIN,time.is,DIRECT
   # 无忧行
