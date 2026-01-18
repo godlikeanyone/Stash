@@ -26,24 +26,23 @@ dns:
     - 119.29.29.29
 proxies:
   - {name: 🇺🇸 美国洛杉矶RackNerd - Shopify, server: static.shopify.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶RackNerd - libvio, server: www.libvio.site, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - Sofi, server: www.sofi.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - 468123, server: cloudflare.468123.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - seeck, server: cloudflare.seeck.cn, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
-  - {name: 🇺🇸 美国洛杉矶RackNerd - Bandwagon, server: 144.34.228.162, port: 443, client-fingerprint: chrome, type: vless, uuid: a5c1ddad-df1a-4234-828c-847942de89d1, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
+  - {name: 🇺🇸 美国洛杉矶RackNerd - DMIT, server: 154.17.3.170, port: 10443, client-fingerprint: chrome, type: vless, uuid: a5c1ddad-df1a-4234-828c-847942de89d1, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=152.67.101.72:23010?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 182682, server: cf.cloudflare.182682.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - blog646474, server: blog.646474.xyz, port: 2053, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🌐全球智能路由 - libvio, server: www.libvio.site, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - PayPal, server: newsroom.paypal-corp.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - PR Newswire, server: www.prnewswire.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - seeck, server: cloudflare.seeck.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🌐全球智能路由 - 1357900, server: 1357900.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Shopify, server: static.shopify.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Investec, server: www.investec.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Sofi, server: www.sofi.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇯🇵 日本 - Visa, server: www.visa.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国华盛顿 - Bandwagon1, server: 144.34.228.162, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT1, server: 154.17.234.78, port: 7071, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国华盛顿 - DMIT2, server: 154.17.10.113, port: 12266, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇺🇸 美国华盛顿 - DMIT3, server: 154.17.10.10, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT2, server: 154.17.3.170, port: 10443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT3, server: 154.17.238.233, port: 8443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - CDNJS, server: ajax.cdnjs.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - dmit.io, server: dmit.io, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - 乌克兰外交部, server: mfa.gov.ua, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -62,21 +61,20 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶RackNerd - Shopify
-      - 🇺🇸 美国洛杉矶RackNerd - libvio
+      - 🇺🇸 美国洛杉矶RackNerd - Sofi
       - 🇺🇸 美国洛杉矶RackNerd - 468123
       - 🇺🇸 美国洛杉矶RackNerd - seeck
-      - 🇺🇸 美国洛杉矶RackNerd - Bandwagon
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇭🇰 香港 - Sin
       - 🇭🇰 香港 - 182682
       - 🌐全球智能路由 - blog646474
-      - 🌐全球智能路由 - libvio
+      - 🌐全球智能路由 - PayPal
+      - 🌐全球智能路由 - PR Newswire
       - 🌐全球智能路由 - seeck
-      - 🌐全球智能路由 - 1357900
       - 🌐全球智能路由 - Shopify
       - 🌐全球智能路由 - Investec
       - 🌐全球智能路由 - Sofi
       - 🇯🇵 日本 - Visa
-      - 🇺🇸 美国华盛顿 - Bandwagon1
       - 🇺🇸 美国华盛顿 - DMIT1
       - 🇺🇸 美国华盛顿 - DMIT2
       - 🇺🇸 美国华盛顿 - DMIT3
@@ -97,10 +95,10 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶RackNerd - Shopify
-      - 🇺🇸 美国洛杉矶RackNerd - libvio
+      - 🇺🇸 美国洛杉矶RackNerd - Sofi
       - 🇺🇸 美国洛杉矶RackNerd - 468123
       - 🇺🇸 美国洛杉矶RackNerd - seeck
-      - 🇺🇸 美国洛杉矶RackNerd - Bandwagon
+      - 🇺🇸 美国洛杉矶RackNerd - DMIT
       - 🇺🇸 美国华盛顿Bandwagon - Reality
       - 🇺🇸 美国华盛顿Bandwagon - seeck
 rules:
