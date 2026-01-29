@@ -44,8 +44,10 @@ proxies:
   - {name: 🌐全球智能路由 - Tencentapp, server: qq.tencentapp.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - zhetengsha, server: cf.zhetengsha.eu.org, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇯🇵 日本 - Visa, server: www.visa.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT1, server: 154.17.22.207, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT2, server: 154.17.3.170, port: 10443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - DMIT3, server: 154.17.238.233, port: 8443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇺🇸 美国华盛顿 - DMIT4, server: 154.26.185.161, port: 50002, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - 乌克兰外交部, server: mfa.gov.ua, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - ZeroTrust, server: one.dash.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿 - Convera, server: convera.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -77,8 +79,10 @@ proxy-groups:
       - 🌐全球智能路由 - Tencentapp
       - 🌐全球智能路由 - zhetengsha
       - 🇯🇵 日本 - Visa
+      - 🇺🇸 美国华盛顿 - DMIT1
       - 🇺🇸 美国华盛顿 - DMIT2
       - 🇺🇸 美国华盛顿 - DMIT3
+      - 🇺🇸 美国华盛顿 - DMIT4
       - 🇺🇸 美国华盛顿 - 乌克兰外交部
       - 🇺🇸 美国华盛顿 - ZeroTrust
       - 🇺🇸 美国华盛顿 - Convera
