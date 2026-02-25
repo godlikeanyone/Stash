@@ -56,7 +56,7 @@ proxies:
   - {name: 🇺🇸 美国华盛顿 - Pages, server: pages.cloudflare.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇺🇸 美国华盛顿Bandwagon - Reality, server: xui.harry.nom.za, port: 8555, reality-opts: {public-key: 3jnT-W4guhBKSHoBfHf7T8Ma1WR3kCZi7qDspQPefUA, short-id: "0a67" }, client-fingerprint: ios, type: vless, uuid: c0897093-7e73-4ac6-81a5-c68cdd9a2a04, tls: true, flow: xtls-rprx-vision, servername: updates.cdn-apple.com, network: tcp}
   - {name: 🇺🇸 美国华盛顿Bandwagon - seeck, server: cloudflare.seeck.cn, port: 2087, client-fingerprint: chrome, type: vless, uuid: bbc46c0f-d5f3-40fa-a0dc-c4736af7f9c1, tls: true, servername: cdn.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cdn.wwxgxn.cfd}}}
-  - {name: Ubigi, server: 107.150.2.239, port: 443, type: vless, uuid: e9c19391-7574-4c30-bf69-7cbc3ed3f12f, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.ubigi.com]}}}
+  - {name: Ubigi, server: 107.150.2.239, port: 443, type: vless, uuid: e9c19391-7574-4c30-bf69-7cbc3ed3f12f, tls: false, tfo: false, skip-cert-verify: false, network: http, http-opts: {method: GET, path: /, headers: {Host: www.ubigi.com}}}
 
 proxy-groups:
   - name: 🌎 Proxies
