@@ -136,8 +136,8 @@ rules:
   - DOMAIN,tiebac.baidu.com,🌎 Proxies
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
   # Gemini
-  - DOMAIN,proactivebackend-pa.googleapis.com,✨ Preferred
-  - DOMAIN,gemini.google.com,✨ Preferred
+  #- DOMAIN,proactivebackend-pa.googleapis.com,✨ Preferred
+  #- DOMAIN,gemini.google.com,✨ Preferred
   # 5278
   - DOMAIN-SUFFIX,hboav.com,✨ Preferred
   # Wealthsimple
