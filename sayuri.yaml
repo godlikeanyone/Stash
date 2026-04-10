@@ -25,6 +25,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 proxies:
+  - {name: 🇺🇸 美国洛杉矶DMIT, server: 64.186.240.41, port: 31311, type: vless, uuid: 1f658ef0-f7c8-41b4-b0fb-7961ebb206fe, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
   - {name: 🇺🇸 美国洛杉矶RackNerd - Shopify, server: static.shopify.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - Sofi, server: www.sofi.com, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
   - {name: 🇺🇸 美国洛杉矶RackNerd - 468123, server: cloudflare.468123.xyz, port: 8443, client-fingerprint: chrome, type: vless, uuid: 2f71fb66-57e4-4455-baff-db83993901f4, tls: true, alpn: [h2], tfo: false, skip-cert-verify: false, servername: cfrnla.wwxgxn.cfd, network: ws, ws-opts: {path: '/sayuri?ed=2560', headers: {Host: cfrnla.wwxgxn.cfd}}}
@@ -61,6 +62,7 @@ proxy-groups:
   - name: 🌎 Proxies
     type: select
     proxies:
+      - 🇺🇸 美国洛杉矶DMIT
       - 🇺🇸 美国洛杉矶RackNerd - Shopify
       - 🇺🇸 美国洛杉矶RackNerd - Sofi
       - 🇺🇸 美国洛杉矶RackNerd - 468123
@@ -96,6 +98,7 @@ proxy-groups:
   - name: ✨ Preferred
     type: select
     proxies:
+      - 🇺🇸 美国洛杉矶DMIT
       - 🇺🇸 美国洛杉矶RackNerd - Shopify
       - 🇺🇸 美国洛杉矶RackNerd - Sofi
       - 🇺🇸 美国洛杉矶RackNerd - 468123
