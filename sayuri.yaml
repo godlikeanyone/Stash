@@ -31,7 +31,7 @@ proxies:
   - {name: 🇭🇰 香港 - 优选IP, server: 172.66.0.116, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - DMIT1, server: 154.12.188.198, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - DMIT2, server: 154.12.177.104, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇭🇰 香港 - DMIT3, server: 154.12.188.161, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇭🇰 香港 - xTom, server: 149.62.46.143, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - PayPal, server: newsroom.paypal-corp.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - seeck, server: cloudflare.seeck.cn, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Shopify, server: static.shopify.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -56,7 +56,7 @@ proxy-groups:
       - 🇭🇰 香港 - 优选IP
       - 🇭🇰 香港 - DMIT1
       - 🇭🇰 香港 - DMIT2
-      - 🇭🇰 香港 - DMIT3
+      - 🇭🇰 香港 - xTom
       - 🌐全球智能路由 - PayPal
       - 🌐全球智能路由 - seeck
       - 🌐全球智能路由 - Shopify
