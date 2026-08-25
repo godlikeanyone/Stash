@@ -26,8 +26,6 @@ dns:
     - 119.29.29.29
 proxies:
   - {name: 🇺🇸 美国洛杉矶DMIT, server: 64.186.240.41, port: 31311, type: vless, uuid: 1f658ef0-f7c8-41b4-b0fb-7961ebb206fe, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
-  - {name: 🇭🇰 香港 - Sin, server: saas.sin.fan, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇭🇰 香港 - 182682, server: cf.cloudflare.182682.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - 优选IP, server: 172.66.0.116, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - DMIT1, server: 154.12.188.198, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇭🇰 香港 - DMIT2, server: 154.12.177.104, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -51,8 +49,6 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶DMIT
-      - 🇭🇰 香港 - Sin
-      - 🇭🇰 香港 - 182682
       - 🇭🇰 香港 - 优选IP
       - 🇭🇰 香港 - DMIT1
       - 🇭🇰 香港 - DMIT2
