@@ -27,7 +27,7 @@ dns:
 proxies:
   - {name: 🇺🇸 美国洛杉矶DMIT, server: 64.186.240.41, port: 31311, type: vless, uuid: 1f658ef0-f7c8-41b4-b0fb-7961ebb206fe, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
   - {name: 🇭🇰 香港 - 优选IP, server: 172.66.0.116, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇭🇰 香港 - xTom, server: 149.62.46.143, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🇯🇵 日本 - xTom, server: 45.153.245.221, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - PayPal, server: newsroom.paypal-corp.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 移动优化, server: bestcf.030101.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 电信优化, server: 104.18.33.1, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -50,7 +50,7 @@ proxy-groups:
     proxies:
       - 🇺🇸 美国洛杉矶DMIT
       - 🇭🇰 香港 - 优选IP
-      - 🇭🇰 香港 - xTom
+      - 🇯🇵 日本 - xTom
       - 🌐全球智能路由 - PayPal
       - 🌐全球智能路由 - 移动优化
       - 🌐全球智能路由 - 电信优化
