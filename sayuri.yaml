@@ -89,6 +89,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶DMIT
+      - 🇺🇸 美国洛杉矶DMIT - Reality
 rules:
   # Apple
   - DOMAIN-SUFFIX,apple.com,DIRECT
