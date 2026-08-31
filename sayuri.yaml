@@ -26,8 +26,8 @@ dns:
     - 119.29.29.29
 proxies:
   - {name: 🇺🇸 美国洛杉矶DMIT, server: 64.186.240.41, port: 31311, type: vless, uuid: 1f658ef0-f7c8-41b4-b0fb-7961ebb206fe, tls: false, tfo: false, skip-cert-verify: false, network: tcp}
+  - {name: 🇺🇸 美国洛杉矶DMIT - Reality, server: 64.186.240.41, port: 443, type: vless, uuid: 17b56501-7faa-4bc5-a226-03510662bb63, tls: true, tfo: false, skip-cert-verify: false, reality-opts: {public-key: pgL-HBUH9MqLYzoU8Twx8i0pvJqDe9HhzChp85IstR0, short-id: "4a039e" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp}
   - {name: 🇭🇰 香港 - 优选IP, server: 172.66.0.116, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.SG.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
-  - {name: 🇯🇵 日本 - xTom, server: 45.153.245.221, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🇯🇵 日本 - Akile, server: 156.231.113.81, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 专享-电信优选_68ms, server: 8.35.211.91, port: 2096, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
   - {name: 专享-电信优选_85ms, server: 8.35.211.5, port: 2096, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
@@ -58,8 +58,8 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 美国洛杉矶DMIT
+      - 🇺🇸 美国洛杉矶DMIT - Reality
       - 🇭🇰 香港 - 优选IP
-      - 🇯🇵 日本 - xTom
       - 🇯🇵 日本 - Akile
       - 专享-电信优选_68ms
       - 专享-电信优选_85ms
