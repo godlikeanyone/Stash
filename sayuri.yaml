@@ -41,6 +41,8 @@ proxies:
   - {name: 🇸🇬 专享-电信🇸🇬 新加坡_162ms, server: 168.144.45.134, port: 8443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
   - {name: 🌐全球智能路由 - PayPal, server: newsroom.paypal-corp.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 移动优化, server: bestcf.030101.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 电信优化, server: ct.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 联通优化, server: cu.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - OpenAI, server: openai.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Sayuri, server: sayuri.cf.090227.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - Shopify, server: static.shopify.com, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -73,6 +75,8 @@ proxy-groups:
       - 🇸🇬 专享-电信🇸🇬 新加坡_162ms
       - 🌐全球智能路由 - PayPal
       - 🌐全球智能路由 - 移动优化
+      - 🌐全球智能路由 - 电信优化
+      - 🌐全球智能路由 - 联通优化
       - 🌐全球智能路由 - OpenAI
       - 🌐全球智能路由 - Sayuri
       - 🌐全球智能路由 - Shopify
