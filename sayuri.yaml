@@ -130,7 +130,6 @@ rules:
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
   # Gemini
   - DOMAIN,robinfrontend-pa.googleapis.com,✨ Preferred
-  - DOMAIN,gemini.google.com,✨ Preferred
   # 5278
   - DOMAIN-SUFFIX,hboav.com,✨ Preferred
   # Wealthsimple
