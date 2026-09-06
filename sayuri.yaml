@@ -32,9 +32,6 @@ proxies:
   - {name: 🇸🇬 专享-移动🇸🇬 新加坡_61ms, server: 185.115.207.141, port: 443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
   - {name: 🇸🇬 专享-移动🇸🇬 新加坡_63ms, server: 89.28.239.234, port: 8443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
   - {name: 🇯🇵 专享-移动🇯🇵 日本_79ms, server: 156.243.244.138, port: 443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
-  - {name: 🇭🇰 专享-移动🇭🇰 香港_134ms, server: 206.237.16.91, port: 443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
-  - {name: 🇺🇸 专享-移动🇺🇸 美国_148ms, server: 66.42.110.153, port: 443, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
-  - {name: 🇸🇬 专享-电信🇸🇬 新加坡_81ms, server: 45.92.158.145, port: 2087, type: vless, uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9, tls: true, tfo: false, skip-cert-verify: false, servername: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr, network: ws, ws-opts: {path: /glasspanel/52373210_0_9beba9b6f864/, headers: {Host: vtp1w.qhbs.tjt.hh.hhyf.kdns.fr}}}
   - {name: 🌐全球智能路由 - 移动优化, server: cmcc.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 电信优化, server: ct.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 联通优化, server: cu.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -58,9 +55,6 @@ proxy-groups:
       - 🇸🇬 专享-移动🇸🇬 新加坡_61ms
       - 🇸🇬 专享-移动🇸🇬 新加坡_63ms
       - 🇯🇵 专享-移动🇯🇵 日本_79ms
-      - 🇭🇰 专享-移动🇭🇰 香港_134ms
-      - 🇺🇸 专享-移动🇺🇸 美国_148ms
-      - 🇸🇬 专享-电信🇸🇬 新加坡_81ms
       - 🌐全球智能路由 - 移动优化
       - 🌐全球智能路由 - 电信优化
       - 🌐全球智能路由 - 联通优化
