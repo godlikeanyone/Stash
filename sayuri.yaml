@@ -77,8 +77,6 @@ rules:
   - DOMAIN-SUFFIX,apple.com,DIRECT
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
-  # Tencent
-  - IP-ASN,132203,DIRECT
   # Aliyun
   - IP-ASN,45102,DIRECT
   # AirClipboard
