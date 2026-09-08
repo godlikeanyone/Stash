@@ -106,8 +106,6 @@ rules:
   - DOMAIN,c.tieba.baidu.com,🌎 Proxies
   # Gemini
   - DOMAIN,robinfrontend-pa.googleapis.com,✨ Preferred
-  # 5278
-  - DOMAIN-SUFFIX,hboav.com,✨ Preferred
   # Wealthsimple
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
   # 小红书
