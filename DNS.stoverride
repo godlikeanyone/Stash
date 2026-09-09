@@ -22,8 +22,3 @@ dns: #!replace
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
-rules:
-  - IP-ASN,714,DIRECT
-  - IP-ASN,6185,DIRECT
-  - IP-ASN,132203,DIRECT
-  - IP-ASN,45102,DIRECT
