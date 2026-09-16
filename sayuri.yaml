@@ -176,8 +176,6 @@ rules:
   - IP-CIDR,150.109.222.99/32,🌎 Proxies
   - IP-CIDR,150.109.222.110/32,🌎 Proxies
   - IP-CIDR,203.205.220.62/32,🌎 Proxies
-  # Gemini
-  - DOMAIN,robinfrontend-pa.googleapis.com,✨ Preferred
   # Wealthsimple
   - DOMAIN-SUFFIX,wealthsimple.com,✨ Preferred
   # Linkedin
