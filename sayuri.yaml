@@ -85,8 +85,6 @@ rules:
   - DOMAIN-SUFFIX,apple.com,DIRECT
   - IP-ASN,714,DIRECT
   - IP-ASN,6185,DIRECT
-  # Aliyun
-  - IP-ASN,45102,DIRECT
   # AirClipboard
   - DOMAIN,airclipbd.com,DIRECT
   - DOMAIN,boardrop.app,DIRECT
@@ -94,8 +92,6 @@ rules:
   - DOMAIN,speed.do,DIRECT
   # Time.is
   - DOMAIN,time.is,DIRECT
-  # PikPak
-  - DOMAIN-SUFFIX,mypikpak.com,🌎 Proxies
   # 无忧行
   - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
   # Bilibili
