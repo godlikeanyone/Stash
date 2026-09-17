@@ -94,6 +94,8 @@ rules:
   - DOMAIN,speed.do,DIRECT
   # Time.is
   - DOMAIN,time.is,DIRECT
+  # PikPak
+  - DOMAIN-SUFFIX,mypikpak.com,🌎 Proxies
   # 无忧行
   - DOMAIN,app3.jegotrip.com.cn,🌎 Proxies
   # Bilibili
