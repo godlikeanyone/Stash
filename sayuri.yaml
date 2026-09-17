@@ -32,6 +32,10 @@ proxies:
   - {name: 🌐全球智能路由 - 香港, server: 172.64.153.244, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.HK.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 日本, server: 23.227.39.200, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.JP.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 美国, server: 104.17.135.61, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 美国1, server: 104.17.136.61, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 美国2, server: 58807.cc.cd, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 美国3, server: 104.16.130.3, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
+  - {name: 🌐全球智能路由 - 美国4, server: 104.16.142.237, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=ProxyIP.US.CMLiussss.net?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 英国, server: 23.227.38.74, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 台湾, server: 104.17.79.30, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=tw.william.us.ci?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
   - {name: 🌐全球智能路由 - 电信优化, server: ct.877774.xyz, port: 443, type: vless, uuid: 1950a49e-68b4-44cd-b92b-1fae3729f048, tls: true, client-fingerprint: chrome, skip-cert-verify: false, servername: testfreebird.sayuri.dpdns.org, network: ws, ws-opts: {path: '/proxyip=sjc.o00o.ooo?ed=2560', headers: {Host: testfreebird.sayuri.dpdns.org}}}
@@ -54,6 +58,10 @@ proxy-groups:
       - 🌐全球智能路由 - 香港
       - 🌐全球智能路由 - 日本
       - 🌐全球智能路由 - 美国
+      - 🌐全球智能路由 - 美国1
+      - 🌐全球智能路由 - 美国2
+      - 🌐全球智能路由 - 美国3
+      - 🌐全球智能路由 - 美国4
       - 🌐全球智能路由 - 英国
       - 🌐全球智能路由 - 台湾
       - 🌐全球智能路由 - 电信优化
