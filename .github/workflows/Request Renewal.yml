@@ -18,4 +18,5 @@ jobs:
           curl --fail-with-body -X POST \
             "https://honghong.yyylll.kdns.fr/api/request_renewal" \
             -H "Content-Type: application/json" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
             -d "{\"token\":\"${RENEWAL_TOKEN}\",\"username\":\"${RENEWAL_USERNAME}\"}"
