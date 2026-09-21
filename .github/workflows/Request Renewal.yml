@@ -1,0 +1,21 @@
+name: Request Renewal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  renewal:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Request renewal
+        env:
+          RENEWAL_TOKEN: ${{ secrets.RENEWAL_TOKEN }}
+          RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
+        run: |
+          curl --fail-with-body -X POST \
+            "https://honghong.yyylll.kdns.fr/api/request_renewal" \
+            -H "Content-Type: application/json" \
+            -d "{\"token\":\"${RENEWAL_TOKEN}\",\"username\":\"${RENEWAL_USERNAME}\"}"
