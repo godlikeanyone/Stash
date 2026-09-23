@@ -10,25 +10,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Login
+      - name: Login and get token
+        id: login
         env:
           RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
           RENEWAL_PASSWORD: ${{ secrets.RENEWAL_PASSWORD }}
         run: |
-          curl --fail-with-body \
-            -c cookies.txt \
+          response=$(curl --fail-with-body -sS \
             -X POST \
             "https://honghong.yyylll.kdns.fr/api/user_login" \
             -H "Content-Type: application/json" \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
-            -d "{\"type\":\"login\",\"username\":\"${RENEWAL_USERNAME}\",\"password\":\"${RENEWAL_PASSWORD}\",\"turnstileToken\":null}"
+            -d "{\"type\":\"login\",\"username\":\"${RENEWAL_USERNAME}\",\"password\":\"${RENEWAL_PASSWORD}\",\"turnstileToken\":null}")
+
+          echo "Login response:"
+          echo "$response" | jq 'del(.token)'
+
+          token=$(echo "$response" | jq -r '.token')
+
+          if [ -z "$token" ] || [ "$token" = "null" ]; then
+            echo "Login failed: token not returned"
+            exit 1
+          fi
+
+          echo "token=$token" >> "$GITHUB_OUTPUT"
+
       - name: Request Renewal
         env:
-          RENEWAL_TOKEN: ${{ secrets.RENEWAL_TOKEN }}
+          RENEWAL_TOKEN: ${{ steps.login.outputs.token }}
           RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
         run: |
-          curl --fail-with-body \
-            -b cookies.txt \
+          curl --fail-with-body -sS \
             -X POST \
             "https://honghong.yyylll.kdns.fr/api/request_renewal" \
             -H "Content-Type: application/json" \
