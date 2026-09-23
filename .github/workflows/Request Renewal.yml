@@ -10,12 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Request renewal
+      - name: Login
+        env:
+          RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
+          RENEWAL_PASSWORD: ${{ secrets.RENEWAL_PASSWORD }}
+        run: |
+          curl --fail-with-body \
+            -c cookies.txt \
+            -X POST \
+            "https://honghong.yyylll.kdns.fr/api/user_login" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
+            -d "{\"type\":\"login\",\"username\":\"${RENEWAL_USERNAME}\",\"password\":\"${RENEWAL_PASSWORD}\",\"turnstileToken\":null}"
+
+      - name: Request Renewal
         env:
           RENEWAL_TOKEN: ${{ secrets.RENEWAL_TOKEN }}
           RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
         run: |
-          curl --fail-with-body -X POST \
+          curl --fail-with-body \
+            -b cookies.txt \
+            -X POST \
             "https://honghong.yyylll.kdns.fr/api/request_renewal" \
             -H "Content-Type: application/json" \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
