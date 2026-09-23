@@ -10,39 +10,56 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Login and get token
-        id: login
+      - name: Login and request renewal
         env:
           RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
           RENEWAL_PASSWORD: ${{ secrets.RENEWAL_PASSWORD }}
         run: |
-          response=$(curl --fail-with-body -sS \
+          set -e
+
+          echo "Logging in..."
+
+          login_response=$(curl -sS \
             -X POST \
             "https://honghong.yyylll.kdns.fr/api/user_login" \
             -H "Content-Type: application/json" \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
             -d "{\"type\":\"login\",\"username\":\"${RENEWAL_USERNAME}\",\"password\":\"${RENEWAL_PASSWORD}\",\"turnstileToken\":null}")
 
-          echo "Login response:"
-          echo "$response" | jq 'del(.token)'
-
-          token=$(echo "$response" | jq -r '.token')
+          token=$(echo "$login_response" | jq -r '.token')
 
           if [ -z "$token" ] || [ "$token" = "null" ]; then
-            echo "Login failed: token not returned"
+            echo "Login failed: no token returned."
             exit 1
           fi
 
-          echo "token=$token" >> "$GITHUB_OUTPUT"
+          # Mask dynamically generated token
+          echo "::add-mask::$token"
 
-      - name: Request Renewal
-        env:
-          RENEWAL_TOKEN: ${{ steps.login.outputs.token }}
-          RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
-        run: |
-          curl --fail-with-body -sS \
+          echo "Login successful."
+
+          echo "Requesting renewal..."
+
+          response=$(curl -sS \
+            -w "\n%{http_code}" \
             -X POST \
             "https://honghong.yyylll.kdns.fr/api/request_renewal" \
             -H "Content-Type: application/json" \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
-            -d "{\"token\":\"${RENEWAL_TOKEN}\",\"username\":\"${RENEWAL_USERNAME}\"}"
+            -d "{\"token\":\"${token}\",\"username\":\"${RENEWAL_USERNAME}\"}")
+
+          http_code=$(echo "$response" | tail -n 1)
+          body=$(echo "$response" | sed '$d')
+
+          echo "HTTP status: $http_code"
+          echo "Response: $body"
+
+          if [ "$http_code" = "200" ]; then
+            echo "Renewal request successful."
+          elif echo "$body" | grep -q "仅限到期前 3 天内申请续期"; then
+            echo "Not within the renewal window yet. Nothing to do."
+            exit 0
+          else
+            echo "Renewal request failed."
+            exit 1
+          fi
