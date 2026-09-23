@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - name: Login and request renewal
+        id: renewal
         env:
           RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
           RENEWAL_PASSWORD: ${{ secrets.RENEWAL_PASSWORD }}
@@ -29,11 +30,12 @@ jobs:
           token=$(echo "$login_response" | jq -r '.token')
 
           if [ -z "$token" ] || [ "$token" = "null" ]; then
-            echo "Login failed: no token returned."
+            echo "Login failed."
+            echo "result=❌ 登录失败" >> "$GITHUB_OUTPUT"
             exit 1
           fi
 
-          # Mask dynamically generated token
+          # Hide dynamically generated token in GitHub Actions logs
           echo "::add-mask::$token"
 
           echo "Login successful."
@@ -54,12 +56,36 @@ jobs:
           echo "HTTP status: $http_code"
           echo "Response: $body"
 
+          msg=$(echo "$body" | jq -r '.msg // "未知响应"')
+
           if [ "$http_code" = "200" ]; then
-            echo "Renewal request successful."
+            result="✅ 续期请求成功：$msg"
           elif echo "$body" | grep -q "仅限到期前 3 天内申请续期"; then
-            echo "Not within the renewal window yet. Nothing to do."
-            exit 0
+            result="ℹ️ 暂时无法续期：$msg"
           else
-            echo "Renewal request failed."
-            exit 1
+            result="❌ 续期请求失败：$msg"
           fi
+
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+
+      - name: Send result to Telegram
+        if: always()
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          RESULT: ${{ steps.renewal.outputs.result }}
+        run: |
+          MESSAGE="🔄 续期任务
+
+          用户：${{ secrets.RENEWAL_USERNAME }}
+          状态：${RESULT}
+
+          GitHub Actions：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          curl -sS -X POST \
+            "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n \
+              --arg chat_id "$TG_CHAT_ID" \
+              --arg text "$MESSAGE" \
+              '{chat_id: $chat_id, text: $text}')"
