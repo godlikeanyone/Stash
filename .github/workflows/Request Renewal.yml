@@ -10,77 +10,99 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Login and request renewal
+      - name: Login and request renewal for all users
         id: renewal
         env:
-          RENEWAL_USERNAME: ${{ secrets.RENEWAL_USERNAME }}
-          RENEWAL_PASSWORD: ${{ secrets.RENEWAL_PASSWORD }}
+          RENEWAL_USERS: ${{ secrets.RENEWAL_USERS }}
         run: |
-          set -e
+          set +e
 
-          echo "Logging in..."
+          RESULTS=""
 
-          login_response=$(curl -sS \
-            -X POST \
-            "https://honghong.yyylll.kdns.fr/api/user_login" \
-            -H "Content-Type: application/json" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
-            -d "{\"type\":\"login\",\"username\":\"${RENEWAL_USERNAME}\",\"password\":\"${RENEWAL_PASSWORD}\",\"turnstileToken\":null}")
+          while IFS= read -r user; do
+            username=$(echo "$user" | jq -r '.username')
+            password=$(echo "$user" | jq -r '.password')
 
-          token=$(echo "$login_response" | jq -r '.token')
+            echo "Processing user: $username"
 
-          if [ -z "$token" ] || [ "$token" = "null" ]; then
-            echo "Login failed."
-            echo "result=❌ 登录失败" >> "$GITHUB_OUTPUT"
-            exit 1
-          fi
+            login_response=$(curl -sS \
+              -X POST \
+              "https://honghong.yyylll.kdns.fr/api/user_login" \
+              -H "Content-Type: application/json" \
+              -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
+              -d "$(jq -n \
+                --arg username "$username" \
+                --arg password "$password" \
+                '{type:"login", username:$username, password:$password, turnstileToken:null}')")
 
-          # Hide dynamically generated token in GitHub Actions logs
-          echo "::add-mask::$token"
+            token=$(echo "$login_response" | jq -r '.token')
 
-          echo "Login successful."
+            if [ -z "$token" ] || [ "$token" = "null" ]; then
+              msg=$(echo "$login_response" | jq -r '.msg // "登录失败"')
 
-          echo "Requesting renewal..."
+              echo "Login failed for $username: $msg"
 
-          response=$(curl -sS \
-            -w "\n%{http_code}" \
-            -X POST \
-            "https://honghong.yyylll.kdns.fr/api/request_renewal" \
-            -H "Content-Type: application/json" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
-            -d "{\"token\":\"${token}\",\"username\":\"${RENEWAL_USERNAME}\"}")
+              RESULTS="${RESULTS}❌ ${username}: 登录失败 - ${msg}"$'\n'
+              continue
+            fi
 
-          http_code=$(echo "$response" | tail -n 1)
-          body=$(echo "$response" | sed '$d')
+            # Hide dynamically generated token
+            echo "::add-mask::$token"
 
-          echo "HTTP status: $http_code"
-          echo "Response: $body"
+            echo "Login successful for $username"
 
-          msg=$(echo "$body" | jq -r '.msg // "未知响应"')
+            response=$(curl -sS \
+              -w "\n%{http_code}" \
+              -X POST \
+              "https://honghong.yyylll.kdns.fr/api/request_renewal" \
+              -H "Content-Type: application/json" \
+              -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153.0.0.0 Safari/537.36" \
+              -d "$(jq -n \
+                --arg token "$token" \
+                --arg username "$username" \
+                '{token:$token, username:$username}')")
 
-          if [ "$http_code" = "200" ]; then
-            result="✅ 续期请求成功：$msg"
-          elif echo "$body" | grep -q "仅限到期前 3 天内申请续期"; then
-            result="ℹ️ 暂时无法续期：$msg"
-          else
-            result="❌ 续期请求失败：$msg"
-          fi
+            http_code=$(echo "$response" | tail -n 1)
+            body=$(echo "$response" | sed '$d')
 
-          echo "result=$result" >> "$GITHUB_OUTPUT"
+            msg=$(echo "$body" | jq -r '.msg // "未知响应"')
+
+            echo "$username HTTP status: $http_code"
+            echo "$username response: $body"
+
+            if [ "$http_code" = "200" ]; then
+              RESULTS="${RESULTS}✅ ${username}: ${msg}"$'\n'
+            elif echo "$body" | grep -q "仅限到期前 3 天内申请续期"; then
+              RESULTS="${RESULTS}ℹ️ ${username}: ${msg}"$'\n'
+            else
+              RESULTS="${RESULTS}❌ ${username}: ${msg}"$'\n'
+            fi
+
+          done < <(echo "$RENEWAL_USERS" | jq -c '.[]')
+
+          echo "Final results:"
+          printf "%s" "$RESULTS"
+
+          {
+            echo "results<<EOF"
+            printf "%s" "$RESULTS"
+            echo
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Send result to Telegram
         if: always()
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-          RESULT: ${{ steps.renewal.outputs.result }}
+          RESULTS: ${{ steps.renewal.outputs.results }}
         run: |
           MESSAGE="🔄 续期任务
 
-          用户：${{ secrets.RENEWAL_USERNAME }}
-          状态：${RESULT}
+          ${RESULTS}
 
-          GitHub Actions：${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          GitHub Actions:
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
           curl -sS -X POST \
             "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
@@ -88,4 +110,4 @@ jobs:
             -d "$(jq -n \
               --arg chat_id "$TG_CHAT_ID" \
               --arg text "$MESSAGE" \
-              '{chat_id: $chat_id, text: $text}')"
+              '{chat_id:$chat_id, text:$text}')"
